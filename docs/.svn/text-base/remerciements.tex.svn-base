@@ -1,0 +1,197 @@
+\chapter*{Remerciements}
+
+%% Encadrant
+%\malettrine{C}{achés pour l'instant (j'y travaille) ;)}
+Une thèse est une expérience scientifique et humaine. Cette section est pour
+moi l'occasion de remercier tous ceux qui m'ont soutenu dans mon travail.\\
+
+%Some common emoticons: \smiley{happy} 
+%\smiley{cylon} \smiley{wink}
+%\smiley{irony}
+Je voudrais remercier en premier lieu Jean-Michel pour m'avoir accueilli dans
+son laboratoire et avoir montré son intérêt pour mon travail en mettant tout en
+\oe uvre pour que je puisse travailler dans d'excellentes conditions.\\
+
+Je tiens à remercier vivement l'ensemble des membres de mon jury pour avoir
+accepté de juger mon travail~:
+\begin{itemize}
+    \item Le président de mon jury, Francis Haraux, dont les caricatures 
+        scientifico-politiques auront apporté beaucoup d'humour sur les murs de la
+        cuisine du laboratoire tout au long de mes années de thèse.
+        Merci aussi pour sa vision du Contrôle Métabolique qui aura illustré
+        de la plus belle façon qu'il soit ma diapositive n°6.
+    \item  Mes deux rapporteurs, Monique Bernard et Thierry Busso, pour tout le
+        temps qu'ils ont consacré à la lecture minutieuse de mon manuscript et
+        à la rédaction de leur rapport pertinent.
+    \item Graham Kemp, pour n'avoir pas eu peur de traverser la manche 
+        et avoir apporté une note anglophone des plus juste lors de ma
+        soutenance.
+    \item Bernard Muller pour m'avoir permis d'accéder au modèle des souris
+        hypobares qui aura rendu notre collaboration très fructueuse.
+\end{itemize}
+Merci aussi pour vos questions judicieuses qui auront permis d'aborder des questions
+scientifiques particulièrement intéressantes lors de ma soutenance orale.\\
+
+ Un grand merci à mes deux encadrants, Phil \& Véro qui m'ont supporté sans
+ râler (ou presque) pendant toutes ces années :
+ \begin{itemize}
+     \item \textbf{Phil :} En tant que directeur de thèse et \textbf{PHIL}antrope
+         des temps modernes, tu auras sû me donner les armes nécessaires pour tirer mon
+         épingle du jeu lors de ma quête de l'énergétique cardiaque.
+         Tu as su m'inculquer ta \textbf{PHIL}osophie de la science. Merci à toi
+         d'avoir su endosser la lourde responsabilité de m'encadrer avec brio, et
+         d'être allé au delà de la seule responsabilité de "directeur" (ce n'est pas tous
+         les jours qu'on trouve un directeur de thèse prêt à repasser la chemise de
+         son étudiant avant une présentation orale \smiley{happy}). Merci à toi d'avoir su
+         accepter (voire comprendre) mon attirance obscure pour la programmation et
+         l'écriture de lignes de codes. Je retiendrai aussi tous ces moments
+         \textit{off science}~: notre rythmique en place (enfin, on l'espère) avec laquelle nous
+         avons tenté de (re)cadrer des sax égarés, ces repas durant laquelle la
+         bonne humeur aura toujours régné, ou encore cette opération "\textit{secourisme
+         Fracture Col du Fémur}" qui nous aura appris à sauter le mur de la
+         voisine. Merci pour tout Phil, et au plaisir de te voir en Californie
+         !!
+     \item \textbf{Véro :} Il paraît qu'un enregistrement prouve que je
+         suis arrivé dans la recherche parce que je suis tombé amoureux de ma
+         prof de bioénergétique \dots \smiley{happy} Tu dois donc être pour
+         beaucoup dans ce que le \textit{petit STAPSien} que j'étais est
+         devenu. Merci pour tous ces moments scientifiques partagés à tes
+         côtés, toutes ces discussions autour d'un coeur, d'un spectre ou d'un
+         aimant. Merci aussi pour toutes ces sorties vélo (et tous les gâteaux
+         qui les suivaient !!), ces visites de Palo Alto à la quête des
+         origines de l'informatique, ou encore toutes ces discussions animées 
+         sur le fameux Claude François (\textit{"Quoi ?!? Tu as connu Claude
+         François !?!"}).
+ \end{itemize}
+ Merci à vous deux pour m'avoir donné assez de liberté pour gérer moi-même mon
+ travail, tout en sachant m'aiguiller lorsque j'en avais besoin. Ca aura été
+ pour moi la meilleure école qu'il soit pour découvrir, apprécier et m'exprimer dans la
+ recherche !\\
+
+
+ Comment ne pas citer mes camarades de thèse avec lesquels nous avons rendu
+ aux \textit{Bisounours} leurs plus belles lettres de noblesse.
+ Par ordre d'apparition:
+ \begin{itemize}
+     \item Gilles a.k.a. \textbf{Gillus} (à prononcer avec l'accent \textit{Ricain}), un
+         fervent défenseur des lapins, dont les histoires personnelles
+         abracadabrantes (mais toutefois réelles) auront su rendre notre
+         quotidien imprévisible et très pimenté.
+         Je te souhaite la meilleure chasse au caribou qu'il soit et espère
+         pouvoir un jour maîtriser l'art de la séduction aussi bien que
+         toi\dots
+     \item William a.k.a.\textbf{Will}, dont les convictions personnelles auront animé 
+         une bonne partie de nos déjeuners conviviaux. Tu resteras celui qui
+         aura su garder la tête sur les épaules, de toutes façons, \textit{"il
+         ne doit en rester qu'un"}.
+ \end{itemize}
+ Merci à vous les amis pour pour
+ avoir su partager votre bonne humeur (et vos M\&M's). Merci pour ces
+ compétitions passionnées de \textit{Chi Fou Mi} (Will, arrête de faire
+ la pierre lol)
+ dont les enjeux rocambolesques n'étaient
+ au final qu'une excuse pour s'amuser (et amuser nos spectateurs). Merci aussi d'avoir
+ feint d'ignorer mon côté "autiste" (dixit Gillus) qui vous aura des fois
+ fait sentir bien seuls (\textit{"Hein ? T'étais en train de
+ me parler ?"}). La \textit{Team Bisounours} n'a pas encore dit son dernier
+ mot, ne vous inquiétez pas !!\\
+
+Merci à la communauté Mac du labo~:
+\begin{itemize}
+    \item \textbf{Eric} (Mac Pro Quad Core), merci pour ta disponibilité et ta 
+        générosité scientifique. Toujours de bons conseils, tu a su, entre deux
+        cours RMN, me faire part de ta rigueur scientifique
+        ou encore m'ouvrir les portes du monde fascinant d'Igor.
+        Merci aussi pour ton amitié et ton art de la côte de boeuf au barbecue
+        (je retiendrai que rien ne vaut une bonne lampe frontale !!).
+    \item \textbf{Sylvain} (Monsieur "1 MacBook Pro par an"), je suis arrivé au
+        laboratoire quand tu soutenais ta thèse. Maintenant c'est à mon tour
+        \smiley{happy}. Entre temps, nous avons affronté la pluie corse en moto,
+        arpenté les cols du sud-est en vélo, partagé des gaufres au
+        chocolat sur l'île d'Oléron, et j'en passe \dots Tu as aussi eu la bonté 
+        de m'héberger quand je me suis retrouvé enfermé dehors lol. En tous
+        cas, merci pour tout, pour ta bonne humeur et ton goût pour la bonne
+        gastronomie !!
+    \item \textbf{Zn'Elodie} (iMac 20'), tu es certainement la plus grande fan
+        de mon crumble aux pommes (logique pour une fan d'Apple). Merci pour
+        toutes ces discussions très philo sur la physique quantique, pour
+        toutes ces invitations improvisées et pour tous ces récits de voyages
+        qui donnent plus qu'envie d'aller découvrir le monde (c'est sûr, un jour
+        j'irai moi aussi voir Angkor de mes propres yeux !!).
+    \item \textbf{Lolo} (iMac 20' x 2), un grand ami à moi t'as surnommé
+        \textit{98.2 FM}, je trouve que ça résume assez bien ton personnage~!
+        Tu es l'exemple même qui montre que l'on peut parfaitement allier science et humour,
+        ne change rien !
+    \item \textbf{Linou} (Mac Pro Duo Core), merci pour avoir supporté ces
+        "drôles de gars" du RMSB et avoir osé nous prêter ton humble
+         demeure pour des soirées déjantées où les chamallows grillés (merci 
+         Alex pour ta maîtrise des braises du barbecue) et le Pepsi Max n'auront
+         jamais manqué. Merci aussi pour ton écoute et tes conseils pertinents.
+         Ah, une dernière chose, n'oublie pas de passer en \textit{Shark Mode}
+         \smiley{happy}
+    \item \textbf{Zn'Hub} (MacBook Pro 17'), merci pour m'avoir montré que la
+        baleine pouvait aussi se faire au barbecue.
+    \item \textbf{Fred} (PowerBook + MacBook Pro 15'), merci pour m'avoir donné
+        une image un peu plus claire du métabolisme du trypano et de son unique
+        mitochondrie. Ce fût un honneur et un plaisir de te cotoyer au
+        quotidien. A moi
+        maintenant de suivre tes traces dans le \textit{McDonald Building} !!
+    \item \textbf{MassoSax} (MacBook Pro 15'), merci d'avoir été un si bon
+        président \smiley{happy}. Farceur de première, tu n'en a pas oublié ton
+        âme d'enfant.\\
+\end{itemize}
+
+
+ Merci à toutes les cuisinières du laboratoire dont les gâteaux auront su
+ éveiller tous nos sens. Promis, un jour vous aurez le résultat du concours
+ \dots \\
+
+ Merci à tous ceux qui auront croisé mon chemin : les \textit{filles du
+ caisson} (Marie, Diana, Imane, Jennifer, Mathilde, Estelle), l'équipe cardio
+ de l'INSERM (Pierre, Béatrice, François, Sandrine), les jeun's du labo (Charles, 
+ \'Emilien, Marie-Lise, Mériem, Charlène, David, Alan, Virginie, Kamel, Clément,
+ Christophe).\\
+
+ Merci à celle qui aura partagé la majeure partie de ma thèse et qui aura
+ été assez tolérante
+ pour avoir accepté sans sourciller mes horaires de travail extensibles et
+ toujours imprévisibles, mes conversations "boulot" ou encore les nombreux
+ imprévus inhérents au déroulement de ma thèse. Je te remercie aussi tout
+ simplement pour tous ces bons moments passés à tes côtés, et ton soutien sans faille.
+ A mon tour maintenant de te souhaiter la meilleure des réussites dans la voie 
+ qui est maintenant la tienne.\\
+
+ Merci à toi, illustre anonyme (qui au final ne l'est plus trop maintenant
+ \smiley{happy}), d'avoir apporté un peu de chaleur durant la toute fin
+ de ma thèse. Les moments passés à tes côtés auront su me faire réfléchir de la
+ meilleure façon qu'il soit \dots \\
+
+ Merci à toute ma super famille. Toto \& Nadège, merci d'avoir accepté un pauvre
+ doctorant sans logis en fin de thèse, et surtout d'avoir su tolérer mon mode
+ de vie "un peu (beaucoup) décalé". J'espère pouvoir moi aussi vous rendre
+ ce service dans un avenir très proche (non Nadège, tu ne risques rien en avion,
+ donc traverse l'Atlantique). Jo \& Dav, merci de m'avoir fait profiter de
+ votre bonne humeur (enfin surtout Jo) mais aussi de votre mauvaise
+ humeur (surtout Dav, lol).
+ Enfin, Mam \& Pap, comment ne pas vous remercier pour tout ce que vous avez su
+ nous apporter. Merci de nous avoir permis et de nous avoir encouragé pour
+ faire les études que l'on souhaitait. Merci de vous être sacrifiés par moment
+ pour nous soutenir. Je vous en serais éternellement reconnaissant.\\
+
+ Enfin, un grand merci à Steve Jobs (pour son sens du show), Jonathan Ive (pour
+ son sens du design), Bertrand Serlet (pour sa conférence de la WWDC 2006 où il
+ aura su mêler OS de pointe et humour décapant avec brio), et
+ à toutes leurs équipes (n'oublions pas les hommes
+ de l'ombre !), pour m'avoir assidument accompagné durant toute 
+ ma thèse. Une pensée particulière à mon PowerBook qui aura au final vécu
+ toute ma vie étudiante sans planter, et qui a encore un bel avenir devant lui.
+
+ \textit{"I think if you do something and it turns out pretty good, then you should go
+ do something else wonderful, not dwell on it for too long. Just figure out
+ what's next."} - S.J. -\\
+
+ \begin{figure}[h]
+ \centering
+ \includegraphics[width=0.4\textwidth]{figures/jobs}
+ \end{figure}
+

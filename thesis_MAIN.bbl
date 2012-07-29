@@ -1,0 +1,1167 @@
+\def\alphabibitem#1{%
+\expandafter\ifx\csname firstalphabibitem\endcsname
+\relax\def\firstalphabibitem{}
+\else\expandafter
+\ifx\csname alphabibitemskip\endcsname
+\relax\bigskip
+\else\alphabibitemskip
+\fi
+\fi
+\penalty-200\expandafter
+\ifx\csname alphabibitemlabel\endcsname
+\relax\expandafter
+\ifx\csname alphabibitemcontent\endcsname\relax
+\item[\LARGE\bfseries\MakeUppercase{#1}]
+\hfill\vskip 1ex\hrule\medskip
+\else\item[\Large\bfseries\MakeUppercase{#1}]
+\alphabibitemcontent{\MakeUppercase{#1}}%
+\fi
+\else\expandafter
+\ifx\csname alphabibitemcontent\endcsname\relax
+\item[\alphabibitemlabel{\MakeUppercase{#1}}]
+\vskip 1ex\hrule\medskip
+\else\item[\alphabibitemlabel{\MakeUppercase{#1}}]
+\alphabibitemcontent{\MakeUppercase{#1}}%
+\fi
+\fi}
+
+\begin{thebibliography}{}
+
+\alphabibitem{A}
+
+\bibitem[Ackerman et~al., 1980]{Ackerman:1980fk}
+\textbf{Ackerman, J J and Bore, P J and Gadian, D G and Grove, T H and Radda, G
+  K} (1980).
+\newblock NMR studies of metabolism in perfused organs.
+\newblock {\em Philos Trans R Soc Lond B Biol Sci}, 289(1037):425--36.
+
+\bibitem[Ainscow and Brand, 1999a]{Ainscow:1999fk}
+\textbf{Ainscow, E K and Brand, M D} (1999a).
+\newblock Quantifying elasticity analysis: how external effectors cause changes
+  to metabolic systems.
+\newblock {\em Biosystems}, 49(2):151--9.
+
+\bibitem[Ainscow and Brand, 1999b]{Ainscow:1999kx}
+\textbf{Ainscow, E K and Brand, M D} (1999b).
+\newblock The responses of rat hepatocytes to glucagon and adrenaline.
+  Application of quantified elasticity analysis.
+\newblock {\em Eur J Biochem}, 265(3):1043--55.
+
+\bibitem[Appaix et~al., 2003]{Appaix:2003qf}
+\textbf{Appaix, F and Kuznetsov, A V and Usson, Y and Kay, L and Andrienko, T
+  and Olivares, J and Kaambre, T and Sikk, P and Margreiter, R and Saks, V}
+  (2003).
+\newblock Possible role of cytoskeleton in intracellular arrangement and
+  regulation of mitochondria.
+\newblock {\em Exp Physiol}, 88(1):175--90.
+
+\bibitem[Asemu et~al., 1999]{Asemu:1999vn}
+\textbf{Asemu, G and Papousek, F and Ost{\'a}dal, B and Kol{\'a}r, F} (1999).
+\newblock Adaptation to high altitude hypoxia protects the rat heart against
+  ischemia-induced arrhythmias. Involvement of mitochondrial K(ATP) channel.
+\newblock {\em J Mol Cell Cardiol}, 31(10):1821--31.
+
+\alphabibitem{B}
+
+\bibitem[Balaban, 1989]{Balaban:1989kx}
+\textbf{Balaban, R S} (1989).
+\newblock Experimental preparations and models for MRS.
+\newblock {\em Invest Radiol}, 24(12):948--50.
+
+\bibitem[Balaban, 1990]{Balaban:1990fk}
+\textbf{Balaban, R S} (1990).
+\newblock Regulation of oxidative phosphorylation in the mammalian cell.
+\newblock {\em Am J Physiol}, 258(3 Pt 1):C377--89.
+
+\bibitem[Balaban, 2009]{Balaban:2009vn}
+\textbf{Balaban, R S} (2009).
+\newblock The role of Ca(2+) signaling in the coordination of mitochondrial ATP
+  production with cardiac work.
+\newblock {\em Biochim Biophys Acta}, 1787(11):1334--41.
+
+\bibitem[Balaban and Heineman, 1989]{Balaban:1989dq}
+\textbf{Balaban, R S and Heineman, F W} (1989).
+\newblock Control of mitochondrial respiration in the heart in vivo.
+\newblock {\em Mol Cell Biochem}, 89(2):191--7.
+
+\bibitem[Barr and Lopaschuk, 2000]{Barr:2000vn}
+\textbf{Barr, R L and Lopaschuk, G D} (2000).
+\newblock Methodology for measuring in vitro/ex vivo cardiac energy metabolism.
+\newblock {\em J Pharmacol Toxicol Methods}, 43(2):141--52.
+
+\bibitem[Barrie and Harris, 1976]{Barrie:1976kx}
+\textbf{Barrie, S E and Harris, P} (1976).
+\newblock Effects of chronic hypoxia and dietary restriction on myocardial
+  enzyme activities.
+\newblock {\em Am J Physiol}, 231(4):1308--13.
+
+\bibitem[Bassingthwaighte et~al., 2009]{Bassingthwaighte:2009fv}
+\textbf{Bassingthwaighte, J and Hunter, P and Noble, D} (2009).
+\newblock The Cardiac Physiome: perspectives for the future.
+\newblock {\em Exp Physiol}, 94(5):597--605.
+
+\bibitem[Beard, 2006]{Beard:2006fk}
+\textbf{Beard, D A} (2006).
+\newblock Modeling of oxygen transport and cellular energetics explains
+  observations on in vivo cardiac energy metabolism.
+\newblock {\em PLoS Comput Biol}, 2(9):e107.
+
+\bibitem[Bers, 2002]{Bers:2002fk}
+\textbf{Bers, D M} (2002).
+\newblock Cardiac excitation-contraction coupling.
+\newblock {\em Nature}, 415(6868):198--205.
+
+\bibitem[Bert, 1878]{Bert1878al}
+\textbf{Bert, P} (1878).
+\newblock {\em La pression barom{\'e}trique - Recherches de Physiologie
+  Exp{\'e}rimentale}.
+\newblock Paris G. Masson.
+
+\bibitem[Bing and Fenton, 1965]{Bing:1965fk}
+\textbf{Bing, R J and Fenton, J C} (1965).
+\newblock Cardiac Metabolism.
+\newblock {\em Annu Rev Med}, 16:1--2.
+
+\bibitem[Bishop and Altschuld, 1970]{Bishop:1970zr}
+\textbf{Bishop, S P and Altschuld, R A} (1970).
+\newblock Increased glycolytic metabolism in cardiac hypertrophy and congestive
+  failure.
+\newblock {\em Am J Physiol}, 218(1):153--9.
+
+\bibitem[Bittl and Ingwall, 1985]{Bittl:1985qf}
+\textbf{Bittl, J A and Ingwall, J S} (1985).
+\newblock Reaction rates of creatine kinase and ATP synthesis in the isolated
+  rat heart. A 31P NMR magnetization transfer study.
+\newblock {\em J Biol Chem}, 260(6):3512--7.
+
+\bibitem[Blyth and Peacock, 2009]{Blyth2009kg}
+\textbf{Blyth, KG and Peacock, A J} (2009).
+\newblock Imaging the right ventricle in pulmonary hypertension.
+\newblock {\em PVRI Review}, 1:180--5.
+
+\bibitem[Borutaite et~al., 1989]{Borutaite:1989kx}
+\textbf{Borutaite, V and Mildaziene, V and Ivanoviene, L and Kholodenko, B and
+  Toleikis, A and Praskevicius, A} (1989).
+\newblock The role of long-chain acyl-CoA in the damage of oxidative
+  phosphorylation in heart mitochondria.
+\newblock {\em FEBS Lett}, 243(2):264--6.
+
+\bibitem[Boutilier and St-Pierre, 2000]{Boutilier:2000fk}
+\textbf{Boutilier, R G and St-Pierre, J} (2000).
+\newblock Surviving hypoxia without really dying.
+\newblock {\em Comp Biochem Physiol A Mol Integr Physiol}, 126(4):481--90.
+
+\bibitem[Brand, 1996]{Brand:1996uq}
+\textbf{Brand, M D} (1996).
+\newblock Top down metabolic control analysis.
+\newblock {\em J Theor Biol}, 182(3):351--60.
+
+\bibitem[Brand, 1997]{Brand:1997uq}
+\textbf{Brand, M D} (1997).
+\newblock Regulation analysis of energy metabolism.
+\newblock {\em J Exp Biol}, 200(Pt 2):193--202.
+
+\bibitem[Brand, 1998]{Brand:1998uq}
+\textbf{Brand, M D} (1998).
+\newblock Top-down elasticity analysis and its application to energy metabolism
+  in isolated mitochondria and intact cells.
+\newblock {\em Mol Cell Biochem}, 184(1-2):13--20.
+
+\bibitem[Brand et~al., 1994]{Brand:1994uq}
+\textbf{Brand, M D and Chien, L F and Diolez, P} (1994).
+\newblock Experimental discrimination between proton leak and redox slip during
+  mitochondrial electron transport.
+\newblock {\em Biochem J}, 297 ( Pt 1):27--9.
+
+\bibitem[Brand and Curtis, 2002]{Brand:2002ve}
+\textbf{Brand, M D and Curtis, R K} (2002).
+\newblock Simplifying metabolic complexity.
+\newblock {\em Biochem Soc Trans}, 30(2):25--30.
+
+\bibitem[Brand and Esteves, 2005]{Brand:2005ys}
+\textbf{Brand, M D and Esteves, T C} (2005).
+\newblock Physiological functions of the mitochondrial uncoupling proteins UCP2
+  and UCP3.
+\newblock {\em Cell Metab}, 2(2):85--93.
+
+\bibitem[Braunwald and Rutherford, 1986]{Braunwald:1986zr}
+\textbf{Braunwald, E and Rutherford, J D} (1986).
+\newblock Reversible ischemic left ventricular dysfunction: evidence for the
+  "hibernating myocardium".
+\newblock {\em J Am Coll Cardiol}, 8(6):1467--70.
+
+\bibitem[Brimioulle et~al., 1996]{Brimioulle:1996fk}
+\textbf{Brimioulle, S and LeJeune, P and Naeije, R} (1996).
+\newblock Effects of hypoxic pulmonary vasoconstriction on pulmonary gas
+  exchange.
+\newblock {\em J Appl Physiol}, 81(4):1535--43.
+
+\bibitem[Brown et~al., 1990]{Brown:1990kx}
+\textbf{Brown, G C and Hafner, R P and Brand, M D} (1990).
+\newblock A 'top-down' approach to the determination of control coefficients in
+  metabolic control theory.
+\newblock {\em Eur J Biochem}, 188(2):321--5.
+
+\bibitem[Budinger et~al., 1998]{Budinger:1998vn}
+\textbf{Budinger, G R and Duranteau, J and Chandel, N S and Schumacker, P T}
+  (1998).
+\newblock Hibernation during hypoxia in cardiomyocytes. Role of mitochondria as
+  the O2 sensor.
+\newblock {\em J Biol Chem}, 273(6):3320--6.
+
+\bibitem[Buttgereit and Brand, 1995]{Buttgereit:1995uq}
+\textbf{Buttgereit, F and Brand, M D} (1995).
+\newblock A hierarchy of ATP-consuming processes in mammalian cells.
+\newblock {\em Biochem J}, 312 ( Pt 1):163--7.
+
+\alphabibitem{C}
+
+\bibitem[Calmettes et~al., 2010]{Calmettes:2010fk}
+\textbf{Calmettes, G and Deschodt-Arsac, V and Gouspillou, G and Miraux, S and
+  Muller, B and Franconi, JM and Thiaudiere, E and Diolez, P} (2010).
+\newblock Improved energy supply regulation in chronic hypoxic mouse
+  counteracts hypoxia-induced altered cardiac energetics.
+\newblock {\em PLoS One}, 5(2):e9306.
+
+\bibitem[Calmettes et~al., 2008]{Calmettes:2008pi}
+\textbf{Calmettes, G and Deschodt-Arsac, V and Thiaudiere, E and Muller, B and
+  Diolez, P} (2008).
+\newblock Modular control analysis of effects of chronic hypoxia on mouse
+  heart.
+\newblock {\em Am J Physiol Regul Integr Comp Physiol}, 295(6):R1891--7.
+
+\bibitem[Cascante et~al., 2002]{Cascante:2002uq}
+\textbf{Cascante, M and Boros, L G and Comin-Anduix, B and de Atauri, P and
+  Centelles, J J and Lee, P WN} (2002).
+\newblock Metabolic control analysis in drug discovery and disease.
+\newblock {\em Nat Biotechnol}, 20(3):243--9.
+
+\bibitem[Cascante and Marin, 2008]{Cascante:2008fk}
+\textbf{Cascante, M and Marin, S} (2008).
+\newblock Metabolomics and fluxomics approaches.
+\newblock {\em Essays Biochem}, 45:67--81.
+
+\bibitem[Cazorla et~al., 2006]{Cazorla:2006kx}
+\textbf{Cazorla, O and A{\"\i}t Mou, Y and Goret, L and Vassort, G and Dauzat,
+  M and Lacampagne, A and Tanguy, S and Obert, P} (2006).
+\newblock Effects of high-altitude exercise training on contractile function of
+  rat skinned cardiomyocyte.
+\newblock {\em Cardiovasc Res}, 71(4):652--60.
+
+\bibitem[Chatham et~al., 1988]{Chatham:1988fk}
+\textbf{Chatham, J and Gilbert, H F and Radda, G K} (1988).
+\newblock Inhibition of glucose phosphorylation by fatty acids in the perfused
+  rat heart.
+\newblock {\em FEBS Lett}, 238(2):445--9.
+
+\bibitem[Chen et~al., 1995]{Chen:1995kx}
+\textbf{Chen, S J and Chen, Y F and Meng, Q C and Durand, J and Dicarlo, V S
+  and Oparil, S} (1995).
+\newblock Endothelin-receptor antagonist bosentan prevents and reverses hypoxic
+  pulmonary hypertension in rats.
+\newblock {\em J Appl Physiol}, 79(6):2122--31.
+
+\bibitem[Christian et~al., 1998]{Christian:1998qf}
+\textbf{Christian, B and El Alaoui-Talibi, Z and Moravec, M and Moravec, J}
+  (1998).
+\newblock Palmitate oxidation by the mitochondria from volume-overloaded rat
+  hearts.
+\newblock {\em Mol Cell Biochem}, 180(1-2):117--28.
+
+\bibitem[Clyne et~al., 1989]{Clyne:1989fk}
+\textbf{Clyne, C A and Alpert, J S and Benotti, J R} (1989).
+\newblock Interdependence of the left and right ventricles in health and
+  disease.
+\newblock {\em Am Heart J}, 117(6):1366--73.
+
+\bibitem[Cohen, 1987]{Cohen:1987nmr}
+\textbf{Cohen, S M} (1987).
+\newblock Physiological NMR Spectroscopy: From Isolated Cells to Man.
+\newblock {\em Ann. N.Y. Acad. Sci.}, 508:1--537.
+
+\bibitem[Cortassa et~al., 2003]{Cortassa:2003uq}
+\textbf{Cortassa, S and Aon, M A and Marb{\'a}n, E and Winslow, R L and
+  O'Rourke, B} (2003).
+\newblock An integrated model of cardiac mitochondrial energy metabolism and
+  calcium dynamics.
+\newblock {\em Biophys J}, 84(4):2734--55.
+
+\alphabibitem{D}
+
+\bibitem[Daneshrad et~al., 2000]{Daneshrad:2000fk}
+\textbf{Daneshrad, Z and Garcia-Riera, M P and Verdys, M and Rossi, A} (2000).
+\newblock Differential responses to chronic hypoxia and dietary restriction of
+  aerobic capacity and enzyme levels in the rat myocardium.
+\newblock {\em Mol Cell Biochem}, 210(1-2):159--66.
+
+\bibitem[Daneshrad et~al., 2001]{Daneshrad:2001uq}
+\textbf{Daneshrad, Z and Novel-Chat{\'e}, V and Birot, O and Serrurier, B and
+  Sanchez, H and Bigard, A X and Rossi, A} (2001).
+\newblock Diet restriction plays an important role in the alterations of heart
+  mitochondrial function following exposure of young rats to chronic hypoxia.
+\newblock {\em Pflugers Arch}, 442(1):12--8.
+
+\bibitem[Delannoy et~al., 2010]{Delannoy:2010ys}
+\textbf{Delannoy, E and Courtois, A and Freund-Michel, V and Leblais, V and
+  Marthan, R and Muller, B} (2010).
+\newblock Hypoxia-induced hyperreactivity of pulmonary arteries: role of
+  cyclooxygenase-2, isoprostanes, and thromboxane receptors.
+\newblock {\em Cardiovasc Res}, 85(3):582--92.
+
+\bibitem[Denton et~al., 1980]{Denton:1980vn}
+\textbf{Denton, R M and McCormack, J G and Edgell, N J} (1980).
+\newblock Role of calcium ions in the regulation of intramitochondrial
+  metabolism. Effects of Na+, Mg2+ and ruthenium red on the Ca2+-stimulated
+  oxidation of oxoglutarate and on pyruvate dehydrogenase activity in intact
+  rat heart mitochondria.
+\newblock {\em Biochem J}, 190(1):107--17.
+
+\bibitem[Denton et~al., 1978]{Denton:1978uq}
+\textbf{Denton, R M and Richards, D A and Chin, J G} (1978).
+\newblock Calcium ions and the regulation of NAD+-linked isocitrate
+  dehydrogenase from the mitochondria of rat heart and other tissues.
+\newblock {\em Biochem J}, 176(3):899--906.
+
+\bibitem[Dhalla et~al., 1992]{Dhalla:1992vn}
+\textbf{Dhalla, N S and Elimban, V and Rupp, H} (1992).
+\newblock Paradoxical role of lipid metabolism in heart function and
+  dysfunction.
+\newblock {\em Mol Cell Biochem}, 116(1-2):3--9.
+
+\bibitem[Diolez et~al., 2007]{Diolez:2007ly}
+\textbf{Diolez, P and Deschodt-Arsac, V and Raffard, G and Simon, C and Dos
+  Santos, P and Thiaudi{\`e}re, E and Arsac, L and Franconi, JM} (2007).
+\newblock Modular regulation analysis of heart contraction: application to in
+  situ demonstration of a direct mitochondrial activation by calcium in beating
+  heart.
+\newblock {\em Am J Physiol Regul Integr Comp Physiol}, 293(1):R13--9.
+
+\bibitem[Diolez et~al., 1993]{Diolez:1993ve}
+\textbf{Diolez, P and Kesseler, A and Haraux, F and Valerio, M and Brinkmann, K
+  and Brand, M D} (1993).
+\newblock Regulation of oxidative phosphorylation in plant mitochondria.
+\newblock {\em Biochem Soc Trans}, 21 ( Pt 3)(3):769--73.
+
+\bibitem[Diolez et~al., 2002]{Diolez:2002bh}
+\textbf{Diolez, P and Raffard, G and Simon, C and Leducq, N and Dos Santos, P
+  and Canioni, P} (2002).
+\newblock Mitochondria do not control heart bioenergetics.
+\newblock {\em Mol Biol Rep}, 29(1-2):193--6.
+
+\bibitem[Do et~al., 1997]{Do:1997kx}
+\textbf{Do, E and Baudet, S and Verdys, M and Touzeau, C and Bailly, F and
+  Lucas-H{\'e}ron, B and Sagniez, M and Rossi, A and Noireaud, J} (1997).
+\newblock Energy metabolism in normal and hypertrophied right ventricle of the
+  ferret heart.
+\newblock {\em J Mol Cell Cardiol}, 29(7):1903--13.
+
+\bibitem[Dos~Santos et~al., 2000]{Dos-Santos:2000ve}
+\textbf{Dos Santos, P and Aliev, M K and Diolez, P and Duclos, F and Besse, P
+  and Bonoron-Ad{\`e}le, S and Sikk, P and Canioni, P and Saks, V A} (2000).
+\newblock Metabolic control of contractile performance in isolated perfused rat
+  heart. Analysis of experimental data by reaction:diffusion mathematical
+  model.
+\newblock {\em J Mol Cell Cardiol}, 32(9):1703--34.
+
+\bibitem[Du et~al., 2001a]{Du:2001kx}
+\textbf{Du, C and MacGowan, G A and Farkas, D L and Koretsky, A P} (2001a).
+\newblock Calcium measurements in perfused mouse heart: quantitating
+  fluorescence and absorbance of Rhod-2 by application of photon migration
+  theory.
+\newblock {\em Biophys J}, 80(1):549--61.
+
+\bibitem[Du et~al., 2001b]{Du:2001vn}
+\textbf{Du, C and MacGowan, G A and Farkas, D L and Koretsky, A P} (2001b).
+\newblock Calibration of the calcium dissociation constant of Rhod(2)in the
+  perfused mouse heart using manganese quenching.
+\newblock {\em Cell Calcium}, 29(4):217--27.
+
+\bibitem[Dufour et~al., 1996]{Dufour:1996ly}
+\textbf{Dufour, S and Rousse, N and Canioni, P and Diolez, P} (1996).
+\newblock Top-down control analysis of temperature effect on oxidative
+  phosphorylation.
+\newblock {\em Biochem J}, 314 ( Pt 3):743--51.
+
+\alphabibitem{E}
+
+\bibitem[Essop, 2007]{Essop:2007ly}
+\textbf{Essop, M F} (2007).
+\newblock Cardiac metabolic adaptations in response to chronic hypoxia.
+\newblock {\em J Physiol}, 584(Pt 3):715--26.
+
+\alphabibitem{F}
+
+\bibitem[Fell, 1992]{Fell:1992fk}
+\textbf{Fell, D A} (1992).
+\newblock Metabolic control analysis: a survey of its theoretical and
+  experimental development.
+\newblock {\em Biochem J}, 286 ( Pt 2):313--30.
+
+\bibitem[Field et~al., 1994]{Field:1994tg}
+\textbf{Field, M L and Clark, J F and Henderson, C and Seymour, A M and Radda,
+  G K} (1994).
+\newblock Alterations in the myocardial creatine kinase system during chronic
+  anaemic hypoxia.
+\newblock {\em Cardiovasc Res}, 28(1):86--91.
+
+\bibitem[Fossel et~al., 1980]{Fossel:1980ly}
+\textbf{Fossel, E T and Morgan, H E and Ingwall, J S} (1980).
+\newblock Measurement of changes in high-energy phosphates in the cardiac cycle
+  using gated 31P nuclear magnetic renonance.
+\newblock {\em Proc Natl Acad Sci U S A}, 77(6):3654--8.
+
+\bibitem[Fulton et~al., 1952]{FULTON:1952vn}
+\textbf{Fulton, R M and Hutchinson, E C and Jones, A M} (1952).
+\newblock Ventricular weight in cardiac hypertrophy.
+\newblock {\em Br Heart J}, 14(3):413--20.
+
+\alphabibitem{G}
+
+\bibitem[Gadian and Radda, 1981]{Gadian:1981uq}
+\textbf{Gadian, D G and Radda, G K} (1981).
+\newblock NMR studies of tissue metabolism.
+\newblock {\em Annu Rev Biochem}, 50:69--83.
+
+\bibitem[Gibbs, 2007]{Gibbs:2007zr}
+\textbf{Gibbs, J S R} (2007).
+\newblock Biventricular function at high altitude: implications for regulation
+  of stroke volume in chronic hypoxia.
+\newblock {\em Adv Exp Med Biol}, 618:13--24.
+
+\bibitem[Gnaiger, 2001]{Gnaiger:2001qf}
+\textbf{Gnaiger, E} (2001).
+\newblock Bioenergetics at low oxygen: dependence of respiration and
+  phosphorylation on oxygen and adenosine diphosphate supply.
+\newblock {\em Respir Physiol}, 128(3):277--97.
+
+\bibitem[Gnaiger et~al., 1995]{Gnaiger:1995fk}
+\textbf{Gnaiger, E and Steinlechner-Maran, R and M{\'e}ndez, G and Eberl, T and
+  Margreiter, R} (1995).
+\newblock Control of mitochondrial and cellular respiration by oxygen.
+\newblock {\em J Bioenerg Biomembr}, 27(6):583--96.
+
+\bibitem[Gouspillou et~al., 2010]{Gouspillou:2010fk}
+\textbf{Gouspillou, G and Bourdel-Marchasson, I and Rouland, R and Calmettes, G
+  and Franconi, JM and Deschodt-Arsac, V and Diolez, P} (2010).
+\newblock Alteration of mitochondrial oxidative phosphorylation in aged
+  skeletal muscle involves modification of adenine nucleotide translocator.
+\newblock {\em Biochim Biophys Acta}, 1797(2):143--51.
+
+\bibitem[Griffiths and Rutter, 2009]{Griffiths:2009kx}
+\textbf{Griffiths, E J and Rutter, G A} (2009).
+\newblock Mitochondrial calcium as a key regulator of mitochondrial ATP
+  production in mammalian cells.
+\newblock {\em Biochim Biophys Acta}, 1787(11):1324--33.
+
+\bibitem[Grist et~al., 1989]{Grist:1989cr}
+\textbf{Grist, T M and Kneeland, J B and Rilling, W R and Jesmanowicz, A and
+  Froncisz, W and Hyde, J S} (1989).
+\newblock Gated cardiac MR imaging and P-31 MR spectroscopy in humans at 1.5 T.
+  Work in progress.
+\newblock {\em Radiology}, 170(2):357--61.
+
+\bibitem[Guenard, 2001]{Guenard2001he}
+\textbf{Guenard, H} (2001).
+\newblock Physiologie Humaine (3{\`e}me Edition).
+\newblock {\em Editions Pradel}.
+
+\alphabibitem{H}
+
+\bibitem[Hafner et~al., 1990]{Hafner:1990zr}
+\textbf{Hafner, R P and Brown, G C and Brand, M D} (1990).
+\newblock Analysis of the control of respiration rate, phosphorylation rate,
+  proton leak rate and protonmotive force in isolated mitochondria using the
+  'top-down' approach of metabolic control theory.
+\newblock {\em Eur J Biochem}, 188(2):313--9.
+
+\bibitem[Hall et~al., 1963]{HALL:1963hc}
+\textbf{Hall, A E and Hutter, O F and Noble, D} (1963).
+\newblock Current-voltage relations of Purkinje fibres in sodium-deficient
+  solutions.
+\newblock {\em J Physiol}, 166:225--40.
+
+\bibitem[Heinrich and Rapoport, 1974]{Heinrich:1974uq}
+\textbf{Heinrich, R and Rapoport, T A} (1974).
+\newblock A linear steady-state treatment of enzymatic chains. General
+  properties, control and effector strength.
+\newblock {\em Eur J Biochem}, 42(1):89--95.
+
+\bibitem[Herrmann and Wilson, 1922]{Herrmann:1922}
+\textbf{Herrmann, G R and Wilson, F N} (1922).
+\newblock Ventricular Hypertrophy. A Comparison of Electrocardiographic and
+  Postmorem Observations.
+\newblock {\em Heart}, ix:91--147.
+
+\bibitem[Heusch and Schulz, 1996]{Heusch:1996kx}
+\textbf{Heusch, G and Schulz, R} (1996).
+\newblock Hibernating myocardium: a review.
+\newblock {\em J Mol Cell Cardiol}, 28(12):2359--72.
+
+\bibitem[Hochachka, 1986]{Hochachka:1986zr}
+\textbf{Hochachka, P W} (1986).
+\newblock Defense strategies against hypoxia and hypothermia.
+\newblock {\em Science}, 231(4735):234--41.
+
+\bibitem[Hochachka et~al., 1996]{Hochachka:1996fk}
+\textbf{Hochachka, P W and Buck, L T and Doll, C J and Land, S C} (1996).
+\newblock Unifying theory of hypoxia tolerance: molecular/metabolic defense and
+  rescue mechanisms for surviving oxygen lack.
+\newblock {\em Proc Natl Acad Sci U S A}, 93(18):9493--8.
+
+\bibitem[Holloszy et~al., 1970]{Holloszy:1970fk}
+\textbf{Holloszy, J O and Oscai, L B and Don, I J and Mol{\'e}, P A} (1970).
+\newblock Mitochondrial citric acid cycle and related enzymes: adaptive
+  response to exercise.
+\newblock {\em Biochem Biophys Res Commun}, 40(6):1368--73.
+
+\bibitem[Horn, 2006]{Horn:2006ys}
+\textbf{Horn, M} (2006).
+\newblock Cardiac magnetic resonance spectroscopy: a window for studying
+  physiology.
+\newblock {\em Methods Mol Med}, 124:225--48.
+
+\bibitem[Hornberg et~al., 2007]{Hornberg:2007fk}
+\textbf{Hornberg, J J and Bruggeman, F J and Bakker, B M and Westerhoff, H V}
+  (2007).
+\newblock Metabolic control analysis to identify optimal drug targets.
+\newblock {\em Prog Drug Res}, 64:171, 173--89.
+
+\bibitem[Hoyer et~al., 2007]{Hoyer:2007dz}
+\textbf{Hoyer, K and Krenz, M and Robbins, J and Ingwall, J S} (2007).
+\newblock Shifts in the myosin heavy chain isozymes in the mouse heart result
+  in increased energy efficiency.
+\newblock {\em J Mol Cell Cardiol}, 42(1):214--21.
+
+\bibitem[Hunter et~al., 2002]{Hunter:2002ij}
+\textbf{Hunter, P and Robbins, P and Noble, D} (2002).
+\newblock The IUPS human Physiome Project.
+\newblock {\em Pflugers Arch}, 445(1):1--9.
+
+\bibitem[H{\"u}tter et~al., 1990]{Hutter:1990fk}
+\textbf{H{\"u}tter, J F and Alves, C and Soboll, S} (1990).
+\newblock Effects of hypoxia and fatty acids on the distribution of metabolites
+  in rat heart.
+\newblock {\em Biochim Biophys Acta}, 1016(2):244--52.
+
+\bibitem[Hutter and Noble, 1960]{HUTTER:1960tg}
+\textbf{Hutter, O F and Noble, D} (1960).
+\newblock Rectifying properties of heart muscle.
+\newblock {\em Nature}, 188:495.
+
+\alphabibitem{I}
+
+\bibitem[Illing et~al., 1998]{Illing:1998uq}
+\textbf{Illing, B and Horn, M and Urban, B and Str{\"o}mer, H and Schnackerz, K
+  and de Groot, M and Haase, A and Hu, K and Ertl, G and Neubauer, S} (1998).
+\newblock Changes of myocardial high-energy phosphates with the cardiac cycle
+  during acute or chronic myocardial stress.
+\newblock {\em Magn Reson Med}, 40(5):727--32.
+
+\bibitem[Ingwall and Weiss, 2004]{Ingwall:2004ve}
+\textbf{Ingwall, J S and Weiss, R G} (2004).
+\newblock Is the failing heart energy starved? On using chemical energy to
+  support cardiac function.
+\newblock {\em Circ Res}, 95(2):135--45.
+
+\bibitem[Itoh et~al., 2009]{Itoh:2009uq}
+\textbf{Itoh, A and Tomita, H and Sano, S} (2009).
+\newblock Doppler echocardiographic assessment of left ventricular diastolic
+  function in chronic hypoxic rats.
+\newblock {\em Acta Med Okayama}, 63(2):87--96.
+
+\alphabibitem{J}
+
+\bibitem[Jacobus and Lehninger, 1973]{Jacobus:1973fk}
+\textbf{Jacobus, W E and Lehninger, A L} (1973).
+\newblock Creatine kinase of rat heart mitochondria. Coupling of creatine
+  phosphorylation to electron transport.
+\newblock {\em J Biol Chem}, 248(13):4803--10.
+
+\bibitem[Jardin, 2003]{Jardin:2003uq}
+\textbf{Jardin, F} (2003).
+\newblock Ventricular interdependence: how does it impact on hemodynamic
+  evaluation in clinical practice?
+\newblock {\em Intensive Care Med}, 29(3):361--3.
+
+\bibitem[Jeneson et~al., 2000]{Jeneson:2000kx}
+\textbf{Jeneson, J A and Westerhoff, H V and Kushmerick, M J} (2000).
+\newblock A metabolic control analysis of kinetic controls in ATP free energy
+  metabolism in contracting skeletal muscle.
+\newblock {\em Am J Physiol Cell Physiol}, 279(3):C813--32.
+
+\bibitem[Jeneson et~al., 1996]{Jeneson:1996uq}
+\textbf{Jeneson, J A and Wiseman, R W and Westerhoff, H V and Kushmerick, M J}
+  (1996).
+\newblock The signal transduction function for oxidative phosphorylation is at
+  least second order in ADP.
+\newblock {\em J Biol Chem}, 271(45):27995--8.
+
+\bibitem[Joost and Thorens, 2001]{Joost:2001kx}
+\textbf{Joost, H G and Thorens, B} (2001).
+\newblock The extended GLUT-family of sugar/polyol transport facilitators:
+  nomenclature, sequence characteristics, and potential function of its novel
+  members (review).
+\newblock {\em Mol Membr Biol}, 18(4):247--56.
+
+\alphabibitem{K}
+
+\bibitem[Kacser and Burns, 1973]{Kacser:1973fk}
+\textbf{Kacser, H and Burns, J A} (1973).
+\newblock The control of flux.
+\newblock {\em Symp Soc Exp Biol}, 27:65--104.
+
+\bibitem[Kammermeier, 1994]{Kammermeier:1994fk}
+\textbf{Kammermeier, H} (1994).
+\newblock Isolated, (Langendorff) hearts perfused with an aqueous buffer
+  (should) have excess oxygen availability.
+\newblock {\em Basic Res Cardiol}, 89(6):545--8.
+
+\bibitem[Kammermeier et~al., 1982]{Kammermeier:1982zr}
+\textbf{Kammermeier, H and Schmidt, P and J{\"u}ngling, E} (1982).
+\newblock Free energy change of ATP-hydrolysis: a causal factor of early
+  hypoxic failure of the myocardium?
+\newblock {\em J Mol Cell Cardiol}, 14(5):267--77.
+
+\bibitem[Kesseler et~al., 1992]{Kesseler:1992ly}
+\textbf{Kesseler, A and Diolez, P and Brinkmann, K and Brand, M D} (1992).
+\newblock Characterisation of the control of respiration in potato tuber
+  mitochondria using the top-down approach of metabolic control analysis.
+\newblock {\em Eur J Biochem}, 210(3):775--84.
+
+\bibitem[Kitano, 2002]{Kitano:2002kl}
+\textbf{Kitano, H} (2002).
+\newblock Systems biology: a brief overview.
+\newblock {\em Science}, 295(5560):1662--4.
+
+\bibitem[Korvald et~al., 2000]{Korvald:2000ys}
+\textbf{Korvald, C and Elvenes, O P and Myrmel, T} (2000).
+\newblock Myocardial substrate metabolism influences left ventricular
+  energetics in vivo.
+\newblock {\em Am J Physiol Heart Circ Physiol}, 278(4):H1345--51.
+
+\bibitem[Korzeniewski, 2007]{Korzeniewski:2007vn}
+\textbf{Korzeniewski, B} (2007).
+\newblock Regulation of oxidative phosphorylation through parallel activation.
+\newblock {\em Biophys Chem}, 129(2-3):93--110.
+
+\bibitem[Korzeniewski et~al., 2008]{Korzeniewski:2008jt}
+\textbf{Korzeniewski, B and Deschodt-Arsac, V and Calmettes, G and Franconi, JM
+  and Diolez, P} (2008).
+\newblock Physiological heart activation by adrenaline involves parallel
+  activation of ATP usage and supply.
+\newblock {\em Biochem J}, 413(2):343--347.
+
+\bibitem[Korzeniewski et~al., 2009a]{Korzeniewski:2009cs}
+\textbf{Korzeniewski, B and Deschodt-Arsac, V and Calmettes, G and Gouspillou,
+  G and Franconi, JM and Diolez, P} (2009a).
+\newblock Effect of pyruvate, lactate and insulin on ATP supply and demand in
+  unpaced perfused rat heart.
+\newblock {\em Biochem J}, 423(3):421--428.
+
+\bibitem[Korzeniewski et~al., 2009b]{Korzeniewski:2009zr}
+\textbf{Korzeniewski, B and Deschodt-Arsac, V and Calmettes, G and Gouspillou,
+  G and Franconi, JM and Diolez, P} (2009b).
+\newblock Effect of pyruvate, lactate and insulin on ATP supply and demand in
+  unpaced perfused rat heart.
+\newblock {\em Biochem J}, 423(3):421--8.
+
+\bibitem[Kushmerick and Conley, 2002]{Kushmerick:2002ys}
+\textbf{Kushmerick, M J and Conley, K E} (2002).
+\newblock Energetics of muscle contraction: the whole is less than the sum of
+  its parts.
+\newblock {\em Biochem Soc Trans}, 30(2):227--31.
+
+\bibitem[Kusuoka et~al., 1985]{Kusuoka:1985qf}
+\textbf{Kusuoka, H and Inoue, M and Tsuneoka, Y and Watari, H and Hori, M and
+  Abe, H} (1985).
+\newblock Augmented energy consumption during early systole as a mechanism of
+  cyclical changes in high-energy phosphates in myocardium assessed by
+  phosphorus nuclear magnetic resonance.
+\newblock {\em Jpn Circ J}, 49(10):1099--107.
+
+\alphabibitem{L}
+
+\bibitem[Langendorff, 1895]{Langendorff:1895rm}
+\textbf{Langendorff, O} (1895).
+\newblock Untersuchungen am {\"u}berlebenden S{\"a}ugethierherzen ({\'E}tude
+  sur pr{\'e}paration vivante de coeur de mammif{\`e}re).
+\newblock {\em Archiv f{\"u}r die gesammte Physiologie des Menschen und der
+  Thiere, Bonn}, 61:291--332.
+
+\bibitem[Leblais et~al., 2008]{Leblais:2008zr}
+\textbf{Leblais, V and Delannoy, E and Fresquet, F and B{\'e}gueret, H and
+  Bellance, N and Banquet, S and Alli{\`e}res, C and Leroux, L and Desgranges,
+  C and Gadeau, A and Muller, B} (2008).
+\newblock beta-adrenergic relaxation in pulmonary arteries: preservation of the
+  endothelial nitric oxide-dependent beta2 component in pulmonary hypertension.
+\newblock {\em Cardiovasc Res}, 77(1):202--10.
+
+\bibitem[Leducq et~al., 2002]{Leducq:2002fk}
+\textbf{Leducq, N and Macouillard-Poulletier de Gannes, F and Rotureau, MA and
+  Belloc, F and Voisin, P and Canioni, P and Diolez, P} (2002).
+\newblock Top down analysis ceramide-induced mitochondrial dysfunctions: role
+  of mitochondrial swelling.
+\newblock {\em Mol Biol Rep}, 29(1-2):47--50.
+
+\bibitem[Leggewie et~al., 2003]{Leggewie:2003kx}
+\textbf{Leggewie, G and Kolbe, A and Lemoine, R and Roessner, U and
+  Lytovchenko, A and Zuther, E and Kehr, J and Frommer, W B and Riesmeier, J W
+  and Willmitzer, L and Fernie, A R} (2003).
+\newblock Overexpression of the sucrose transporter SoSUT1 in potato results in
+  alterations in leaf carbon partitioning and in tuber metabolism but has
+  little impact on tuber morphology.
+\newblock {\em Planta}, 217(1):158--67.
+
+\bibitem[Leverve, 1998]{Leverve:1998ly}
+\textbf{Leverve, X} (1998).
+\newblock Metabolic and nutritional consequences of chronic hypoxia.
+\newblock {\em Clin Nutr}, 17(6):241--51.
+
+\bibitem[Louie et~al., 1986]{Louie:1986kx}
+\textbf{Louie, E K and Rich, S and Brundage, B H} (1986).
+\newblock Doppler echocardiographic assessment of impaired left ventricular
+  filling in patients with right ventricular pressure overload due to primary
+  pulmonary hypertension.
+\newblock {\em J Am Coll Cardiol}, 8(6):1298--306.
+
+\alphabibitem{M}
+
+\bibitem[MacGowan et~al., 2001]{MacGowan:2001uq}
+\textbf{MacGowan, G A and Du, C and Glonty, V and Suhan, J P and Koretsky, A P
+  and Farkas, D L} (2001).
+\newblock Rhod-2 based measurements of intracellular calcium in the perfused
+  mouse heart: cellular and subcellular localization and response to positive
+  inotropy.
+\newblock {\em J Biomed Opt}, 6(1):23--30.
+
+\bibitem[Marban, 1991]{Marban:1991ys}
+\textbf{Marban, E} (1991).
+\newblock Myocardial stunning and hibernation. The physiology behind the
+  colloquialisms.
+\newblock {\em Circulation}, 83(2):681--8.
+
+\bibitem[Marcus et~al., 2001]{Marcus:2001vn}
+\textbf{Marcus, J T and Vonk Noordegraaf, A and Roeleveld, R J and Postmus, P E
+  and Heethaar, R M and Van Rossum, A C and Boonstra, A} (2001).
+\newblock Impaired left ventricular filling due to right ventricular pressure
+  overload in primary pulmonary hypertension: noninvasive monitoring using MRI.
+\newblock {\em Chest}, 119(6):1761--5.
+
+\bibitem[McCormack and Denton, 1979]{McCormack:1979kx}
+\textbf{McCormack, J G and Denton, R M} (1979).
+\newblock The effects of calcium ions and adenine nucleotides on the activity
+  of pig heart 2-oxoglutarate dehydrogenase complex.
+\newblock {\em Biochem J}, 180(3):533--44.
+
+\bibitem[McFarland et~al., 1994]{McFarland:1994zr}
+\textbf{McFarland, E W and Kushmerick, M J and Moerland, T S} (1994).
+\newblock Activity of creatine kinase in a contracting mammalian muscle of
+  uniform fiber type.
+\newblock {\em Biophys J}, 67(5):1912--24.
+
+\bibitem[McGarry and Brown, 1997]{McGarry:1997zr}
+\textbf{McGarry, J D and Brown, N F} (1997).
+\newblock The mitochondrial carnitine palmitoyltransferase system. From concept
+  to molecular analysis.
+\newblock {\em Eur J Biochem}, 244(1):1--14.
+
+\bibitem[Meerson et~al., 1973]{Meerson:1973uq}
+\textbf{Meerson, F Z and Gomzakov, O A and Shimkovich, M V} (1973).
+\newblock Adaptation to high altitude hypoxia as a factor preventing
+  development of myocardial ischemic necrosis.
+\newblock {\em Am J Cardiol}, 31(1):30--4.
+
+\bibitem[Meyer et~al., 1984]{Meyer:1984uq}
+\textbf{Meyer, R A and Sweeney, H L and Kushmerick, M J} (1984).
+\newblock A simple analysis of the "phosphocreatine shuttle".
+\newblock {\em Am J Physiol}, 246(5 Pt 1):C365--77.
+
+\bibitem[Mik et~al., 2009]{Mik:2009uq}
+\textbf{Mik, E G and Ince, C and Eerbeek, O and Heinen, A and Stap, J and
+  Hooibrink, B and Schumacher, C A and Balestra, G M and Johannes, T and Beek,
+  J F and Nieuwenhuis, A F and van Horssen, P and Spaan, J A and Zuurbier, C J}
+  (2009).
+\newblock Mitochondrial oxygen tension within the heart.
+\newblock {\em J Mol Cell Cardiol}, 46(6):943--51.
+
+\bibitem[Miraux et~al., 2009]{Miraux:2009gd}
+\textbf{Miraux, S and Calmettes, G and Massot, P and Lefrancois, W and Parzy, E
+  and Muller, B and Arsac, LM and Deschodt-Arsac, V and Franconi, JM and
+  Diolez, P and Thiaudiere, E} (2009).
+\newblock 4D retrospective black blood trueFISP imaging of mouse heart.
+\newblock {\em Magn Reson Med}.
+
+\bibitem[Mitchell, 1961]{Mitchell:1961uq}
+\textbf{Mitchell, P} (1961).
+\newblock Coupling of phosphorylation to electron and hydrogen transfer by a
+  chemi-osmotic type of mechanism.
+\newblock {\em Nature}, 191:144--8.
+
+\alphabibitem{N}
+
+\bibitem[Nascimben et~al., 1996]{Nascimben:1996ij}
+\textbf{Nascimben, L and Ingwall, J S and Pauletto, P and Friedrich, J and
+  Gwathmey, J K and Saks, V and Pessina, A C and Allen, P D} (1996).
+\newblock Creatine kinase system in failing and nonfailing human myocardium.
+\newblock {\em Circulation}, 94(8):1894--901.
+
+\bibitem[Nelson, 2006]{Nelson:2006kx}
+\textbf{Nelson, L} (2006).
+\newblock Acute cyanide toxicity: mechanisms and manifestations.
+\newblock {\em J Emerg Nurs}, 32(4 Suppl):S8--11.
+
+\bibitem[Neubauer, 1998]{Neubauer:1998vn}
+\textbf{Neubauer, S} (1998).
+\newblock Influence of left ventricular pressures and heart rate on myocardial
+  high-energy phosphate metabolism.
+\newblock {\em Basic Res Cardiol}, 93 Suppl 1:102--7.
+
+\bibitem[Noble, 2002]{Noble:2002bs}
+\textbf{Noble, D} (2002).
+\newblock Modeling the heart--from genes to cells to the whole organ.
+\newblock {\em Science}, 295(5560):1678--82.
+
+\bibitem[Noble, 2003]{Noble:2003uq}
+\textbf{Noble, D} (2003).
+\newblock The future: putting Humpty-Dumpty together again.
+\newblock {\em Biochem Soc Trans}, 31(Pt 1):156--8.
+
+\bibitem[Noble, 2006]{Noble:2006dz}
+\textbf{Noble, D} (2006).
+\newblock Systems biology and the heart.
+\newblock {\em Biosystems}, 83(2-3):75--80.
+
+\bibitem[Nouette-Gaulain et~al., 2005]{Nouette-Gaulain:2005zr}
+\textbf{Nouette-Gaulain, K and Malgat, M and Rocher, C and Savineau, JP and
+  Marthan, R and Mazat, JP and Sztark, F} (2005).
+\newblock Time course of differential mitochondrial energy metabolism
+  adaptation to chronic hypoxia in right and left ventricles.
+\newblock {\em Cardiovasc Res}, 66(1):132--40.
+
+\bibitem[Novel-Chat{\'e} et~al., 1995]{Novel-Chate:1995oq}
+\textbf{Novel-Chat{\'e}, V and Aussedat, J and Saks, V A and Rossi, A} (1995).
+\newblock Adaptation to chronic hypoxia alters cardiac metabolic response to
+  beta stimulation: novel face of phosphocreatine overshoot phenomenon.
+\newblock {\em J Mol Cell Cardiol}, 27(8):1679--87.
+
+\bibitem[Novel-Chat{\'e} et~al., 1998]{Novel-Chate:1998kl}
+\textbf{Novel-Chat{\'e}, V and Mateo, P and Saks, V A and Hoerter, J A and
+  Rossi, A} (1998).
+\newblock Chronic exposure of rats to hypoxic environment alters the mechanism
+  of energy transfer in myocardium.
+\newblock {\em J Mol Cell Cardiol}, 30(7):1295--303.
+
+\alphabibitem{O}
+
+\bibitem[Ostadal and Kolar, 2007]{Ostadal:2007ve}
+\textbf{Ostadal, B and Kolar, F} (2007).
+\newblock Cardiac adaptation to chronic high-altitude hypoxia: beneficial and
+  adverse effects.
+\newblock {\em Respir Physiol Neurobiol}, 158(2-3):224--36.
+
+\alphabibitem{P}
+
+\bibitem[Passarella et~al., 1988]{Passarella:1988fk}
+\textbf{Passarella, S and Ostuni, A and Atlante, A and Quagliariello, E}
+  (1988).
+\newblock Increase in the ADP/ATP exchange in rat liver mitochondria irradiated
+  in vitro by helium-neon laser.
+\newblock {\em Biochem Biophys Res Commun}, 156(2):978--86.
+
+\bibitem[Pei et~al., 2003]{Pei:2003fv}
+\textbf{Pei, J M and Kravtsov, G M and Wu, S and Das, R and Fung, M L and Wong,
+  T M} (2003).
+\newblock Calcium homeostasis in rat cardiomyocytes during chronic hypoxia: a
+  time course study.
+\newblock {\em Am J Physiol Cell Physiol}, 285(6):C1420--8.
+
+\bibitem[Pei et~al., 2000]{Pei:2000fk}
+\textbf{Pei, J M and Zhou, J J and Bian, J S and Yu, X C and Fung, M L and
+  Wong, T M} (2000).
+\newblock Impaired [Ca(2+)](i) and pH(i) responses to kappa-opioid receptor
+  stimulation in the heart of chronically hypoxic rats.
+\newblock {\em Am J Physiol Cell Physiol}, 279(5):C1483--94.
+
+\bibitem[Pessin and Bell, 1992]{Pessin:1992fk}
+\textbf{Pessin, J E and Bell, G I} (1992).
+\newblock Mammalian facilitative glucose transporter family: structure and
+  molecular regulation.
+\newblock {\em Annu Rev Physiol}, 54:911--30.
+
+\bibitem[Pissarek et~al., 1997]{Pissarek:1997hc}
+\textbf{Pissarek, M and Bigard, X and Mateo, P and Guezennec, C Y and Hoerter,
+  J A} (1997).
+\newblock Adaptation of cardiac myosin and creatine kinase to chronic hypoxia:
+  role of anorexia and hypertension.
+\newblock {\em Am J Physiol}, 272(4 Pt 2):H1690--5.
+
+\bibitem[Poizat et~al., 1994]{Poizat:1994fk}
+\textbf{Poizat, C and Keriel, C and Cuchet, P} (1994).
+\newblock Is oxygen supply sufficient to induce normoxic conditions in isolated
+  rat heart?
+\newblock {\em Basic Res Cardiol}, 89(6):535--44.
+
+\bibitem[Pugh and Ratcliffe, 2003]{Pugh:2003fk}
+\textbf{Pugh, C W and Ratcliffe, P J} (2003).
+\newblock Regulation of angiogenesis by hypoxia: role of the HIF system.
+\newblock {\em Nat Med}, 9(6):677--84.
+
+\alphabibitem{Q}
+
+\bibitem[Quant, 1993]{Quant:1993kx}
+\textbf{Quant, P A} (1993).
+\newblock Experimental application of top-down control analysis to metabolic
+  systems.
+\newblock {\em Trends Biochem Sci}, 18(1):26--30.
+
+\bibitem[Quant and Makins, 1994]{Quant:1994ys}
+\textbf{Quant, P A and Makins, R A} (1994).
+\newblock Metabolic control analysis of hepatic beta-oxidation: the top-down
+  approach.
+\newblock {\em Biochem Soc Trans}, 22(2):441--6.
+
+\bibitem[Quant et~al., 1993]{Quant:1993vn}
+\textbf{Quant, P A and Robin, D and Robin, P and Girard, J and Brand, M D}
+  (1993).
+\newblock A top-down control analysis in isolated rat liver mitochondria: can
+  the 3-hydroxy-3-methylglutaryl-CoA pathway be rate-controlling for
+  ketogenesis?
+\newblock {\em Biochim Biophys Acta}, 1156(2):135--43.
+
+\alphabibitem{R}
+
+\bibitem[Reboul et~al., 2005]{Reboul:2005ys}
+\textbf{Reboul, C and Tanguy, S and Juan, J M and Dauzat, M and Obert, P}
+  (2005).
+\newblock Cardiac remodeling and functional adaptations consecutive to altitude
+  training in rats: implications for sea level aerobic performance.
+\newblock {\em J Appl Physiol}, 98(1):83--92.
+
+\bibitem[Reimer and Jennings, 1986]{Reimer1986je}
+\textbf{Reimer, K A and Jennings, R B} (1986).
+\newblock Myocardial ischemia, hypoxia, and infarction.
+\newblock {\em The Heart and Cardiovascular System, New York Raven Press},
+  53:1133--1201.
+
+\bibitem[Rolfe and Brown, 1997]{Rolfe:1997vn}
+\textbf{Rolfe, D F and Brown, G C} (1997).
+\newblock Cellular energy utilization and molecular origin of standard
+  metabolic rate in mammals.
+\newblock {\em Physiol Rev}, 77(3):731--58.
+
+\bibitem[Rossi and Lortet, 1996]{Rossi:1996nx}
+\textbf{Rossi, A and Lortet, S} (1996).
+\newblock Energy metabolism patterns in mammalian myocardium adapted to chronic
+  physiopathological conditions.
+\newblock {\em Cardiovasc Res}, 31(1):163--71.
+
+\bibitem[Rumsey et~al., 1999]{Rumsey:1999ve}
+\textbf{Rumsey, W L and Abbott, B and Bertelsen, D and Mallamaci, M and Hagan,
+  K and Nelson, D and Erecinska, M} (1999).
+\newblock Adaptation to hypoxia alters energy metabolism in rat heart.
+\newblock {\em Am J Physiol}, 276(1 Pt 2):H71--80.
+
+\alphabibitem{S}
+
+\bibitem[Saks et~al., 2006]{Saks:2006uq}
+\textbf{Saks, V and Dzeja, P and Schlattner, U and Vendelin, M and Terzic, A
+  and Wallimann, T} (2006).
+\newblock Cardiac system bioenergetics: metabolic basis of the Frank-Starling
+  law.
+\newblock {\em J Physiol}, 571(Pt 2):253--73.
+
+\bibitem[Saks and Aliev, 1996]{Saks:1996ys}
+\textbf{Saks, V A and Aliev, M K} (1996).
+\newblock Is there the creatine kinase equilibrium in working heart cells?
+\newblock {\em Biochem Biophys Res Commun}, 227(2):360--7.
+
+\bibitem[Schlattner et~al., 2001]{Schlattner:2001ys}
+\textbf{Schlattner, U and Dolder, M and Wallimann, T and Tokarska-Schlattner,
+  M} (2001).
+\newblock Mitochondrial creatine kinase and mitochondrial outer membrane porin
+  show a direct interaction that is modulated by calcium.
+\newblock {\em J Biol Chem}, 276(51):48027--30.
+
+\bibitem[Schwarz et~al., 1998]{Schwarz:1998ly}
+\textbf{Schwarz, E R and Schoendube, F A and Kostin, S and Schmiedtke, N and
+  Schulz, G and Buell, U and Messmer, B J and Morrison, J and Hanrath, P and
+  vom Dahl, J} (1998).
+\newblock Prolonged myocardial hibernation exacerbates cardiomyocyte
+  degeneration and impairs recovery of function after revascularization.
+\newblock {\em J Am Coll Cardiol}, 31(5):1018--26.
+
+\bibitem[Sivitz et~al., 1992]{Sivitz:1992bh}
+\textbf{Sivitz, W I and Lund, D D and Yorek, B and Grover-McKay, M and Schmid,
+  P G} (1992).
+\newblock Pretranslational regulation of two cardiac glucose transporters in
+  rats exposed to hypobaric hypoxia.
+\newblock {\em Am J Physiol}, 263(3 Pt 1):E562--9.
+
+\bibitem[Spindler et~al., 2001]{Spindler:2001kx}
+\textbf{Spindler, M and Illing, B and Horn, M and de Groot, M and Ertl, G and
+  Neubauer, S} (2001).
+\newblock Temporal fluctuations of myocardia high-energy phosphate metabolite
+  with the cardiac cycle.
+\newblock {\em Basic Res Cardiol}, 96(6):553--6.
+
+\bibitem[Spindler et~al., 1999]{Spindler:1999ly}
+\textbf{Spindler, M and Saupe, K W and Tian, R and Ahmed, S and Matlib, M A and
+  Ingwall, J S} (1999).
+\newblock Altered creatine kinase enzyme kinetics in diabetic cardiomyopathy.
+  A(31)P NMR magnetization transfer study of the intact beating rat heart.
+\newblock {\em J Mol Cell Cardiol}, 31(12):2175--89.
+
+\bibitem[Srere, 1969]{Srere:1969}
+\textbf{Srere, P A} (1969).
+\newblock [1] Citrate Synthase: [EC 4.1.3.7. Citrate oxaloacetate-lyase
+  (CoA-acetylating)].
+\newblock {\em Methods in Enzymology}, 13:3--11.
+
+\bibitem[Strange, 2005]{Strange:2005fk}
+\textbf{Strange, K} (2005).
+\newblock The end of "naive reductionism": rise of systems biology or
+  renaissance of physiology?
+\newblock {\em Am J Physiol Cell Physiol}, 288(5):C968--74.
+
+\bibitem[Sutherland et~al., 2003]{Sutherland:2003fk}
+\textbf{Sutherland, F J and Shattock, M J and Baker, K E and Hearse, D J}
+  (2003).
+\newblock Mouse isolated perfused heart: characteristics and cautions.
+\newblock {\em Clin Exp Pharmacol Physiol}, 30(11):867--78.
+
+\alphabibitem{T}
+
+\bibitem[Tajima et~al., 1994]{Tajima:1994kx}
+\textbf{Tajima, M and Katayose, D and Bessho, M and Isoyama, S} (1994).
+\newblock Acute ischaemic preconditioning and chronic hypoxia independently
+  increase myocardial tolerance to ischaemia.
+\newblock {\em Cardiovasc Res}, 28(3):312--9.
+
+\bibitem[Tanaka et~al., 1992]{Tanaka:1992ve}
+\textbf{Tanaka, K and Honda, H and Akita, N} (1992).
+\newblock A gating 31P NMR method triggered by pulses for cardiac pacing.
+\newblock {\em NMR Biomed}, 5(6):329--34.
+
+\bibitem[ten Hove and Neubauer, 2008]{Hove:2008zr}
+\textbf{ten Hove, M and Neubauer, S} (2008).
+\newblock The application of NMR spectroscopy for the study of heart failure.
+\newblock {\em Curr Pharm Des}, 14(18):1787--97.
+
+\bibitem[Toyo-oka et~al., 1986]{Toyo-oka:1986nx}
+\textbf{Toyo-oka, T and Nagayama, K and Umeda, M and Eguchi, K and Hosoda, S}
+  (1986).
+\newblock Rhythmic change of myocardial phosphate metabolite content in cardiac
+  cycle observed by depth-selected and EKG-gated in vivo 31P-NMR spectroscopy
+  in a whole animal.
+\newblock {\em Biochem Biophys Res Commun}, 135(3):808--15.
+
+\alphabibitem{V}
+
+\bibitem[van Bilsen et~al., 2004]{Bilsen:2004uq}
+\textbf{van Bilsen, M and Smeets, P J H and Gilde, A J and van der Vusse, G J}
+  (2004).
+\newblock Metabolic remodelling of the failing heart: the cardiac burn-out
+  syndrome?
+\newblock {\em Cardiovasc Res}, 61(2):218--26.
+
+\bibitem[Vendelin et~al., 2000]{Vendelin:2000zr}
+\textbf{Vendelin, M and Kongas, O and Saks, V} (2000).
+\newblock Regulation of mitochondrial respiration in heart cells analyzed by
+  reaction-diffusion model of energy transfer.
+\newblock {\em Am J Physiol Cell Physiol}, 278(4):C747--64.
+
+\bibitem[Vleugels et~al., 1980]{Vleugels:1980bh}
+\textbf{Vleugels, A and Vereecke, J and Carmeliet, E} (1980).
+\newblock Ionic currents during hypoxia in voltage-clamped cat ventricular
+  muscle.
+\newblock {\em Circ Res}, 47(4):501--8.
+
+\bibitem[Von~Euler and Liljestrand, 1946]{VonEuler1946ca}
+\textbf{Von Euler, U S and Liljestrand, G} (1946).
+\newblock Observations on the pulmonary arterial blood pressure of the cat.
+\newblock {\em Acta Physiol Scand}, 12:301--320.
+
+\alphabibitem{W}
+
+\bibitem[Wallimann et~al., 1992]{Wallimann:1992kx}
+\textbf{Wallimann, T and Wyss, M and Brdiczka, D and Nicolay, K and
+  Eppenberger, H M} (1992).
+\newblock Intracellular compartmentation, structure and function of creatine
+  kinase isoenzymes in tissues with high and fluctuating energy demands: the
+  'phosphocreatine circuit' for cellular energy homeostasis.
+\newblock {\em Biochem J}, 281 ( Pt 1):21--40.
+
+\bibitem[Weir and Archer, 1995]{Weir:1995uq}
+\textbf{Weir, E K and Archer, S L} (1995).
+\newblock The mechanism of acute hypoxic pulmonary vasoconstriction: the tale
+  of two channels.
+\newblock {\em FASEB J}, 9(2):183--9.
+
+\bibitem[Weiss et~al., 2006]{Weiss:2006fk}
+\textbf{Weiss, J N and Yang, L and Qu, Z} (2006).
+\newblock Systems biology approaches to metabolic and cardiovascular disorders:
+  network perspectives of cardiovascular metabolism.
+\newblock {\em J Lipid Res}, 47(11):2355--66.
+
+\bibitem[Westerhoff et~al., 2009]{Westerhoff:2009oq}
+\textbf{Westerhoff, H V and Kolodkin, A and Conradie, R and Wilkinson, S J and
+  Bruggeman, F J and Krab, K and van Schuppen, J H and Hardin, H and Bakker, B
+  M and Mon{\'e}, M J and Rybakova, K N and Eijken, M and van Leeuwen, H J P
+  and Snoep, J L} (2009).
+\newblock Systems biology towards life in silico: mathematics of the control of
+  living cells.
+\newblock {\em J Math Biol}, 58(1-2):7--34.
+
+\bibitem[Wiggers et~al., 2001]{Wiggers:2001ve}
+\textbf{Wiggers, H and Noreng, M and Paulsen, P K and B{\o}ttcher, M and
+  Egeblad, H and Nielsen, T T and B{\o}tker, H E} (2001).
+\newblock Energy stores and metabolites in chronic reversibly and irreversibly
+  dysfunctional myocardium in humans.
+\newblock {\em J Am Coll Cardiol}, 37(1):100--8.
+
+\bibitem[Wikman-Coffelt et~al., 1983]{Wikman-Coffelt:1983bh}
+\textbf{Wikman-Coffelt, J and Sievers, R and Coffelt, R J and Parmley, W W}
+  (1983).
+\newblock The cardiac cycle: regulation and energy oscillations.
+\newblock {\em Am J Physiol}, 245(2):H354--62.
+
+\bibitem[Wright et~al., 2003]{Wright:2003dq}
+\textbf{Wright, G and Higgin, J J and Raines, R T and Steenbergen, C and
+  Murphy, E} (2003).
+\newblock Activation of the prolyl hydroxylase oxygen-sensor results in
+  induction of GLUT1, heme oxygenase-1, and nitric-oxide synthase proteins and
+  confers protection from metabolic inhibition to cardiomyocytes.
+\newblock {\em J Biol Chem}, 278(22):20235--9.
+
+\bibitem[Wu et~al., 2008]{Wu:2008ve}
+\textbf{Wu, F and Zhang, E Y and Zhang, J and Bache, R J and Beard, D A}
+  (2008).
+\newblock Phosphate metabolite concentrations and ATP hydrolysis potential in
+  normal and ischaemic hearts.
+\newblock {\em J Physiol}, 586(Pt 17):4193--208.
+
+\alphabibitem{Y}
+
+\bibitem[Ytrehus, 2000]{Ytrehus:2000ys}
+\textbf{Ytrehus, K} (2000).
+\newblock The ischemic heart--experimental models.
+\newblock {\em Pharmacol Res}, 42(3):193--203.
+
+\alphabibitem{Z}
+
+\bibitem[Zungu et~al., 2007]{Zungu:2007vn}
+\textbf{Zungu, M and Alcolea, M P and Garc{\'\i}a-Palmer, F J and Young, M E
+  and Essop, M F} (2007).
+\newblock Genomic modulation of mitochondrial respiratory genes in the
+  hypertrophied heart reflects adaptive changes in mitochondrial and
+  contractile function.
+\newblock {\em Am J Physiol Heart Circ Physiol}, 293(5):H2819--25.
+
+\bibitem[Zungu et~al., 2008]{Zungu:2008ys}
+\textbf{Zungu, M and Young, M E and Stanley, W C and Essop, M F} (2008).
+\newblock Expression of mitochondrial regulatory genes parallels respiratory
+  capacity and contractile function in a rat model of hypoxia-induced right
+  ventricular hypertrophy.
+\newblock {\em Mol Cell Biochem}, 318(1-2):175--81.
+
+\end{thebibliography}

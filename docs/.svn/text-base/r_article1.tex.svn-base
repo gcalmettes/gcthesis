@@ -1,0 +1,120 @@
+\chapter{Caractérisation du modèle hypoxique murin}
+\label{chap:result1}
+
+%%% ----------------------------------------
+%%% SECTION 1 --- PRESENTATION --- 
+
+\section{Objectifs de l'\'Etude} % (fold)
+\label{sec:objectifs1}
+
+    Le travail présenté dans cette thèse est la première application de
+    l'analyse MoCA sur un modèle de coeur ayant développé une pathologie
+    (modèle du coeur de souris hypobares).
+    La première étape a donc été la caractérisation, notamment anatomique,
+    du modèle du coeur hypoxique utilisé dans nos expériences.
+    
+    %L'enjeu de cette caractérisation est double :
+    %\begin{itemize}
+    %    \item 
+    %\end{itemize}
+    
+    Cette caractérisation est en effet importante, non seulement pour valider
+    le modèle utilisé (et s'assurer que notre protocole d'hypoxie chronique
+    induit bien les modifications correspondant à ce qui est décrit dans la 
+    littérature),
+    mais également pour appliquer notre analyse MoCA. En effet, dans cette
+    approche, la détermination expérimentale
+    des élasticités est basé sur l'induction d'une modification
+    de l'activité des modules de production et de consommation
+    d'énergie afin de faire varier la concentration de PCr et ainsi accéder à
+    la réponse de l'autre module face à cette perturbation. En particulier, la
+    modulation de l'activité du module Consommateur est réalisée par une
+    augmentation du volume du ballonnet inséré dans le ventricule gauche du
+    coeur (effet Frank Starling). 
+
+    \'Etant donné la modification globale de l'anatomie cardiaque induite par
+    l'hypoxie chronique avec notamment un remodelage des deux
+    ventricules, la connaissance précise des modifications géométriques et
+    volumétriques
+    induites par cette situation est d'une grande importance pour assurer des
+    modifications comparables de la contraction entre les deux populations de
+    souris.
+
+    Une collaboration interne au laboratoire avec l'équipe \textit{Concepts et
+    Soutiens Méthodologiques} (en particulier Sylvain Miraux et \'Eric
+    Thiaudière),
+    nous a permis d'accéder à la description des modifications anatomiques
+    cardiaques (volumes des masses myocardiques des ventricules, 
+    et volumes intraventriculaires) induites
+    par l'exposition à l'hypoxie chronique, grâce au développement d'une
+    séquence IRM TrueFISP sang noir particulièrement adaptée pour ces mesures.
+    \\
+    \clearpage
+
+    Les résultats sont présentés sous la forme d'un article publié dans la
+    revue \textit{Magnetic Resonance in Medicine} :
+
+\vspace{10pt}
+\hrule
+\begin{center}
+    {\sc "4D Retrospective Black Blood TrueFISP Imaging of Mouse Heart"}
+
+\vspace{7pt}
+
+    Sylvain Miraux, \textbf{Guillaume Calmettes}, Philippe Massot, William
+    Lefrançois, \'Elodie Parzy, Bernard Muller, Laurent M. Arsac, Véronique
+    Deschodt-Arsac, Jean-Michel Franconi, Philippe Diolez et \'Eric Thiaudière
+
+\vspace{7pt}
+
+    \textit{Magnetic Resonance in Medicine. 2009 Nov;62(5):1099-105}
+
+\end{center}
+\hrule
+
+% section objectifs1 (end)
+
+\section{Résumé en Français}
+\label{sec:resume1}
+
+    \textit{L'objectif de cette étude est de démontrer l'intérêt d'une séquence 
+    haute résolution d'IRM TrueFISP 4 dimensions pour les
+    mesures volumétriques cardiaques. Des images 3 dimensions résolues dans le
+    temps (Ciné 3D)
+    de souris contrôles et hypoxiques ont été acquises à 4.7T sans préparation
+    d'aimantation ni de synchronisation prospective à partir de
+    l'électrocardiogramme. Les lignes de l'espace K ont été complétées par la
+    répétition séquentielle d'une séquence TrueFISP (temps de répétition / temsp
+    d'écho = 4 / 2 ms). La reconstruction de 10 images 3 dimensions par cycle
+    cardiaque à partir des données acquises a été faite de manière
+    rétrospective.
+    La séquence utilise la méthode des impulsions radiofréquences par phases
+    alternées associée à une reconstruction par racine carrée de la somme des
+    carrés.
+    Des images 3~dimensions sang noir avec une résolution d'environ $200~\mu m$
+    (dans les 3 axes de l'espace) ont été
+    produites sans artefact pendant le cycle cardiaque. Le rapport signal sur
+    bruit élevé permet d'estimer les volumes des cavités ventriculaires aussi
+    bien lors de la phase de diastole que de systole. Les volumes de sang
+    éjectés par le ventricule droit et gauche étaient significativement
+    supérieurs chez les souris hypoxiques comparé aux souris contrôles
+    ($20.2 \pm 2$ vs $15.1 \pm 2$ ; $24.9 \pm 2$ vs $20.4 \pm 2$ ; $P < 0.05$). En
+    conclusion, l'application de la séquence TrueFISP sang noir 4 dimensions
+    sur des souris vivantes est une technique de choix pour étudier les anomalies
+    cardiaques développés dans les modèles murins.}
+
+\section{Article 1} % (fold)
+\label{sec:article1}
+
+Cet article correspond à la référence \citep{Miraux:2009gd}.
+
+% section Article 1 (end)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% INSERTION PAPIER MRM 2009 %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \leftmargin = -2.1cm dans l'espace narrow
+\insertpaper{-2.1}{Miraux2009.pdf}{0.9}{1}{7}
+
+
+%%% --------------------------

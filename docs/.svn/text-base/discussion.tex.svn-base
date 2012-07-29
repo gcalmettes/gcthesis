@@ -1,0 +1,478 @@
+\chapter{Discussion}
+\label{chap:discussion}
+
+    Ce travail présente la première application de l'approche intégrative
+    développée par notre équipe, l'Analyse Modulaire du Contrôle 
+    (MoCA, \citep{Diolez:2007ly}),
+    sur coeur isolé perfusé de souris. Le développement et la validation 
+    de l'approche sur le modèle murin est en effet une étape cruciale pour
+    pouvoir étudier de manière plus fine les mécanismes mis en jeu dans les
+    différentes pathologies (modèles de souris transgéniques, \dots) et ainsi
+    offrir l'opportunité du développement de stratégies diagnostiques et 
+    thérapeutiques.
+
+\section{Particularités de l'\'Energétique Cardiaque de la Souris} % (fold)
+
+    Le coeur isolé perfusé est un modèle depuis longtemps utilisé pour l'étude
+    de la fonction cardiaque, normale ou pathologique. Ce modèle expérimental
+    est particulièrement utilisé sur le rat, mais son application est de plus en
+    plus développée sur souris afin d'accéder aux bases mécanistiques des
+    pathologies à l'aide de modèles transgéniques \citep{Ytrehus:2000ys}.
+    Toutefois, la mise au point du modèle du coeur isolé perfusé de souris
+    reste un challenge expérimental \citep{Sutherland:2003fk} et requiert
+    notamment des conditions expérimentales spécifiques par rapport aux coeurs 
+    des autres mammifères.
+    En particulier, le choix des substrats utilisés est
+    particulièrement important afin de permettre des états stables de 
+    fonctionnement cardiaque. 
+
+    Chez le rat, nos études antérieures on montré des différences de
+    fonctionnement cardiaque en fonction du substrat utilisé dans le milieu
+    de perfusion, par exemple entre glucose et pyruvate \citep{Diolez:2002bh}.
+    A haut niveau d'activation cardiaque
+    (Ca$^{2+}=3,5~mM$), le travail cardiaque - estimé à partir du produit de la 
+    fréquence cardiaque par la pression développée (PPF) - est ainsi plus
+    important lorsque le pyruvate est utilisé, et ce travail est  associé à 
+    une consommation d'oxygène également plus importante \citep{Diolez:2002bh}.
+    Plus récemment, nous avons également mis en évidence sur coeur de rat
+    l'influence de l'utilisation de différents substrats sur l'ensemble de
+    l'énergétique cardiaque \citep{Korzeniewski:2009zr}. Dans cette étude, la
+    composition du milieu de perfusion a ainsi un très fort retentissement
+    sur les propriétés cinétiques du système énergétique, et en particulier sur
+    la phosphorylation oxidative \citep{Korzeniewski:2009zr}.
+
+    Pour le coeur de souris, l'apport du glucose (associé ou non
+    à du pyruvate) comme substrat dans le milieu de perfusion s'est révélé
+    être une condition
+    indispensable au maintien d'un état stable de contraction cardiaque
+    \citep{Sutherland:2003fk}.
+    Cette particularité pourrait être la conséquence du niveau de travail du
+    coeur de souris. En effet, malgré une taille et une masse $\approx10$~fois
+    plus petite que le coeur de rat, la valeur de PPF est sensiblement
+    identique à celle mesurée sur coeur de rat.
+    Cette très forte activité du coeur de
+    souris est la conséquence d'une fréquence cardiaque très
+    élevée ($\approx600~bpm$ par rapport à $\approx300~bpm$ pour le rat). Ainsi,
+    l'énergie nécessaire pour le fonctionnement normal d'un coeur de souris est
+    très importante, et, comme
+    suggéré par la nécessité de la perfusion en glucose, la production
+    d'énergie par la glycolyse semble donc jouer un rôle important.
+    Cela a d'ailleurs été confirmé par nos expériences lors de la
+    mise au point de l'approche MoCA sur coeur de souris. En effet,
+    contrairement au coeur de rat dans lequel une inhibition partielle de
+    l'activité mitochondriale (injection de cyanure à de faibles concentrations)
+    suffit à induire une inhibition suffisante du module Producteur pour
+    accéder à la détermination de l'élasticité du module Consommateur
+    \citep{Diolez:2007ly}, dans les coeurs de souris, l'injection de cyanure 
+    doit être combinée à une injection
+    de iodoacétate (à une concentration induisant l'inhibition totale de l'activité
+    glycolytique) pour que l'on puisse observer un effet sur la contraction cardiaque
+    \citep{Calmettes:2008pi}.
+
+    %De plus \citet{Barth:1992kx} ont démontré que les mammifères étaient caractérisés non
+    %seulement par une relation inverse entre taille du coeur et densité
+    %mitochondriale (plus un coeur sera petit, plus sa densité mitochondriale
+    %sera importante), mais également par une étroite relation entre 
+    %cette même densité mitochondriale et la valeur de fréquence cardiaque de
+    %l'espèce. Le coeur de souris cumulant ces deux caractéristique (petite
+    %taille et fréquence cardiaque élevée), cela renforce l'idée que
+    %le fonctionnement de l'énergétique cardiaque est bien spécifique chez la
+    %souris comparée aux autres rongeurs.
+   
+    L'analyse Modulaire du Contrôle (MoCA, \citep{Diolez:2007ly}) développée
+    par notre équipe permet de décrire et de comprendre le système
+    énergétique cardiaque de manière intégrée sur coeur battant. A partir de la
+    définition du système en deux modules, Producteur et Consommateur d'énergie
+    (représentée par les variations de [PCr]), du suivi de l'intermédiaire
+    énergétique (PCr) et de la
+    quantification du flux énergétique 
+    traversant le système (PPF), le calcul des coefficients
+    d'élasticité nous permet d'analyser la réactivité de chacun des modules
+    face à une modification des intermédiaires énergétiques. 
+    Dans cette thèse, l'application de MoCA sur des coeurs de souris contrôles
+    a mis en évidence un fonctionnement énergétique particulier chez les
+    murins. En effet, par comparaison avec les résultats obtenus sur coeur de
+    rat \citep{Diolez:2007ly} nous avons démontré que les valeurs d'élasticité
+    des deux modules sont très différentes chez les souris.
+    De plus, ces différences impliquent également une distribution
+    du contrôle exercé par chacun des modules sur le flux très spécifique en
+    comparaison avec le
+    rat. Ainsi, alors que le contrôle de la contraction réside très
+    majoritairement ($\approx90~\%$) dans les processus de consommation
+    d'énergie chez le rat \citep{Diolez:2007ly}, nos expériences ont montré un
+    contrôle partagé ($\approx50~\%$~-~$50~\%$) entre les modules Producteur et 
+    Consommateur chez la souris \citep{Calmettes:2008pi}.
+    Même si les valeurs des
+    élasticités (et donc des coefficients de contrôles, calculés à partir de
+    ces élasticités) sont modifiées par le substrat utilisé dans le
+    milieu de perfusion chez le rat \citep{Diolez:2007ly}, la différence entre les coeurs
+    de rats et de souris ne peut cependant pas être expliquée uniquement par cette différence de
+    substrats. En effet, même lorsque le glucose seul est utilisé comme
+    substrat pour le coeur de rat, le contrôle de la contraction réside
+    toujours majoritairement au niveau du module Consommateur
+    ($\approx80~\%$, \citep{Diolez:2007ly}). La
+    différence observée entre les coeurs de rat et souris reflète donc bien une
+    particularité du modèle murin plutôt que des différences dans les
+    conditions expérimentales.
+    
+    La différence des élasticités mesurées sur coeur de rat et souris pourrait être expliquée
+    par la très forte fréquence cardiaque de la souris comparée à celle du rat,
+    impliquant alors une gestion calcique différente entre ces deux rongeurs durant
+    le processus d'excitation-contraction. Nos récentes expériences sur coeur
+    de cobayes (Deschodt-Arsac et al., \textit{résultats en cours de publication}),
+    étudiés en condition de fonctionnement autonome ou en condition de
+    fréquence cardiaque fixée par un générateur d'impulsion électrique (système
+    de pacing) tendent à renforcer cette hypothèse puisque des élasticités
+    différentes ont été déterminées dans les deux situations.
+    %De plus, sur
+    %muscle squelettique il a été montré que les élasticités des modules
+    %Producteurs et Consommateurs variaient selon l'intensité de travail imposé
+    %\citep{Arsac:2008vn,Beuste:2009ys}. 
+    %Toutefois, de part les différences majeures entre le muscle squelettique et
+    %cardiaque (et notamment au niveau de l'activation des processus de
+    %production énergétique lors de l'augmentation de la consommation),
+    %la relation entre valeurs d'élasticité et niveau de travail
+    %demande à être explorée plus en détail sur le coeur avant de pouvoir conclure.
+
+\section{Coeur de Souris en situation d'Hypoxie Chronique} % (fold)
+
+    Les modifications intégrées de l'énergétique cardiaque
+    induites par l'hypoxie chronique ont été
+    étudiées en comparant un modèle de souris hypobares
+    \citep{Leblais:2008zr,Delannoy:2010ys} (souris hébergées
+    $21$~jours dans un caisson ou la pression partielle d'O$_2$ était diminuée
+    de moitié) à des souris contrôles.
+
+    Une situation d'hypoxie chronique induit des modifications importantes de la
+    fonction cardiaque \citep{Ostadal:2007ve,Essop:2007ly}. En particulier, le
+    développement d'une hypertension artério-pulmonaire est à l'origine d'un
+    remodelage cardiaque global qui affecte les deux ventricules.
+    Cette modification anatomique a été confirmée avec notre étude \textit{in vivo}
+    par IRM \citep{Miraux:2009gd} dans laquelle l'hypertrophie et la
+    dilatation du ventricule droit secondaires à l'HTAP, ainsi que la diminution
+    du volume intraventriculaire gauche par refoulement du septum vers cette
+    cavité \citep{Gibbs:2007zr}, ont été mises en évidence sur notre modèle. 
+    A notre connaissance, l'utilisation de l'imagerie
+    pour la détection des modifications anatomiques cardiaques induites par
+    l'hypoxie chronique sur souris \textit{in vivo} n'avait jamais été réalisée
+    auparavant, et seules des données acquises par échocardiographie doppler sur
+    rat étaient disponibles \citep{Reboul:2005ys,Itoh:2009uq}. 
+    Toutefois, ces études ne présentent que la description des modifications des
+    volumes intraventriculaires cardiaques, alors que nous avons également 
+    corrélé les volumes mesurés ($\mu L$) par IRM des masses ventriculaires 
+    myocardiques  aux masses de ces mêmes ventricules pesées \textit{ex vivo} 
+    (tableau~2 dans \citep{Miraux:2009gd}).
+
+    Outre une modification globale de l'anatomie cardiaque, l'hypoxie chronique
+    induit d'importantes répercussions sur l'énergétique comme montré par la
+    très forte diminution du niveau de
+    contraction cardiaque mesurée sur notre modèle de souris hypobares en
+    comparaison avec des souris contrôles \citep{Calmettes:2008pi}. 
+    Cette diminution de travail, mesurée sur les coeurs hypoxiques en
+    conditions normoxiques, semble être la conséquence d'adaptations lentes à
+    l'hypoxie, puisque, chez des rats exposés à
+    $14$~jours d'hypoxie  seule une tendance est observée \citep{Zungu:2007vn},
+    celle-ci devenant par contre très significative après
+    $28$~jours d'hypoxie \citep{Zungu:2008ys}.
+    Ce moindre travail cardiaque, a pu être expliqué
+    par des modifications énergétiques sévères telles qu'une diminution de la
+    masse mitochondriale, des modifications de [PCr] et du contenu en
+    créatine totale, ainsi qu'une altération de la gestion des mouvements du
+    calcium par les cardiomyocytes.
+    Ainsi, nous avons mesuré une diminution de la masse mitochondriale (montrée
+    par une diminution de l'activité de la citrate synthase) sur notre modèle
+    de souris hypobares
+    \citep{Calmettes:2010fk}, modification également rapportée dans la littérature sur
+    coeur de rat \citep{Nouette-Gaulain:2005zr}. Cette altération est
+    susceptible d'avoir d'importantes conséquences pour la bioénergétique
+    cardiaque, étant donné le rôle crucial des mitochondries au niveau de
+    la production d'énergie pour le muscle cardiaque
+    \citep{Balaban:1989dq,Balaban:1990fk}. 
+    Une diminution du contenu en phosphocréatine sans modification d'ATP, mise en
+    évidence à la fois par spectroscopie RMN dans notre travail \citep{Calmettes:2008pi}
+    et celui d'autres auteurs \citep{Novel-Chate:1995oq}, et par mesures biochimiques
+    sur des extraits de coeur \citep{Rossi:1996nx,Novel-Chate:1998kl}, a
+    également été
+    constatée après hypoxie chronique. Cette diminution de [PCr]
+    est associée à une diminution 
+    du contenu total en créatine après adaptation à l'hypoxie chronique 
+    \citep{Rossi:1996nx,Novel-Chate:1998kl}. 
+    Il est intéressant de noter qu'une diminution similaire du contenu en créatine
+    totale est observée sur les modèles d'hypertrophie sans hypoxie \citep{Do:1997kx}, 
+    ce qui ne nous permet pas de conclure sur la causalité directe entre
+    hypoxie et baisse de PCr. 
+    Dans le coeur, le système des créatines
+    kinases joue un rôle thermodynamique important à l'origine du maintien d'un
+    $\Delta$Gp élevé au niveau des sites de consommation d'énergie.
+    A la vue des modifications de contenu total en créatine et [PCr], 
+    la modification potentielle du $\Delta$Gp après hypoxie chronique reste à
+    étudier étant donné son lien avec le rapport $PCr/Cr$.
+    
+    
+    Une altération de la gestion calcique, avec notamment une
+    diminution des transients calciques lors du couplage excitation-contraction
+    est également rapportée après hypoxie chronique \citep{Pei:2003fv}. Notre
+    équipe a récemment démontré pour la première fois \textit{in situ} 
+    l'activation parallèle de la production et de la consommation d'énergie
+    par le calcium dans le coeur de rat \citep{Diolez:2007ly}. L'analyse MoCA réalisée alors,
+    a non seulement démontré qu'une activation parallèle du Producteur et du
+    Consommateur avait lieu lors de l'activation cardiaque par le calcium, mais
+    aussi que l'effet inotrope était essentiellement la conséquence de l'action
+    du calcium sur les myofilaments, du fait de la répartition spécifique du
+    contrôle sur le flux reposant majoritairement sur ce module consommateur
+    \citep{Diolez:2007ly}. L'activation mitochondriale par le calcium
+    (même si elle a un effet négligeable sur le niveau de contraction) est
+    cependant essentielle pour le maintien de l'homéostasie des intermédiaires
+    énergétiques et donc plus globalement pour la bioénergétique cardiaque.
+    De ce fait, les
+    modifications de la gestion calcique lors de l'hypoxie chronique ont
+    certainement des répercussions sur l'ensemble de l'énergétique, comme
+    le suggère la diminution du travail cardiaque mesurée sur coeurs hypoxiques
+    \citep{Zungu:2008ys,Calmettes:2008pi}. Cette modification au niveau du
+    travail cardiaque pourrait être expliquée par une moindre activation du
+    Consommateur par le calcium, mais également du Producteur qui, chez la
+    souris, détient la moitié du contrôle sur la contraction. 
+    %Ainsi, sur le
+    %coeur de souris toute
+    %modification de l'activité de chacun des modules aura un effet non
+    %négligeable sur le niveau de contraction, alors que sur le rat, seules les
+    %modifications induites au niveau du module Consommateurs seront traduites
+    %par un effet important sur la PPF.
+
+    La multitude des modifications rapportées après hypoxie chronique 
+    démontre la complexité de l'adaptation cardiaque
+    à cette condition. 
+    L'utilisation de MoCA sur des coeurs hypoxiques permet alors d'obtenir des
+    informations intégrées, par la description et la quantification de
+    l'ensemble des régulations internes développées lors de cette
+    adaptation à l'hypoxie.
+
+    MoCA, appliquée à 
+    l'énergétique cardiaque des coeurs de souris hypoxiques (perfusion
+    normoxique) révèle une forte augmentation (en valeur absolue) de l'élasticité du module 
+    Producteur \citep{Calmettes:2008pi}, traduisant une plus forte réponse du
+    Producteur face à une diminution de [PCr]. 
+    Expérimentalement, cette élasticité est calculée à partir d'une
+    augmentation de l'activité du Producteur par Effet Frank Starling,
+    réalisée en augmentant le volume du
+    ballonnet inséré dans le ventricule gauche  :
+    l'étirement des fibres implique une augmentation de la sensibilité de
+    la troponine C au calcium, ce qui se traduit \textit{in fine} par une plus forte
+    contraction.
+    Dans les coeurs hypobares, l'augmentation du volume du ballonnet induit une
+    plus faible diminution de [PCr] par rapport aux coeurs contrôles.
+    De plus, cette plus faible baisse de
+    l'intermédiaire est associée à une augmentation $2$ fois plus
+    importante de la PPF, flux traversant le système énergétique, ce qui
+    rend compte de la réponse $2$ fois plus importante du Producteur.
+    Cette augmentation de réponse n'est pas la conséquence d'une augmentation plus
+    importante du volume intraventriculaire (et donc d'un effet Frank Starling
+    plus important), puisqu'au contraire elle
+    fait suite à un plus faible gonflement du ballon ($+~7,5~\mu~L$ vs
+    $+~10~\mu~L$, \citep{Calmettes:2008pi}). 
+    Ainsi, même pour une modulation moins importante imposée au Consommateur
+    (augmentation plus petite du volume du ballon), la réponse des coeurs
+    hypoxiques est deux fois plus grande que la réponse des coeurs
+    contrôles \citep{Calmettes:2008pi}.
+    Comme montré sur cardiomyocytes, l'adaptation à l'hypoxie chronique ne modifie ni
+    la sensibilité des myofilaments au calcium induite par un étirement
+    \citep{Cazorla:2006kx}, ni la concentration calcique basale dans le cytosol
+    \citep{Pei:2003fv}. Ces résultats
+    démontrent alors que l'augmentation d'élasticité mesurée semble bien une conséquence
+    de l'adaptation cardiaque à l'hypoxie chronique et non un artefact
+    expérimental (utilisation du mécanisme Frank Starling par 
+    augmentation du volume du ballonnet).
+
+    Dans la littérature, et comme mesuré par nos expériences d'activité
+    enzymatique dans \citep{Calmettes:2010fk}, l'exposition prolongée à
+    l'hypoxie est responsable d'une diminution significative de la masse
+    mitochondriale et de l'altération de l'activité des complexes de la chaîne
+    respiratoire \citep{Nouette-Gaulain:2005zr}. Les mitochondries étant intégrées
+    dans le module Producteur, ces études sous-entendraient par exemple une diminution de
+    la capacité mitochondriale à répondre à une augmentation de la demande en
+    énergie. Or, l'application de MoCA révèle au contraire une augmentation de l'élasticité
+    du module Producteur par rapport aux changements d'intermédiaires
+    énergétiques et donc une amélioration de la réactivité 
+    du Producteur \citep{Calmettes:2008pi}.
+    Ce résultat met en valeur
+    l'existence de processus adaptatifs spécifiques au sein du module
+    Producteur lors de l'exposition prolongée à l'hypoxie puisque toute
+    modification d'élasticité d'un module traduit une modification de processus intégrés
+    dans le module ayant un impact fonctionnel \citep{Brand:1997uq}.
+    L'augmentation  de l'élasticité du Producteur pourrait donc traduire le
+    développement de mécanismes moléculaires spécifiques tendant à compenser
+    les effets de la perte mitochondriale.
+    L'hypothèse que nous avons privilégiée 
+    est un meilleur couplage du complexe ANT-miCK-VDAC qui induirait une plus
+    grande sensibilité mitochondriale par rapport à la PCr
+    \citep{Calmettes:2008pi,Calmettes:2010fk}. Des études ont en effet montré
+    que la modulation des sites de contacts des membranes mitochondriales via un
+    couplage miCK-ANT était sensible à différents facteurs, et en
+    particulier le
+    calcium \citep{Schlattner:2001ys}. Une augmentation de ces sites de
+    contacts développée pendant adaptation à l'hypoxie chronique, favorisant le
+    couplage miCK-ANT, pourraient ainsi expliquer la plus grande sensibilité
+    mitochondriale aux variations d'intermédiaires énergétiques. Dans une étude sur fibres
+    perméabilisées de coeurs hypoxiques, \citet{Field:1994tg} montrent une
+    augmentation de $20~\%$ de l'activité de la miCK, corrélée avec
+    l'augmentation de l'affinité mitochondriale à l'ADP. Ces auteurs proposent
+    qu'une des modifications de l'acclimatation à l'hypoxie chronique sur leur
+    modèle serait une plus grande efficacité du transfert énergétique à travers
+    un meilleur couplage ANT-miCK \citep{Field:1994tg}. Cette modification
+    a été proposée pour expliquer la plus faible diminution de [PCr] pour une même
+    augmentation de travail cardiaque suite à une stimulation
+    $\beta$-adrénergique mesurée sur coeur isolé perfusé de rat hypoxique
+    \citep{Novel-Chate:1995oq}. Cependant, en poussant leur analyse,
+    \citet{Novel-Chate:1998kl} observent une plus petite
+    stimulation de la respiration mitochondriale à l'ADP par l'addition de
+    créatine sur fibres isolées perméabilisées de coeur de rat hypoxique,
+    suggérant ainsi qu'aucune amélioration du couplage ANT-miCK n'est
+    développée
+    lors de l'adaptation à l'hypoxie chronique sur ce système isolé.
+    L'hypothèse de la dépendance de
+    l'élasticité au couplage miCK-ANT reste donc à étudier de manière plus
+    approfondie.
+
+    Contrairement à ce qui se passe pour le Producteur, aucune modification 
+    d'élasticité du module
+    Consommateur n'est mesurée sur notre modèle hypoxique par rapport aux coeurs
+    contrôles. Le développement de l'hypertrophie
+    ventriculaire droite induite par l'acclimatation à l'hypoxie chronique
+    s'accompagne cependant d'une modification du profil protéique dans les deux
+    ventricules, aussi bien au niveau du matériel contractile
+    \citep{Pissarek:1997hc,Ostadal:2007ve} que des protéines ATPases du
+    réticulum sarcoplasmique \citep{Pei:2003fv}. Toutefois, comme le montre
+    l'absence de changement de l'élasticité du module Consommateur, ces
+    modifications physiologiques ne semblent pas avoir, à notre niveau
+    d'intégration, de répercussions sur l'énergétique cardiaque,
+    puisque la réactivité des processus consommateurs de PCr par rapport
+    à l'intermédiaire n'est pas altérée.
+
+    Ainsi, l'application de MoCA sur le modèle du coeur hypoxique chronique
+    montre bien l'intérêt d'utiliser des approches intégratives pour étudier les
+    systèmes complexes (et leurs modifications induites par un changement de
+    conditions extérieures) puisque cette approche nous a permis d'identifier la
+    modification émergente de l'adaptation à l'hypoxie chronique traduite par
+    l'augmentation de l'élasticité du Producteur mesurée dans les coeurs de
+    souris hypoxiques.
+
+    
+\section{Analyse MoCA des Coeurs en Condition d'Hypoxie Aigüe} % (fold)
+    
+    Afin analyser l'intérêt potentiel pour l'énergétique cardiaque de cette
+    surprenante
+    augmentation d'élasticité du Producteur, il nous a semblé intéressant
+    d'étudier les coeurs contrôles et hypoxiques dans des conditions 
+    correspondantes à celles ayant induit cette modification d'élasticité
+    (environnement hypoxique $\rightarrow$ hypoxie aigüe dans le
+    perfusât). 
+    L'application de MoCA sur des coeurs perfusés avec un milieu dont la
+    concentration en O$_2$ a été réduite, montre alors 
+    une diminution de l'élasticité du Producteur dans les coeurs
+    contrôles et hypoxiques, toujours sans modification de l'élasticité du Consommateur
+    \citep{Calmettes:2010fk}. La conséquence directe de ce changement
+    d'élasticité est une modification de la répartition du contrôle dans ces
+    conditions d'hypoxie
+    aigüe, avec l'augmentation du contrôle du Producteur sur la contraction
+    \citep{Calmettes:2010fk}.
+
+    Cependant, pour les souris hypobares, même si la baisse d'élasticité du
+    Producteur
+    induite par l'hypoxie aigüe est plus importante, cette valeur 
+    reste toujours $2$~fois plus importante que chez les souris 
+    contrôles \citep{Calmettes:2010fk}.
+    De plus, il est intéressant de noter que cette valeur
+    d'élasticité du Producteur chez les souris hypoxiques
+    en conditions d'hypoxie aigüe est similaire à la valeur
+    d'élasticité obtenue chez les souris contrôles en conditions normoxiques
+    dans notre précédente étude \citep{Calmettes:2008pi}.
+    Ainsi, en rétablissant expérimentalement les conditions d'hypoxie
+    auxquelles les souris ont été exposées $21$~jours par la diminution de la
+    pression partielle d'O$_2$ dans le milieu de perfusion 
+    ($600~mmHg\rightarrow 120~mmHg$), l'élasticité du Producteur chez les
+    souris hypoxiques tend à retrouver une valeur "normale" de référence,
+    puisqu'elle correspond à celle mesurée dans les coeurs contrôles en
+    normoxie. 
+    De plus, étant donné qu'aucune modification de l'élasticité du
+    Consommateur n'est mesurée dans nos expériences
+    \citep{Calmettes:2008pi,Calmettes:2010fk},
+    en conditions d'hypoxie les deux élasticités des coeurs de souris
+    hypoxiques correspondent à celles mesurées sur des coeurs contrôle en
+    conditions d'oxygénation normale
+    \citep{Calmettes:2010fk}.
+
+    Or, dans MoCA, ces élasticités nous permettent de calculer les coefficients
+    de contrôle de chacun des modules sur le flux. 
+    Ainsi, puisque des élasticités similaires sont mesurées entre des coeurs de
+    souris hypoxiques en conditions d'hypoxie et des coeurs de souris contrôles
+    en conditions normoxiques, une répartition du contrôle identique a été
+    calculée dans ces deux situations \citep{Calmettes:2010fk}.
+    Ce retour du schéma de contrôle sur le flux à son état de référence pour
+    les souris hypoxiques est uniquement expliqué par la modification
+    d'élasticité du Producteur, étant donné qu'aucune modification de
+    l'élasticité du Consommateur n'a été mise en évidence.
+    Ce résultat suggère que l'augmentation d'élasticité du Producteur
+    développée pendant l'acclimatation à l'hypoxie
+    chronique \citep{Calmettes:2008pi} serait à l'origine d'une adaptation
+    fonctionnelle de l'ensemble de l'énergétique cardiaque aux nouvelles
+    conditions de fonctionnement (hypoxie) \citep{Calmettes:2010fk}.
+    La conservation d'une répartition "normale" du contrôle semble particulièrement
+    importante pour le fonctionnement de la bioénergétique cardiaque en
+    conditions d'hypoxie aigüe. En effet, contrairement aux coeurs contrôles,
+    aucune modification des paramètres
+    cardiaques (PPF et [PCr]) n'est mesurée pour les coeurs de souris hypoxiques
+    lorsque l'on diminue la concentration en O$_2$ du milieu
+    \citep{Calmettes:2010fk}.
+    Cette tolérance des souris hypoxiques à la diminution d'oxygène est
+    certainement expliquée par leur schéma de contrôle de référence, qui traduit
+    un fonctionnement "normal" de l'énergétique cardiaque. 
+    La répartition du contrôle découlant directement des valeurs d'élasticités
+    ce sont elles qui sont à l'origine de l'adaptation, ce qui montre
+    l'importance de leur détermination dans l'étude de la bioénergétique
+    cardiaque.
+    Dans le coeur de souris hypoxique, l'augmentation d'élasticité du
+    module Producteur pourrait également être
+    le mécanisme à l'origine d'une plus grande résistance de la fonction 
+    cardiaque aux conditions d'ischémie
+    \citep{Ostadal:2007ve}, résistance manifestée notamment par la diminution
+    des tailles de nécroses \citep{Meerson:1973uq}, la plus grande activité
+    contractile \citep{Tajima:1994kx}, ou encore le développement moindre d'arythmies 
+    \citep{Asemu:1999vn} lors des phases d'ischémie-reperfusion sur des coeurs
+    hypoxiques comparés à des coeurs contrôles.
+
+    L'adaptation à l'hypoxie chronique du coeur semble donc impliquer des
+    modifications cinétiques d'une ou de plusieurs composantes du 
+    Producteur (qui restent à préciser) permettant l'établissement (ou la
+    conservation) du schéma de contrôle normal du flux énergétique cardiaque.
+    De cette façon, le processus adaptatif consisterait à favoriser le
+    fonctionnement cardiaque (répartition du contrôle entre les modules
+    Producteur et Consommateur)
+    dans un environnement stressant qui implique la diminution de son activité.
+    Une des conséquences semble être l'insensibilité des coeurs hypoxiques à la
+    réduction de la concentration d'oxygène dans le milieu de perfusion, alors
+    que les coeurs contrôles présentent eux une forte diminution non seulement de
+    la concentration en PCr, mais également de la contraction lorsque l'oxygène
+    est diminué \citep{Calmettes:2010fk}. 
+   
+
+    Dans le système énergétique cardiaque,
+    l'élasticité du module Producteur semble donc très sensible
+    aux conditions dans lesquelles se trouvent le coeur.
+    Cette propriété suggère que les élasticités sont des paramètres
+    déterminants de
+    l'énergétique cardiaque pour répondre à des stress extérieurs
+    et leurs modifications traduisent des changements ayant
+    un retentissement global au niveau de la fonction (propriété émergente).
+    A notre connaissance, outre MoCA, il n'existe aujourd'hui aucune autre approche
+    permettant d'apprécier ce paramètre au niveau intégré de la bioénergétique cardiaque.
+    Il apparaît maintenant crucial de comprendre les processus moléculaires à
+    l'origine des élasticités.
+
+
+
+
+% section section name (end)
+
+
+
+  

@@ -1,0 +1,1278 @@
+\chapter{Coeur et hypoxie chronique}
+
+\begin{chapintro}
+  \malettrine{L}{'hypoxie} se définit comme la diminution de l'apport d'oxygène
+  aux tissus. Elle est le plus souvent
+  la conséquence d'une hypoxémie (diminution de la
+  quantité d'oxygène contenue dans le sang) ou de la diminution de l'apport
+  du volume sanguin.
+  
+  Dans un premier temps subie de manière aiguë,
+  cette situation peut devenir chronique pour l'homme lors de séjours prolongés en
+  altitude, mais également lors du développement de certaines pathologies, en
+  particulier les atteintes pulmonaires et les insuffisances respiratoires.
+  %L'hypoxie chronique est une situation non seulement
+  %physiologique, rencontrée chez les
+  %hommes vivants en altitude pendant une durée prolongée, mais également
+  %physiopathologique pour les malades souffrants d'atteintes pulmonaires et
+  %d'insuffisances respiratoires.
+
+  Quelle qu'en
+  soit l'origine, l'hypoxie a un très fort retentissement sur le système
+  cardiovasculaire, et en particulier sur l'ensemble de l'énergétique cardiaque
+  très dépendante de l'oxygène.
+\end{chapintro}
+
+%%% --------------------------
+%%% SECTION 1 --- PHYSIOPATHO ---
+
+\section{Hypoxie Chronique : Physiologie et Pathophysiologie}
+\label{sec:physiopatho}
+
+    \subsection{L'Hypoxie Chronique d'Altitude} % (fold)
+    \label{sub:hypoaltitude}
+    
+    %La première mention connue, du moins dans le monde occidental, de troubles
+    %dus à l'altitude, provient d'un religieux espagnol, le Père José De Acosta,
+    %qui parcourait les hauts plateaux andins après leur conquête par les
+    %troupes espagnoles. Dans un texte publié en 1590, ce missionnaire décrivit
+    %les troubles ressentis, tant par l'homme que par l'animal, et les imputa à
+    %l'altitude : \textit{"Je suis convaincu que l'élément aérien
+    %est à cet endroit si mince et délicat qu'il n'est pas propre à la
+    %respiration humaine, laquelle exige un air abondant et plus tempéré"}
+    %\citep{deAcosta1590in}.
+    
+    Sous l'influence d'un courant
+    de pensée mené par le suédois Carl Wilhelm Scheele (1742-1786),
+    l'anglais Joseph Priestley (1733-1804) ou encore le français
+    Antoine Lavoisier (1743-1794), qui laisseront ainsi leur nom à l'histoire,
+    le 18\ieme siècle fut marqué par la découverte de l'oxygène (1774) et son
+    rôle dans les oxydations phosphorylantes.
+    Au début du mois d'août 1787, Horace-Bénédict de Saussure gravit le
+    Mont-Blanc, ressentit d'intenses
+    troubles physiopathologiques et les mit sur le compte du déficit en
+    oxygène. \'Etait donc acquise la notion de pression partielle d'oxygène
+    ($\text{P}_{\text{O}_2}$)
+    comme condition de la vie, même si elle ne sera exprimée avec
+    ces mots qu'avec les travaux de \citet{Bert1878al}.
+
+    En altitude, la diminution de pression de l'air atmosphérique implique la
+    diminution de la pression partielle de chacun des gaz qui le composent,
+    dont celle du dioxygène (O$_2$). Ainsi, lors d'une inspiration, cette diminution de
+    $\text{P}_{\text{O}_2}$ conduit à une diminution de la pression
+    partielle alvéolaire pulmonaire en O$_2$ ($\text{PA}_{\text{O}_2}$),
+    ce qui limite sa diffusion dans le
+    sang (diminution de la pression partielle d'O$_2$ artérielle, 
+    $\text{Pa}_{\text{O}_2}$) et peut limiter son apport aux cellules en 
+    fonction de la saturation
+    en O$_2$ de l'hémoglobine (figure~\ref{fig:pressionoxy}).
+    %C'est l'\textit{hypoxie d'altitude}. 
+    Cette situation est particulièrement
+    préjudiciable pour les organes majoritairement oxydatifs, comme le coeur, puisque
+    la diminution d'oxygène se répercute directement au niveau de la tension
+    d'O$_2$ dans les mitochondries \citep{Gnaiger:1995fk,Mik:2009uq}
+    (figure~\ref{fig:pressionoxy}), compromettant alors
+    l'ensemble du métabolisme énergétique de l'organe \citep{Gnaiger:1995fk,Gnaiger:2001qf}.
+
+    L'hypoxie d'altitude est subie de manière chronique par les populations
+    natives des hauts plateaux (Cordillère des Andes, Chaîne Hymalaienne,
+    \dots) ou lors de séjours occasionnels en altitude (\textit{ex :} stage d'entraînement
+    en altitude pour les sportifs).
+
+    \begin{figure}[h]
+    \vspace{10pt}
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/PressionOxygene}
+    \caption[Pression partielle d'oxygène et altitude]
+    {\label{fig:pressionoxy}\protect\parbox[t]{0.8\textwidth}
+        {\textbf{Pression partielle d'oxygène et altitude.}
+        L'oxygénation des tissus dépend des gradients de pression partielle en
+        oxygène, selon la loi de Fick. En altitude, les gradients de pression
+        sont diminués à chaque étape, ce qui entraîne la diminution de l'apport
+        d'oxygène aux mitochondries.}}
+    \vspace{10pt}
+    \end{figure}
+
+    
+    % subsection hypoaltitude (end)
+
+    \subsection{L'Hypoxie Chronique Pathologique} % (fold)
+    \label{sub:hypopatho}
+    
+    %Il existe de nombreuses maladies dans lesquelles les modifications de la
+    %circulation pulmonaire imposent au ventricule droit une surcharge qui peut
+    %aboutir à l'hypertrophie et plus tard à l'insuffisance. Ces maladies,
+    %rassemblées sous la dénomination de \textit{Coeur Pulmonaire Chronique}
+    %après la parution du rapport technique établi par l'Organisation Mondiale
+    %de la Santé \citep{OMS1961rp}, 
+    %comptent pour la plupart l'hypoxie chronique comme symptôme.
+    %C'est le cas notamment de l'ensemble
+    %des affection respiratoires obstructives chroniques
+    %(bronchite chronique, pneumopathie infiltrante restrictive, maladies
+    %respiratoires obstructives de l'appareil supérieur congénitales ou
+    %acquises, \dots) qui sont caractérisées par le développement
+    %d'une hypertension artérielle pulmonaire (HTAP) secondaire à un phénomène de
+    %vasoconstriction hypoxique du lit vasculaire pulmonaire (voir
+    %sous-section~\ref{sub:htap}).
+    %D'autres pathologies sont susceptibles d'entraîner une situation
+    %d'hypoxie chronique au niveau sanguin (\textit{hypoxémie})
+    %ou cellulaire (\textit{dysoxie}).
+    %Ainsi, l'anémie pathologique par exemple - qui peut être consécutive à un processus
+    %auto-immun, une affection parasitaire, une insuffisance rénale chronique,
+    %une carence en fer ou encore une intoxication - engendre une situation
+    %d'hypoxémie chronique. De même, des conditions de dysoxie chronique peuvent survenir
+    %pour les cellules situées à proximité de zones ischémiques (tissu
+    %infarcté), nécrotiques ou tumorales.
+
+    Dans le domaine médical, l'hypoxie est une conséquence préoccupante de
+    nombreuses pathologies. 
+    La diminution d'O$_2$ est par exemple un paramètre important de l'ischémie
+    myocardique, situation dans laquelle les effets de la diminution de
+    l'apport d'oxygène s'ajoutent aux effets de la diminution du débit coronaire.
+    L'hypoxie se rencontre aussi dans toutes les pathologies liées à
+    l'insuffisance respiratoire ; cette dernière peut être d'origine
+    restrictive (maladies de la cage thoracique ou maladies neuromusculaires)
+    ou avoir pour cause des troubles de la diffusion (lésions inflammatoires
+    qui entraînent un épaississement des parois alvéolo-capillaires) ou une
+    atteinte vasculaire (coeur pulmonaire chronique post-embolique ou thrombose
+    chronique des artères pulmonaires). L'insuffisance respiratoire peut
+    également être chronique d'origine obstructive (modification de la
+    résistivité du poumon ou anomalie du rapport ventilation-perfusion).
+    L'hypoxie est également présente dans les cas d'anémie sévère, dans les
+    anomalies de la fixation de l'oxygène sur l'hémoglobine (hypoxie
+    hypoxémique) ou de la libération de l'oxygène de la molécule d'hémoglobine
+    (hypoxie normoxique).
+    
+    % subsection hypopatho (end)
+    
+
+%%% ---------------------------------------------------
+%%% SECTION 2 --- HTAP ---
+%\section{Le Système Cardiovasculaire Soumis à l'Hypoxie Chronique}
+%\label{sec:hypocoeur}
+\section{Le Phénomène d'Hypertension Artério-Pulmonaire (HTAP)} % (fold)
+\label{sec:htap}% section Le Phénomène d'Hypertension Artério-Pulmonaire (HTAP) (end)
+
+    \subsection{Vasoconstriction Hypoxique} % (fold)
+    \label{sub:vasohypo}
+    
+    % subsection Vasoconstriction Hypoxique (end)
+
+    Depuis les travaux de \citet{VonEuler1946ca}, il est établi que
+    l'hypoxie alvéolaire aigüe entraîne chez l'homme, mais également chez la
+    plupart des mammifères, une vasoconstriction pulmonaire à l'origine d'une
+    élévation des résistances vasculaires périphériques et de la pression
+    artérielle pulmonaire.
+
+    %\subsection{Le Phénomène d'Hypertension Artério-Pulmonaire (HTAP)} % (fold)
+    %\label{sub:htap}   
+
+
+    La circulation pulmonaire est la seule circulation d'organe capable de
+    réagir à une hypoxie par une vasoconstriction. Il est actuellement établi
+    que c'est le muscle lisse des petites artères pulmonaires (de calibre
+    inférieur à $300~\mu m$) qui se contracte en situation d'hypoxie. Ces
+    artérioles se trouvent au niveau des bronchioles terminales du poumon.
+    Le stimulus essentiel est la baisse de $\text{Pa}_{\text{O}_2}$ en dessous
+    d'un seuil
+    se situant autour de $60~mmHg$ chez l'homme \citep{Guenard2001he}.
+    Cette vasoconstriction hypoxique apparaît comme un  mécanisme induisant,
+    dans un territoire donné, l'ajustement de la
+    perfusion capillaire pulmonaire à la ventilation alvéolaire, 
+    permettant ainsi une
+    amélioration de l'oxygénation artérielle en maintenant un rapport
+    ventilation/perfusion au plus proche de la valeur optimale \citep{Brimioulle:1996fk}.
+    La vasoconstriction hypoxique résulte essentiellement d'une inhibition de
+    canaux potassium voltage-dépendants des cellules musculaires lisses avec
+    une modulation endothéliale \citep{Weir:1995uq}.
+
+    Cette vasoconstriction hypoxique initiale est rapidement suivie par 
+    un remodelage artériolaire, principalement dû à la mise en place de
+    processus inflammatoires intenses dans les $8$ premières heures. Cependant,
+    après plusieurs jours d'exposition, l'infiltration des
+    cellules inflammatoires diminue fortement et
+    ce remodelage se limite principalement à une hypertrophie médiale
+    des artérioles pulmonaires avec quelques proliférations adventitielles,
+    mais peu ou pas d'épaississement intimal
+    (figure~\ref{fig:remodarteriol}) \citep{Chen:1995kx}.
+
+
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figures/ChenAJP1995}
+    \caption[Remodelage Artériolaire Pulmonaire Hypoxique]{\label{fig:remodarteriol}
+    \protect\parbox[t]{0.8\textwidth}
+        {\textbf{Remodelage Artériolaire Pulmonaire Hypoxique.}
+        Coupes transversales d'artérioles pulmonaires (PA) de rat contôle (à
+        gauche) et de rat soumis à deux semaines d'hypoxie (à droite).
+        L'hypoxie a provoqué une hypertrophie
+        médiale, sans modifications intimales ou adventitielles. (Figure
+        issue de \citet{Chen:1995kx})}}
+    \vspace{10pt}
+    \end{figure}
+    
+
+    
+    % subsection Le Phénomène d'Hypertension Artério-Pulmonaire (HTAP) (end)
+    
+    %\subsection{Modifications Anatomiques et Fonctionnelles} % (fold)
+    %\label{sub:modifcoeur}
+    
+    \subsection{Remodelage Cardiaque} % (fold)
+    \label{sub:remodcoeur}
+
+
+    La diminution de la vasomotricité pulmonaire et l'installation d'un
+    remodelage artériolaire dans le phénomène d'HTAP sont responsables de
+    l'augmentation des résistances vasculaires pulmonaires à
+    l'écoulement sanguin. Cette résistance vasculaire plus importante
+    s'installe en effet sans
+    variation du débit sanguin pulmonaire, qui est imposé par le débit sanguin
+    systémique (la totalité du sang passe dans le poumon, quelle que soit la
+    pression artérielle pulmonaire), d'où une augmentation des pressions
+    capillaires.
+    
+
+    
+    % subsection Remodelage Cardiaque (end)
+    
+    Le coeur est particulièrement sensible à cette modification de la
+    pression sanguine, et l'accroissement des résistances vasculaires à
+    l'origine de l'HTAP se traduit, sur le plan hémodynamique, par une
+    augmentation de la post-charge du ventricule droit. Cette sollicitation
+    chronique provoque un remodelage de ce ventricule, qui est une structure
+    très compliante, et a notamment pour conséquence une dilatation et une hypertrophie
+    du myocarde droit (figure~\ref{fig:RVhypertrophy}) 
+    menant à l'insuffisance cardiaque droite. En effet, contrairement à
+    la perfusion coronaire gauche qui se fait principalement durant la
+    diastole, la perfusion coronaire droite d'un coeur sain a lieu à la fois 
+    en systole et en diastole. En cas d'hypertension artérielle
+    pulmonaire, la perfusion coronaire droite n'est plus assurée qu'en
+    diastole (pressions trop importantes lors de la systole),
+    diminuant ainsi l'apport en oxygène alors que les besoins du coeur augmentent.
+
+    \begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/RVhypertrophy}
+    \caption[Modifications anatomiques cardiaques induites par l'HTAP]
+    {\label{fig:RVhypertrophy}\protect\parbox[t]{0.8\textwidth}
+        {\textbf{Modifications anatomiques cardiaques induites par l'HTAP.}
+        {\bf A)} L'augmentation de la post-charge du ventricule droit induite
+        par l'HTAP entraîne une sollicitation excessive de ce ventricule,
+        menant à une hypertrophie et dilatation sévère. Cette modification
+        anatomique est à l'origine de la diminution de la cavité
+        ventriculaire gauche du fait du déplacement du septum
+        interventriculaire vers l'intérieur de cette cavité.
+        {\bf B)} Image par Résonance Magnétique
+        du coeur d'un
+        patient atteint d'une hypertension pulmonaire (vue en petit axe, phase
+        de début de diastole) (image issue de \citet{Blyth2009kg}).
+        Le ventricule droit
+        est dilaté et hypertrophié, et le septum interventriculaire (flèche
+        blanche) est déplacé vers le ventricule gauche.
+        \textit{RV :} Ventricule Droit. \textit{LV :} Ventricule Gauche.}}
+    \vspace{10pt}
+    \end{figure}
+    
+    
+    De plus, le péricarde entourant le coeur étant inextensible,
+    il existe un haut degré d'interdépendance entre les deux ventricules,
+    médié par les mouvements du septum \citep{Clyne:1989fk,Jardin:2003uq}.
+    Ainsi, la modification de la géométrie du ventricule droit consécutive à l'HTAP,
+    et plus particulièrement sa dilatation,
+    entraîne le déplacement
+    du septum interventriculaire vers la cavité du ventricule gauche
+    (figure~\ref{fig:RVhypertrophy}).
+    Ce décalage altère la
+    fonction ventriculaire gauche par réduction de volume de ce ventricule,
+    diminuant à la fois sont remplissage et sa compliance
+    \citep{Louie:1986kx,Marcus:2001vn}.
+    
+    Le développement d'une
+    HTAP hypoxique chronique secondaire à l'hypoxie a donc un retentissement
+    global sur la fonction cardiaque, et entraîne 
+    une insuffisance des deux ventricules.
+    
+    %Toutes ces modifications anatomiques ont également été mesurées sur les
+    %modèles animaux soumis à des périodes d'hypoxie hypobarique de $3$ à 
+    %$5$ semaines \citep{Reboul:2005ys,Miraux:2009gd}.
+
+
+
+    % subsection modifcoeur (end)
+
+    %\subsection{Métabolisme \'Energétique Cardiaque et Hypoxie} % (fold)
+    %\label{sub:modifenergetique}
+\section{Métabolisme \'Energétique Cardiaque et Hypoxie} % (fold)
+\label{sec:metabCH}
+
+% section Métabolisme \'Energétique Cardiaque et Hypoxie (end)
+
+
+    %\subsubsection{Rappels de Métabolisme \'Energétique Cellulaire} % (fold)
+    %\label{ssub:rappelmetab}
+    \subsection{Le Métabolisme \'Energétique Cellulaire Cardiaque} % (fold)
+    \label{sub:metabcell}
+    
+    % subsection Le Métabolisme \'Energétique Cellulaire (end)
+    \subsubsection{Production et Consommation d'\'Energie} % (fold)
+    \label{ssub:prodconso}
+    
+    Toute cellule requiert un apport d'énergie constant pour assurer son
+    fonctionnement. 
+    Dans les cellules cardiaques, les réactions consommant majoritairement l'énergie
+    sont liées à la contraction, avec les ATPases myofibrillaires, les pompes
+    Ca$^{2+}$-ATPases du réticulum sarcoplasmique (SERCA)
+    %, voir sous-section \ref{ssub:calciumCH}) 
+    et les pompes Na$^+$/K$^+$-ATPases du sarcolème 
+    %(voir sous-section \ref{ssub:calciumCH})
+    \citep{Rolfe:1997vn,Ingwall:2004ve} (figure~\ref{fig:metabcell}).
+    La synthèse et la dégradation des (macro)molécules
+    consomment également de l'énergie, mais dans une plus faible mesure
+    (figure~\ref{fig:metabcell}).
+
+    Cette énergie provient
+    essentiellement des réactions du catabolisme, 
+    %avec notamment la glycolyse et les oxydations phosphorylantes mitochondriales,
+    à l'origine de la génération d'énergie sous forme d'ATP et de cofacteurs
+    réduits, Nicotinamide Adénine Dinucléotide (NADH) et
+    Flavine Adénine Dinucléotide (FADH$_2$) (figure~\ref{fig:metabcell}).
+    Les cellules cardiaques peuvent ainsi oxyder 
+    différents substrats, comme le glucose, les acides gras, le lactate, le
+    pyruvate, et même les acides aminés et les corps cétoniques
+    \citep{Bing:1965fk}.
+
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{figures/MetabolismCell}
+    \caption[Métabolisme \'Energétique Cellulaire Cardiaque]
+    {\label{fig:metabcell}\protect\parbox[t]{0.8\textwidth}
+        {\textbf{Métabolisme \'Energétique Cellulaire.}
+        TG, transporteurs de glucose. TL, transporteurs de lactate. TAG,
+        transporteurs des acides gras. HK, hexokinase. LDH, lactate
+        déshydrogénase. CPT1 et CPT2, carnitine 
+        palmitoyl transferase 1 et 2. Gluta, glutamate. OAA, oxaloacétate.
+        $\alpha$KG, $\alpha$-cétoglutarate. RS, réticulum sarcoplasmique. GTP,
+        guanine triphosphate. GDP, guanine diphosphate.}}
+    \vspace{12pt}
+    \end{figure}
+
+    % subsubsection Transport des Substrats dans les Cardiomyocyte (end)
+
+    La membrane cellulaire est imperméable au glucose. Celui-ci doit donc, pour
+    entrer ou sortir de la cellule, transiter par des transporteurs spécifiques
+    (\textit{TG}, figure~\ref{fig:metabcell})
+    qui sont des protéines transmembranaires. Dans les cardiomyocytes, il
+    %existe deux grandes catégories de transporteurs : les cotransporteurs
+    %glucose-sodium (SGLT1, \citep{Banerjee:2009uq}), consommateurs 
+    %d'énergie et qui concentrent le glucose
+    %contre un gradient de concentration  et 
+    %les transporteurs facilitatifs de glucose
+    %(GLUT, \citep{Pessin:1992fk,Joost:2001kx}),
+    %essentiellement les isoformes GLUT-1 et GLUT-4.
+    s'agit majoritairement des transporteurs facilitatifs de glucose,
+    (GLUT, \citep{Pessin:1992fk,Joost:2001kx}),
+    essentiellement les isoformes GLUT-1 et GLUT-4.
+    Après son entrée dans la cellule, le glucose est phosphorylé en
+    glucose-6-phosphate, réaction catalysée par l'hexokinase (HK),
+    avant d'être dégradé dans la glycolyse (figure~\ref{fig:metabcell}). Au
+    cours de cette dernière, en plus de la phosphorylation directe d'ADP en
+    ATP de manière anaérobie, des équivalents réducteurs (essentiellement 
+    sous forme de NADH) sont générés, et transfèrent leurs électrons
+    à la chaîne respiratoire mitochondriale. D'autres équivalents
+    réducteurs (NADH et FADH$_2$) sont issus de la dégradation
+    du pyruvate %(produit par la glycolyse) par
+    par le cycle de Krebs et participent également à l'alimentation de la chaîne
+    respiratoire en électrons (figure~\ref{fig:metabcell}).
+    %%%%%%
+    Le NADH ne peut passer directement la membrane interne mitochondriale. Les cofacteurs
+    réduits issus de la voie glycolytique sont en fait transportés dans la
+    mitochondrie par un système de navette. La navette la plus importante pour
+    l'oxydation du NADH cytosolique est la navette malate/aspartate, où
+    l'oxaloacétate est réduit en malate dans le compartiment cytoplasmique, la
+    réaction inverse ayant lieu dans la mitochondrie
+    (figure~\ref{fig:metabcell}).
+    
+     Après l'activation, dans le cytoplasme, des acides gras à longue chaîne 
+    ($12$ à $20$ carbones) en acyl-CoA, réaction catalysée par l'acyl-CoA
+    synthase, leur entrée dans la mitochondrie met également en jeu un
+    système de transport impliquant l'action
+    concertée de la carnitine, de la carnitine-palmitoyl transférase 1 (CPT1),
+    de l'acyl-carnitine translocase, et de la carnitine-palmitoyl transférase 2
+    (CPT2) \citep{McGarry:1997zr} (figure~\ref{fig:metabcell}).
+    En revanche, les acides gras à chaîne moyenne ($6$ à $10$ carbones) et
+    courte ($2$ à $4$ carbones) pénètrent dans la mitochondrie par simple
+    diffusion à travers la membrane interne.
+    Les acides gras sont ensuite dégradés
+    par la $\beta$-oxydation, permettant la génération d'acétyl-CoA et de
+    NADH-FADH$_2$ qui seront pris en charge respectivement par le cycle de
+    Krebs et la chaîne respiratoire (figure~\ref{fig:metabcell}).
+
+    %L'oxydation des différentes chaînes carbonées dans la mitochondrie au
+    %niveau du cycle de Krebs et de la $\beta$-oxydation génèrent des équivalents
+    %réducteurs, sous forme de Nicotinamide Adénine Dinucléotide (NADH) et
+    %Flavine Adénine Dinucléotide (FADH$_2$),
+    %qui sont véhiculés jusqu'à la chaîne respiratoire mitochondriale
+    %sous forme de NADH et FADH$_2$. % (figure~\ref{fig:metabcell}).
+
+    % subsubsection NRJmito} (end)
+    La libération des équivalents réducteurs au sein de la chaîne respiratoire
+    mitochondriale implique des mécanismes de transfert d'électrons entre les
+    différents complexes enzymatiques, couplant l'oxydation du NADH et du
+    FADH$_2$ à l'extrusion de protons (H$^+$) de la matrice mitochondriale
+    dans l'espace intermembranaire (figure~\ref{fig:chainerespi}).
+    De par sa fonction d'accepteur final d'électrons dans la chaîne
+    respiratoire mitochondriale, l'oxygène joue donc un rôle essentiel dans 
+    l'ensemble de ce processus (figure~\ref{fig:chainerespi}).
+ 
+    
+ \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/ChaineRespi}
+    \caption[Chaîne respiratoire mitochondriale]
+    {\label{fig:chainerespi}\protect\parbox[t]{0.8\textwidth}
+        {\textbf{Chaîne respiratoire mitochondriale.}
+        }}
+    \vspace{10pt}
+    \end{figure}
+
+    
+    Cette distribution des charges
+    électriques de part et d'autre de la membrane interne est responsable de
+    l'établissement d'un potentiel électrochimique ($\Delta\mu$H$^+$) ou force
+    protonmotrice, qui est converti en potentiel de phosphorylation
+    ($\Delta\text{Gp}_\text{mito}$) par l'ATP synthase
+    en couplant la phosphorylation d'ADP au retour des protons
+    dans la matrice \citep{Mitchell:1961uq}
+    (figure~\ref{fig:chainerespi}). 
+    Cependant le rendement de ce système dépend de l'importance des fuites de
+    protons, qu'elles soient dues à la perméabilité naturelle de la membrane
+    interne ou aux protéines découplantes (UCP, pour \textit{Uncoupling Protein})
+    présentes dans cette membrane
+    (figure~\ref{fig:chainerespi}). Il a été montré que ces fuites sont
+    uniquement dépendantes du potentiel de membrane \citep{Brand:1994uq}, 
+    et leur importance est donc modulée par l'activité mitochondriale.
+
+    Le potentiel de phosphorylation cytosolique 
+    ($\Delta\text{Gp}_\text{cyto}$), est généré à partir de ce 
+    $\Delta\text{Gp}_\text{mito}$ par deux transports électrogéniques, le
+    transport du phosphate (Pi) (échange avec un proton) et l'échangeur ADP/ATP
+    (ANT).
+    Dans les cellules cardiaques,
+    l'ATP produit au cours de la phosphorylation oxydative est exporté dans le
+    cytosol sous forme de phosphocréatine (PCr), du fait de la présence 
+    de l'isoforme mitochondrial de la créatine kinase (miCK) ainsi que de la
+    porine (VDAC, pour \textit{Voltage Dependant Anion Channel})
+    (figure~\ref{fig:chainerespi}).
+
+    % subsubsection systemetransfert} (end)
+
+    Le $\Delta\text{Gp}_\text{cyto}$, généré par la mitochondrie et la
+    glycolyse, dépend du rapport des principaux
+    métabolites phosphorylés mis en jeu dans la réaction d'hydrolyse de l'ATP 
+    (équation~\ref{eq:delatGp}).
+    
+    \begin{equation}
+        \label{eq:delatGp}
+        \Delta\text{Gp}_\text{cyto} = \Delta\text{G}_0 +
+        \text{R}\cdot\text{T}\cdot\ln{\frac{\text{[ADP]}\cdot\text{[Pi]}\cdot
+        \text{[H}^+\text{]}}
+        {\text{[ATP]}}}
+        \vspace{5pt}
+    \end{equation}
+    
+    %avec \begin{tabular}[t]{l}
+    %        $\Delta\text{G}_0 = -9742~J\cdot mol^{-1}$\\
+    %        R constante\\
+    %        T température en Kelvin\\
+    %     \vspace{10pt}
+    %     \end{tabular} 
+
+    La composante du $\Delta$Gp liée aux concentrations des métabolites
+    phosphorylés est connectée aux concentrations de créatine et
+    PCr cytosoliques par la navette Phosphocréatine-Créatine
+    Kinase (PCr-mbCK) \citep{Jacobus:1973fk,Meyer:1984uq,Wallimann:1992kx}
+    (figure~\ref{fig:ckschuttle}).
+    Le fonctionnement de cette navette, basé sur une compartimentation
+    sub-cellulaire de la créatine kinase, facilite le transport de l'énergie,
+    sous forme de potentiel phosphate, des sites de production (chaîne
+    respiratoire mitochondriale et glycolyse) aux sites d'utilisation (ATPases
+    myofibrillaires et ioniques)
+    (figure~\ref{fig:ckschuttle}) \citep{Wallimann:1992kx}.
+
+ \begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{figures/CK_Schuttle}
+    \caption[La PCr métabolite central de l'énergétique musculaire]
+    {\label{fig:ckschuttle}\protect\parbox[t]{0.8\textwidth}
+        {\textbf{La phosphocréatine (PCr) métabolite central de l'énergétique musculaire}
+        L'existence de la navette Phosphocréatine~/~Créatine Kinase, facilite
+        le transport de l'énergie des sites de production aux sites
+        d'utilisation.}}
+    \vspace{10pt}
+    \end{figure}
+
+
+
+    Le système des CK cytosoliques relie la production d'ATP à la demande
+    énergétique en couplant le transfert d'énergie (sous forme de PCr), depuis
+    les sites de production jusqu'aux sites d'utilisation, avec le transfert
+    d'un signal sous forme de créatine en retour \citep{Wallimann:1992kx}
+    (figure~\ref{fig:ckschuttle}).
+
+    Le fonctionnement du système CK-PCr assure ainsi le contrôle local des
+    concentrations d'ADP et d'ATP, et garantit
+    l'efficacité cinétique des ATPases. En effet, le maintien d'un rapport en
+    faveur d'un $\Delta$Gp élevé près de ces ATPases est un contrôle
+    thermodynamique particulièrement important, notamment pour les enzymes
+    couplées à des gradients ioniques réversibles comme l'ATPase du réticulum
+    sarcoplasmique.
+    De plus, le transfert par la créatine kinase du groupe phosphate entre
+    l'ATP et la PCr s'effectue à un taux $\approx10$ fois plus important que le taux
+    de synthèse d'ATP par la phosphorylation oxydative \citep{Bittl:1985qf}, 
+    ce qui permet de considérer la réaction de la CK 
+    comme étant proche de l'équilibre. Pour cette raison, ce système
+    agit comme un mécanisme "tampon" de l'ATP cellulaire et fait de la
+    concentration de PCr (ou plus exactement du rapport
+    [PCr]/[Cr]) un paramètre représentatif du
+    $\Delta$Gp (figure~\ref{fig:ckschuttle}). La PCr assume donc un
+    véritable rôle d'intermédiaire énergétique connecté au
+    $\Delta$Gp en reliant les sites de production et d'utilisation
+    d'énergie, à travers la compartimentation des isoformes de créatine kinase
+    \citep{Wallimann:1992kx}.
+
+    \subsubsection{Couplage Excitation-Contraction} % (fold)
+    \label{ssub:couplageEC}
+
+    Les mouvements calciques jouent un rôle majeur dans le couplage
+    excitation-contraction (figure~\ref{fig:eccoupling}), en particulier
+    dans le cas du coeur dont l'activité contractile est constante.
+
+
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/EC_coupling}
+    \caption[Couplage excitation-contraction]
+    {\label{fig:eccoupling}\protect\parbox[t]{0.8\textwidth}
+        {\textbf{Couplage excitation-contraction.}
+        Ca, calcium. PA, potentiel d'action. 
+        RS, réticulum sarcoplasmique. CICR, mécanisme de larguague du calcium
+        par le RS en réponse à une augmentation calcique locale.
+        RyR, récepteur à la
+        ryanodine. L, canaux calciques de type L. SERCA,
+        sarco/endoplasmic reticulum Ca$^{2+}$-ATPases. PLB, phospholambane.
+        NCX, échangeur Na$^+$/Ca$^{2+}$. MCU, uniport calcique mitochondrial.
+        PTP, pore de transition mitochondrial.
+        (Figure inspirée de \citep{Bers:2002fk})}}
+    \vspace{10pt}
+    \end{figure}
+
+    Le couplage excitation-contraction est défini comme l'ensemble des
+    processus qui conduisent à l'activation des protéines contractiles à partir
+    d'une dépolarisation membranaire. L'état initial est souvent considéré
+    comme la cellule au repos, caractérisée par une
+    concentration calcique très basse ($100~nM$) dans le cytoplasme.
+    L'arrivée
+    d'un potentiel d'action (PA) va entraîner une vague de dépolarisation propagée
+    sur tout le sarcolème, et notamment dans ses invaginations, les tubules T
+    (figure~\ref{fig:eccoupling}).
+    La membrane de ces derniers, contient des canaux calciques de type L,
+    dont l'ouverture, résultante de la dépolarisation membranaire, 
+    va induire l'augmentation du calcium dans le cytoplasme des
+    cardiomyocytes (figure~\ref{fig:eccoupling}).
+    Cette entrée de Ca$^{2+}$ n'est pas suffisante pour activer les protéines
+    contractiles, mais va déclencher l'ouverture du récepteur à la ryanodine
+    (RyR) - le
+    canal calcique du réticulum sarcoplasmique (RS) -
+    par un mécanisme auto-catalytique appelé CICR
+    (\textit{Calcium-Induced Calcium-Release}) (figure~\ref{fig:eccoupling}).
+    Ce mécanisme d'amplification
+    permet d'atteindre localement une concentration calcique qui avoisine
+    $1~\mu M$, ce qui va permettre la contraction musculaire. Cette
+    augmentation de concentration calcique va également jouer un rôle dans
+    l'ajustement de l'activité mitochondriale à l'augmentation de la demande
+    énergétique \citep{Balaban:1990fk,Cortassa:2003uq,Diolez:2007ly}.
+    En effet, une fois rentré dans la mitochondrie
+    par l'uniport calcique (MCU) (figure~\ref{fig:eccoupling}),
+    le calcium va activer l'activité de certaines déshydrogénases du cycle de
+    Krebs \citep{Denton:1978uq,McCormack:1979kx,Denton:1980vn}.
+
+    La diminution rapide de la concentration calcique permet ensuite la
+    relaxation du myocyte. Selon l'espèce, $80~\%$ à $90~\%$ du Ca$^{2+}$
+    systolique est recapté dans le RS par des pompes calciques ATP dépendantes
+    (SERCA, \textit{Sarco/Endoplasmic Reticulum Ca$^{2+}$-ATPases}) dont
+    l'activité est régulée par la phosphorylation d'une protéine associée, le
+    phospholambane (PLB) (figure~\ref{fig:eccoupling}).
+    Les $10~\%$ à $20~\%$ restants sont sorti de la cellule, majoritairement
+    par l'échangeur Na$^+$/Ca$^{2+}$ (NCX) ou par la Ca$^{2+}$-ATPase de la
+    membrane plasmique (figure~\ref{fig:eccoupling}). Après sortie du calcium,
+    la pompe Na$^+$/K$^+$-ATPase permet de rééquilibrer la concentration de sodium
+    dans le cytosol (figure~\ref{fig:eccoupling}). Pendant la contraction, le
+    contrôle du pH intracellulaire est assuré par l'activité du transporteur
+    Na$^+$/H$^+$ (NHX) qui permet l'élimination des protons (figure~\ref{fig:eccoupling}).
+
+
+    
+    % subsubsection couplageEC (end)
+
+    
+    %\subsubsection{\'Energétique cardiaque et hypoxie}
+    %\label{ssub:alterationmito}
+    \subsection{Production d'\'Energie et Hypoxie} % (fold)
+    \label{sub:NRJprod}
+    
+    % subsection \'Energétique Cardiaque et Hypoxie (end)
+
+%\noindent\textbf{Effets de l'Hypoxie Aigüe}
+    \subsubsection{Effets de l'Hypoxie Aigüe} % (fold)
+    \label{ssub:hypoaigueNRJ}
+    
+    % subsubsection Effets de l'Hypoxie Aigüe (end)
+
+    Dans son fonctionnement physiologique normal,
+    le métabolisme énergétique cardiaque repose principalement sur les
+    oxydations phosphorylantes mitochondriales \citep{Balaban:1990fk}.
+    Le coeur est ainsi un des organes les plus oxydatifs, et bien qu'il ne
+    représente que $0,4~\%$ du poids corporel total, il est responsable de près de 
+    $11~\%$ de la consommation d'oxygène globale du sujet \citep{Rolfe:1997vn}.
+    Le métabolisme énergétique cardiaque est donc particulièrement affecté par la
+    diminution directe de la $\text{Pa}_{\text{O}_2}$. La diminution de l'apport
+    en oxygène limite la
+    respiration mitochondriale \citep{Reimer1986je}, ce qui diminue
+    de manière importante la production cellulaire d'énergie
+    \citep{Gnaiger:2001qf}. Ceci est par
+    exemple illustré par les travaux de \citet{Hutter:1990fk} qui,
+    après avoir soumis des coeurs isolés travaillants de rat à une anoxie,
+    ont mis en évidence une forte diminution du contenu en ATP dans les
+    mitochondries.
+
+    Cette limitation de l'activité de la phosphorylation oxydative
+    implique l'oxydation moins importante des différents substrats, et en
+    particulier celle des acides gras par la $\beta$-oxydation, substrat
+    majoritaire des cellules cardiaques.
+    Ceci a pour conséquence une diminution de la carnitine libre et une accumulation
+    intramitochondriale d'acyl-CoA et d'acyl-carnitine à longue chaîne. Ces
+    composés entraînent des altérations membranaires
+    importantes et sont notamment à l'origine d'une inhibition enzymatique de
+    l'ANT \citep{Borutaite:1989kx,Dhalla:1992vn} accentuant la
+    baisse de production d'ATP \citep{Dhalla:1992vn}.
+    \\
+    %Des expériences RMN de transfert de saturation sur des rats \textit{in
+    %vivo} pour lesquels la fraction d'oxygène inhalée avait été abaissée à $10~\%$ ou
+    %$8~\%$ ont également suggéré que l'activité de la créatine kinase était
+    %diminuée durant la phase d'hypoxie \citep{Bittl:1987uq}, affectant alors
+    %l'établissement du $\Delta$Gp en hypoxie \citep{Gnaiger:2001qf}.
+    %\\
+
+
+%\noindent\textbf{Effets de l'Hypoxie Chronique}
+    \subsubsection{Effets de l'Hypoxie Chronique} % (fold)
+    \label{ssub:hypochroNRJ}
+    
+    % subsubsection Effets de l'Hypoxie Chronique (end)
+
+    En hypoxie chronique, des mécanismes
+    adaptatifs se mettent en place, le métabolisme énergétique cardiaque étant
+    alors fortement modifié \citep{Essop:2007ly,Ostadal:2007ve}.
+    Ceci se reflète par une modification
+    de l'expression et de l'activité des protéines impliquées dans
+    l'énergétique et les différentes voies métaboliques du coeur.
+    %De manière chronique, modif globale des protéines et enzymes du métabolisme
+    %énergétique oxydatif.
+    %altération mito (nouette gaulain), altération enzymes béta oxydation, etc.
+    %modif CK isoforme
+    %
+    %En parallèle, augmentation capacité glycolytique (de part l'avantage du
+    %glucose)
+
+
+    
+
+    Ainsi, l'hypoxie chronique induit une diminution de la capacité de
+    phosphorylation oxydative des cellules du myocarde
+    \citep{Nouette-Gaulain:2005zr}. Cette baisse de la capacité de synthèse mitochondriale
+    d'ATP est expliquée à la fois par une diminution de la masse mitochondriale
+    (montrée par diminution de l'activité de la citrate synthase) et 
+    par une réduction moyenne de plus de 
+    $30$~\% de l'activité enzymatique de la chaîne respiratoire mitochondriale 
+    %(tableau~\ref{tab:complexesCH})
+    \citep{Nouette-Gaulain:2005zr}.
+%    \begin{table}[h]
+%        \vspace{10pt}
+%        
+%        \centering
+%        \caption[Effects de l'hypoxie chronique sur l'activité enzymatique des complexes de
+%        la chaîne respiratoire]
+%        {\label{tab:complexesCH} Effects de l'hypoxie chronique sur 
+%        l'activité enzymatique des complexes de
+%        la chaîne respiratoire et de la citrate synthase dans le coeur de rat 
+%        (Tableau issu de \citep{Nouette-Gaulain:2005zr}).}
+%
+%        \begin{tabular}{p{0.8cm}lllll}
+%        \hline
+%        \rule[-0.25cm]{0cm}{0.7cm} % hteur cellule 0.7cm, txt décalé 0.25cm vers bas
+%        {~} & Complexe I & Complexe II & Complexe III & Complexe IV & Citrate
+%        Synthase\\
+%        \hline
+%        \multicolumn{2}{l}{\textit{Normoxie}} &\rule[-0.25cm]{0cm}{0.9cm} & & & \\
+%        VD & $271~\pm 38$ & $301~\pm 45$ & $964~\pm 68$ & $1984~\pm 233$ &
+%        $1036~\pm 73$\\
+%        VG & $236~\pm 26$ & $270~\pm 44$ & $923~\pm 81$ & $1984~\pm 228$ &
+%        $1004~\pm 73$\\
+%        %\rule[-0.25cm]{0cm}{0.7cm} % hteur cellule 0.7cm, txt décalé 0.25cm vers bas
+%        \multicolumn{2}{l}{\textit{14 jours d'hypoxie}} &\rule[-0.25cm]{0cm}{0.9cm} & & & \\
+%        VD & $205~\pm 14$ & $218~\pm 19$ & $806~\pm 42$ & $1932~\pm 177$ &
+%        $1868~\pm 52$\\
+%        VG & $136~\pm 15^*$ & $141~\pm 20$ & $666~\pm 49^*$ & $1550~\pm 133$ &
+%        $766~\pm 44^*$\\
+%        %\rule[-0.25cm]{0cm}{0.7cm} % hteur cellule 0.7cm, txt décalé 0.25cm vers bas
+%        \multicolumn{2}{l}{\textit{21 jours d'hypoxie}} &\rule[-0.25cm]{0cm}{0.9cm} & & & \\
+%        VD & $167~\pm 29^*$ & $124~\pm 8^*$ & $658~\pm 153^*$ & $1004~\pm 163^*$ &
+%        $601~\pm 70^*$\\
+%        VG & $205~\pm 23$ & $145~\pm 6^*$ & $644~\pm 135^*$ & $1157~\pm 254^*$ &
+%        $662~\pm 48^*$\\
+%        \hline
+%        
+%    \end{tabular}
+%    \vspace{2pt}
+%
+%    \raggedright
+%    VD, Ventricule Droit ; VG, Ventricule Gauche ; * significatif (P<$0.05$) comparé aux
+%    valeurs de normoxie.
+%    \vspace{10pt}
+%    \end{table}
+    Cette modification affecte différemment les deux ventricules.
+    Après $14$~jours d'hypoxie chronique hypobare ces effets sont déjà observés
+    dans le ventricule gauche \citep{Nouette-Gaulain:2005zr}. 
+    Ce n'est qu'après $21$~jours
+    d'acclimatation et une hypertrophie totalement développée 
+    que l'altération mitochondriale est
+    aussi constatée dans le ventricule droit 
+    %(tableau~\ref{tab:complexesCH}) 
+    \citep{Nouette-Gaulain:2005zr}.
+    Cette différence d'évolution entre les deux ventricules 
+    pourrait s'expliquer par des processus d'accroissement de
+    la capacité oxydative liés au développement du myocarde droit
+    (hypertrophie) qui permettrait un maintien de la capacité oxydative en
+    compensant les effets délétères de la privation d'oxygène, de ce fait observés plus
+    précocement dans le ventricule gauche. 
+    %En effet, une amélioration de la
+    %capacité de production, de transfert et d'utilisation de l'énergie a par
+    %exemple été rapportée par \citet{Baudet:1994ly} sur des fibres
+    %perméabilisées de coeur de furet ayant développé une hypertrophie
+    %droite en absence d'hypoxie, réalisée en augmentant la post-charge du ventricule
+    %droit par sténose artificielle de l'artère pulmonaire.
+
+    Une augmentation de l'expression des UCP2 dans les deux
+    ventricules a également été mesurée sur
+    mitochondries de coeur de rat à partir de 14 jours d'hypoxie chronique,
+    tandis que l'expression des UCP3 semble diminuer
+    \citep{Zungu:2007vn,Zungu:2008ys}. L'impact de ces modifications sur les
+    fuites de protons n'est pas clairement défini, puisqu'une augmentation 
+    des fuites de protons n'est mesurée que dans le ventricule gauche
+    \citep{Zungu:2008ys}. Ce résultat pourrait
+    impliquer un mécanisme de diminution du potentiel membranaire pour diminuer
+    le taux de réduction des quinones et donc limiter la production d'espèces
+    oxygénées réactives (ROS) \citep{Brand:2005ys}.
+
+
+    Cette altération de l'énergétique mitochondriale joue certainement 
+    un rôle majeur dans la diminution du contenu cellulaire en PCr observée 
+    durant le processus d'adaptation à l'hypoxie chronique
+    \citep{Rossi:1996nx,Novel-Chate:1995oq,Novel-Chate:1998kl},
+    modification à l'origine de la baisse du rapport PCr/ATP. 
+    %qui s'est avéré être un facteur pronostique
+    %de la mortalité \citep{Neubauer:1992cr,Neubauer:1997kx}.
+    %Toutefois, malgré une concentration basale en PCr plus faible,
+    %\citet{Novel-Chate:1995oq}
+    %ont mesuré non seulement une diminution plus faible de [PCr] pour une même
+    %augmentation de travail cardiaque suite à une stimulation
+    %$\beta$-adrénergique sur des coeurs de rats hypoxiques, mais également une
+    %resynthèse de PCr plus importante à l'arrêt de la stimulation
+    %$\beta$-adrénergique menant même à un "overshoot"
+    %par rapport au niveau basal pré-stimulation \citep{Novel-Chate:1995oq}.
+    %Pour expliquer ces
+    %résultats, les auteurs ont émis l'hypothèse d'un meilleur couplage de la
+    %miCK avec l'ANT
+    %ou encore celle d'une plus grande activation des déshydrogénases
+    %mitochondriales en réponse à l'augmentation de la concentration en calcium
+    %dans le cytosol et la matrice mitochondriale \citep{Novel-Chate:1995oq}.
+    %Cependant, dans leurs travaux ultérieurs, ces auteurs
+    %observent une plus petite stimulation de la respiration mitochondriale à
+    %l'ADP par l'addition de créatine sur fibres isolées perméabilisées de coeur
+    %de rat hypoxique \citep{Novel-Chate:1998kl}, suggérant ainsi qu'aucune
+    %amélioration du couplage miCK-ANT n'est développée lors de l'adaptation à
+    %l'hypoxie chronique. Ce résultat est opposé à ce
+    %qu'avait précédemment montré
+    %\citet{Field:1994tg} sur un modèle de rat soumis à une hypoxie
+    %anémique induite par une baisse en fer, où une augmentation de $20$~\% de
+    %l'effet stimulant de la créatine avait été mesuré.
+    L'activité totale de la créatine kinase est également altérée lors de
+    l'adaptation à l'hypoxie chronique
+    \citep{Field:1994tg,Pissarek:1997hc,Novel-Chate:1998kl} et cette diminution
+    est accompagnée par une modification du profil de répartition des
+    différentes isoformes
+    \citep{Field:1994tg,Pissarek:1997hc,Novel-Chate:1998kl}. Ainsi, après trois
+    semaines d'hypoxie, on constate sur le coeur une augmentation
+    relative de l'expression de la créatine
+    kinase cytosolique \citep{Field:1994tg,Pissarek:1997hc}. 
+    %Cette modification n'est pas
+    %uniforme, seule les activités de la mbCK et de bbCK sont augmentées,
+    %l'activité de la mmCK n'étant pas modifiée \citep{Novel-Chate:1998kl}. 
+    En
+    ce qui concerne la créatine kinase mitochondriale, une
+    réduction d'activité n'est observée que dans le ventricule gauche
+    \citep{Pissarek:1997hc,Novel-Chate:1998kl}, suggérant une adaptation
+    plus particulière de cet isoforme avec le
+    développement de l'hypertrophie droite. 
+    Le lien que pourrait avoir cette altération du système PCr~/~CK
+    avec une possible diminution de $\Delta$Gp après hypoxie chronique reste
+    cependant à déterminer.
+
+      
+    %Toutes ces modifications
+    %énergétiques sont également décrites dans plusieurs autres modèles
+    %d'insuffisance cardiaque, où une altération de la vitesse de réaction de la
+    %créatine kinase, une distribution isoenzymatique modifiée et une baisse du
+    %contenu en métabolites phosphorylés sont montrés
+    %\citep{Nascimben:1996ij,Smith:2006bs}.
+
+
+    %\subsubsection{L'Hypoxie Chronique à l'Origine d'un Shift Métabolique} % (fold)
+    %\label{ssub:prodATP}
+
+    %Chez l'homme, comme chez tous les mammifères, le métabolisme énergétique
+    %cardiaque est principalement assuré par les phosphorylations oxydatives
+    %mitochondriale, l'activité glycolytique n'assurant qu'une partie mineure de
+    %l'apport d'énergie \citep{Rolfe:1997vn}.
+    
+
+    L'altération de la capacité oxydative cardiaque s'accompagne d'une
+    réorientation du métabolisme cardiaque, avec diminution de l'oxydation
+    préférentielle des acides gras au profit de l'oxydation des substrats
+    carbohydratés \citep{Bishop:1970zr,Leverve:1998ly}.
+    %, de manière similaire à ce qui est
+    %observé lors du développement de nombreuses pathologies cardiaques
+    %\citep{Marin-Garcia:2002kx,Stanley:2005vn}.
+    %Le flux de consommation des différents substrats est très régulé au cours
+    %du développement cardiaque : en effet, lors de la période foetale, le
+    %glucose et le lactate sont les substrats majoritaires du métabolisme
+    %du coeur \citep{Sack:2000ys}. Avec la naissance, l'environnement normoxique
+    %induit une réorientation du métabolisme cardiaque qui conduit les acides
+    %gras à devenir le substrat préférentiel, la glycolise ne fournissant
+    %plus que $20$~\% de l'énergie nécessaire ou $40$~\% si on considère
+    %également l'utilisation du glycogène \citep{Sack:2000ys}. 
+    %Ainsi, lors d'une exposition prolongée à l'hypoxie, 
+    %une réduction du catabolisme des acides
+    %gras et une augmentation de l'oxydation du glucose se mettent en place
+    %\citep{Bishop:1970zr,Leverve:1998ly}. 
+    Plusieurs études montrent une atteinte
+    précoce du métabolisme des acides gras lors de l'adaptation à l'hypoxie
+    chronique, quel que soit le modèle d'étude
+    \citep{Rumsey:1999ve,Daneshrad:2000fk,Nouette-Gaulain:2005zr}. Cette
+    altération se caractérise par une diminution de la capacité d'oxydation des
+    acides gras, montrée par exemple par une diminution de la
+    $\beta$-hydroxyacyl-CoA déshydrogénase ($\beta$-HAD, enzyme de la
+    $\beta$-oxidation) lors de l'adaptation à l'hypoxie chronique
+    \citep{Daneshrad:2000fk}.
+    Les mécanismes de diminution de la capacité d'oxydation des acides gras lors
+    de l'adaptation à l'hypoxie chronique semblent toutefois plus complexes que la
+    seule atteinte de l'activité de la $\beta$-oxydation par diminution de
+    l'oxygène disponible pour les mitochondries et pourraient également
+    impliquer une altération du transport des acides gras à longue chaîne
+    liée à la modification anatomique cardiaque développée.
+    En effet, dans le cas d'une hypertrophie sévère
+    sans hypoxie, \citet{Christian:1998qf} ont mis en évidence une diminution
+    de l'oxydation des acides gras à longue chaîne, celle-ci paraissant
+    secondaire à l'altération de la fonctionnalité de la membrane externe
+    mitochondriale et à la mauvaise synchronisation des activités enzymatiques
+    de la palmitoyl-CoA synthase et de la CPT1.
+
+    Parallèlement à la diminution de la capacité d'oxydation des acides gras,
+    les mécanismes d'adaptation de la cellule cardiaque à l'hypoxie favorisent
+    l'expression des enzymes impliquées dans la glycolyse
+    \citep{Bilsen:2004uq}. Les augmentations les plus significatives concernent
+    les activités de l'hexokinase et de la lactate déshydrogénase avec
+    des augmentations respectives de $100$~\% et $50$~\%
+    \citep{Daneshrad:2000fk}. La production énergétique anaérobique via la glycolyse
+    permettrait alors d'augmenter la quantité d'ATP phosphorylé pour une plus
+    faible consommation d'O$_2$ \citep{Bilsen:2004uq}, optimisant ainsi le
+    fonctionnement énergétique du myocarde malgré les conditions défavorables
+    en oxygène \citep{Korvald:2000ys}.
+    Dans le même sens, après deux semaines d'hypoxie
+    chronique, une augmentation de $50$~\% de l'expression de GLUT-1, considéré
+    comme le principal responsable du transport non insulino-dépendant du
+    glucose, est observé sur le coeur de rat \citep{Sivitz:1992bh}.
+    La surexpression des enzymes glycolytiques et de GLUT-1 est
+    expliquée
+    %par l'augmentation de l'expression
+    %protéique du facteur de transcription HIF-1$\alpha$, forme activée du
+    %facteur de transcription central HIF-1 par le stimulus hypoxique
+    %\citep{Wright:2003dq}. HIF-1$\alpha$ coordonne l'induction de plusieurs
+    %gènes et unités physiologiques qui concourent à compenser le manque
+    %d'oxygène, notamment celles de la glycolyse \citep{Wright:2003dq}.
+    par l'activation des facteurs de transcription \textit{Hypoxia Inducible
+    Factor} (HIF) suite à la baisse d'oxygène \citep{Wright:2003dq}.
+    De plus, l'activation de ce facteur de transcription induit la
+    transcription de nombreux gènes dont des gènes de facteurs angiogéniques,
+    comme le \textit{Vascular Endothelium Growth Factor} (VEGF) ou l'angiopoïétine-2
+    \citep{Pugh:2003fk}, ou encore stimule la production érythropoïétique, 
+    ce qui favorise le développement du réseau capillaire et
+    optimise ainsi l'apport d'O$_2$ aux cellules dans les conditions
+    défavorables d'hypoxie chronique.
+
+    %L'hétérodimère HIF contient en effet une sous-unité régulatrice $\alpha$ (HIF-1,
+    %HIF-2 ou HIF-3), dont l'expression est régulée par l'oxygène, et une sous
+    %unité $\beta$ appelée aussi ARNT, exprimée constitutivement. En présence
+    %d'oxygène, la sous-unité régulatrice est hydroxylée par la famille des
+    %prolyl-hydroxylases (PHD) et dégradée par la voie ubiquitine-protéasome. En
+    %hypoxie, l'activité prolyl-hydroxylase est inhibée. La sous-unité
+    %régulatrice s'accumule et se localise dans le noyau, où elle se lie à
+    %ARNT/HIF-1$\beta$. L'hétérodimère HIF active alors un certains nombre de
+    %gènes cibles dont les produits peuvent être classés en trois groupes
+    %fonctionnels :
+
+    %\begin{enumerate}
+    %    \item les protéines participant à l'érythropoïèse et permettant
+    %        d'augmenter l'apport d'oxygène dans les tissus
+    %        (\textit{érythropoïétine} [EPO],
+    %        transferrine, récepteur de la transferrine, \dots)
+    %    \item les protéines qui augmentent localement l'apport d'oxygène aux
+    %        tissus (\textit{inducible nitric oxide synthase} [iNOS],
+    %        VEGF, \dots)
+    %    \item les protéines nécessaires à l'adaptation du métabolisme dans des
+    %        conditions de faibles concentrations d'oxygène (les transporteurs
+    %        au glucose et la plupart des enzymes glycolytiques).
+    %\end{enumerate}
+    
+
+
+
+
+
+
+    %\subsubsection{Atteinte des processus utilisateur du $\Delta$Gp} % (fold)
+    %\label{ssub:consoATP}
+    \subsection{Consommation d'\'Energie et Hypoxie} % (fold)
+    \label{sub:hypoconsom}
+    
+    % subsection Consommateurs d'\'Energie et Hypoxie (end)
+    
+%\noindent\textbf{Effets de l'Hypoxie Aigüe}
+    \subsubsection{Effets de l'Hypoxie Aigüe} % (fold)
+    \label{ssub:hypoaiguconso}
+    
+    % subsubsection Effets de l'Hypoxie Aigüe (end)
+
+    Des études cliniques ont révélé que lors des ischémies myocardiques
+    transitoires propres à certaines opérations chirurgicales,
+    les myocytes de la région ischémiée présentaient une contractilité réduite par
+    rapport aux myocytes de la zone non ischémiée
+    \citep{Schwarz:1998ly,Wiggers:2001ve}.
+    Ainsi, l'exposition du muscle cardiaque à une hypoxie aigüe résulte en 
+    une baisse d'activité et de
+    consommation d'oxygène, dans un phénomène appelé "hibernation myocardique" 
+    \citep{Braunwald:1986zr,Marban:1991ys,Heusch:1996kx,Budinger:1998vn}.
+    Ces observations expérimentales suggèrent qu'une
+    %la consommation d'énergie par l'activité contractile peut être diminuée
+    %consécutivement à la diminution de la production d'énergie afin de 
+    %maintenir une stabilité métabolique. Ainsi, dans ce concept, la diminution
+    %d'activité cardiaque successive à l'exposition à l'hypoxie n'est pas
+    %considérée comme une conséquence de l'altération énergétique (induite par
+    %l'hypoxie), mais plutôt comme une adaptation des processus consommateurs
+    %d'énergie à la fourniture d'énergie ce qui permettrait de maintenir
+    %l'intégrité et la viabilité myocardique \citep{Heusch:1996kx}
+    diminution de la production énergétique - ici induite par l'inhibition directe de
+    l'énergétique mitochondriale par la baisse d'O$_2$ 
+    \citep{Gnaiger:1995fk,Gnaiger:2001qf} -
+    est en mesure de compromettre indirectement l'activité des ATPases myofibrillaires.
+
+    La compréhension de ce phénomène requiert la considération de
+    l'énergétique cardiaque en processus qui produisent et qui consomment de
+    l'ATP \citep{Ingwall:2004ve}. 
+    
+    %La figure~\ref{fig:ATPbloc} issue de
+    %\citep{Ingwall:2004ve} illustre ce système : 
+    %
+    %\begin{itemize}
+    %    \item  La synthèse d'ATP (gauche de la figure) est quand à elle
+    %        majoritairement assurée par la phosphorylation oxydative
+    %        mitochondriale, dont l'activité en conditions normales est
+    %        suffisante pour maintenir la [ATP], même lorsque le
+    %        travail du coeur augmente de $3$ à $5$ fois. Toutefois, on peut
+    %        noter qu'une petite quantité d'ATP est aussi produite par un
+    %        processus de
+    %        phosphorylation par le substrat dans la glycolyse, et, dans une
+    %        moindre mesure, dans le cycle de Krebs.
+    %    \item  dans le coeur, les réactions consommant majoritairement l'ATP 
+    %        (droite de la figure) sont les ATPases myofibrillaires, les pompes
+    %        Ca$^{2+}$-ATPases du réticulum sarcoplasmique (SERCA)
+    %        %, voir sous-section \ref{ssub:calciumCH}) 
+    %        et les pompes Na$^+$/K$^+$-ATPases du sarcolème 
+    %        %(voir sous-section \ref{ssub:calciumCH})
+    %        \citep{Rolfe:1997vn}. Une chaîne
+    %        polypeptide est aussi représentée pour illustrer la dépendance en ATP 
+    %        de la synthèse des (macro)molécules (sous la forme de GTP pour la synthèse
+    %        protéique) et de leur dégradation.
+    %\end{itemize}
+    %  
+
+    %\begin{figure}[h]
+    %\centering
+    %\includegraphics[width=0.7\textwidth]{figures/ATPbloc}
+    %\caption[Processus énergétiques à l'origine de la production et de la
+    %consommation d'ATP]{\label{fig:ATPbloc}\protect\parbox[t]{0.8\textwidth}
+    %    {\textbf{Processus énergétiques à l'origine de la production ou de la
+    %consommation d'ATP.}
+    %Figure issue de \citep{Ingwall:2004ve}.}}
+    %\vspace{10pt}
+    %\end{figure}
+    
+    Comme nous l'avons vu dans la sous-section~\ref{sub:metabcell}, 
+    l'état énergétique du coeur n'est pas défini par la concentration
+    en ATP ou de PCr présente dans les cellules cardiaques mais par le $\Delta$Gp, dont
+    la valeur dépend de la concentration de tous les intermédiaires énergétiques mis
+    en jeu dans la réaction de l'hydrolyse de l'ATP. 
+    %La quantité d'ATP produite et
+    %consommée par minute (turnover) est bien plus importante que la quantité du
+    %pool d'ATP. Ainsi, maintenir une production d'ATP importante est crucial
+    %pour conserver le travail cardiaque. La capacité du métabolisme complexe du
+    %coeur d'oxyder une grande variété de substrats carbonnés pour la synthèse
+    %d'ATP permet de conserver une concentration d'ATP constante malgré les
+    %variations du niveau de turnover d'ATP.
+    %Les réactions utilisant cette [ATP] sont en fait inhibées par l'accumulation des
+    %produits de l'hydrolyse de l'ATP (\ce{ATP -> ADP + Pi}), c'est à dire l'ADP et le 
+    %Pi. De ce fait, les concentrations de ces métabolites doivent aussi être
+    %prise en compte en plus de celle de l'ATP pour estimer l'énergie
+    %réellement disponible dans les cardiomyocytes. 
+    Le rapport
+    ([ATP]/[ADP].[Pi]) est ainsi une composante importante de l'énergie
+    libre disponible à partir de l'hydrolyse de l'ATP ($\Delta$Gp)
+    pour le fonctionnement des processus consommateur d'ATP.
+
+    Lors de l'hypoxie, la diminution de l'oxygène, substrat du complexe IV de
+    la chaîne respiratoire mitochondriale (figure~\ref{fig:chainerespi}),
+    induit une diminution de la
+    respiration mitochondriale \citep{Reimer1986je}, pouvant conduire à
+    une diminution du $\Delta$Gp cellulaire \citep{Gnaiger:2001qf}.
+    En conditions normoxiques, ce $\Delta$Gp est de l'ordre de $-59~KJ\cdot
+    mol^{-1}$ dans les cardiomyocytes.
+    En couplant des expériences RMN sur coeur isolé-perfusé de rat à des
+    mesures biochimiques,
+    \citet{Kammermeier:1982zr} ont montré que lors d'une hypoxie
+    progressive, en dessous de certaines valeurs de $\Delta$Gp, plusieurs enzymes, 
+    comme les SERCA ($-52~KJ\cdot mol^{-1}$) ou les
+    pompes Na$^+$/K$^+$-ATPase ($-46~KJ\cdot mol^{-1}$), voient leur activité
+    fortement diminuer.
+
+%    Il s'avère en fait, que la contraction n'est pas le seul processus
+%    consommateur d'énergie dont
+%    l'activité se retrouve diminuée avec l'hypoxie.
+%    Ainsi, plusieurs études ont montré une diminution de l'activité de
+%    la synthèse protéique et des polynucléotides \citep{Casey:2002fk}
+%    ainsi que de l'activité de certaines pompes ioniques
+%    \citep{Boutilier:2000fk}
+%    dès les premières minutes d'hypoxie. Ce phénomène est considéré comme une
+%    phase de "défense de l'organisme" à l'hypoxie \citep{Hochachka:1996fk}, qui
+%    impliquerait la mise en jeu de voies de signalisation diminuant en finalité
+%    la consommation d'énergie pour préserver au maximum les processus
+%    essentiels demandeurs en énergie (intégrité membranaire, contraction pour
+%    le coeur). La diminution de l'activité de ces fonctions cellulaires lors de
+%    l'hypoxie permettrait de préserver le flux d'ATP disponible pour les
+%    processus impliqués dans les fonctions vitales de la cellule
+%    \citep{Hochachka:1996fk,Boutilier:2000fk,Casey:2002fk}.
+
+    Il existe ainsi dans les cellules une hiérarchie dans les processus
+    consommateurs d'ATP (ou d'énergie), en
+    fonction de leur sensibilité à une baisse du $\Delta$Gp. Ceci a clairement été
+    démontré par \citet{Buttgereit:1995uq} qui ont établi la hiérarchie
+    complète des processus consommateurs d'ATP dans des thymocytes.
+    Par exemple, sur ce modèle, la synthèse des protéines et des polynucléotides est
+    particulièrement sensible à une diminution du $\Delta$Gp, et une
+    inhibition de $60~\%$ de leur activité est observée en réponse à une réduction de
+    $30~\%$ de l'activité respiratoire par addition d'un inhibiteur
+    du complexe III (myxothiazol) \citep{Buttgereit:1995uq}. 
+    Dans le coeur, une forte sensibilité de la
+    synthèse protéique et des ATPases ioniques à une diminution de $\Delta$Gp
+    cellulaire pourrait expliquer la très forte inhibition de leur activité
+    mesurée dès les premières minutes d'hypoxie
+    \citep{Kammermeier:1982zr,Hochachka:1986zr,Hochachka:1996fk,Boutilier:2000fk}.
+    Les ATPases myofibrillaires semblent aussi affectées par cette diminution de
+    l'énergie libre d'hydrolyse de l'ATP dans le cytosol, 
+    comme le montre la diminution de la contractilité dès le début de l'hypoxie
+    \citep{Marban:1991ys,Kammermeier:1982zr,Budinger:1998vn,Ingwall:2004ve}.
+    %Ces travaux
+    %confirment donc les résultats préliminaires suggérant que la vitesse de
+    %certaines réactions consommatrices d'ATP peut être contrôlée par
+    %l'activité mitochondriale, autrement dit que la production mitochondriale
+    %d'ATP participe activement au contrôle de la consommation d'énergie
+    %\citep{Brown:1990lt,Harper:1993fk,Brown:1992uq}.
+
+    %Dans les cellules myocardiques, pour une activité métabolique basale, les
+    %principaux consommateurs d'ATP en dehors de la contraction sont la synthèse
+    %protéique et les ATPases ioniques \citep{Rolfe:1997vn}.
+    %Comme démontré par \citet{Buttgereit:1995uq},
+    %ces mécanismes sont en fait très sensibles à une baisse de l'activité
+    %mitochondriale et du $\Delta$Gp,
+    %et une forte inhibition de leur activité est observée en réponse une
+    %limitation de la production énergétique 
+    %\citep{Buttgereit:1995uq,Boutilier:2000fk}, ce qui expliquerait la
+    %diminution de leur activité dès les premières minutes d'hypoxie. Ainsi,
+    %    \citet{Boutilier:2000fk} considèrent ce phénomène comme une
+    %\textit{relocalisation}
+    %de la consommation d'énergie dans les processus essentiels à la survie
+    %cellulaire.
+
+%\noindent\textbf{Effets de l'Hypoxie Chronique}
+    \subsubsection{Effets de l'Hypoxie Chronique} % (fold)
+    \label{ssub:hypochroconso}
+
+    L'hypoxie chronique implique
+    des changements qualitatifs au niveau du matériel
+    contractile dans les deux ventricules \citep{Pissarek:1997hc}. La
+    modification du profil de répartition des types de myosines, avec
+    l'augmentation de l'expression des myosines "lentes", pourrait permettre
+    de réduire le coût de la contraction en développant un même travail pour
+    une plus faible consommation d'énergie \citep{Pissarek:1997hc}.
+    L'impact d'une plus grande expression de myosine lentes sur le
+    $\Delta$Gp a
+    récemment été montré sur coeur isolé perfusé de souris par
+    \citet{Hoyer:2007dz} : en effet, un $\Delta$Gp toujours plus important
+    est mesuré sur des souris transgéniques dont
+    la proportion des types de myosine lente a été augmentée 
+    ($95$~\% $\alpha\alpha$-MyHC~/~$5$~\% $\beta\beta$-MyHC $\rightarrow$
+    $17$~\% $\alpha\alpha$-MyHC~/~$83$~\% $\beta\beta$-MyHC), quelle que soit
+    l'intensité de travail imposé \citep{Hoyer:2007dz}. La modification du
+    profil de répartition des types de myosines observée durant l'adaptation à
+    l'hypoxie chronique \citep{Pissarek:1997hc} pourrait donc 
+    compenser la diminution du $\Delta$Gp induite par
+    l'hypoxie et permettre ainsi de limiter la diminution de la 
+    contraction.
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=0.9\textwidth]{figures/hibernating}
+%\caption[\'Evolution de la réponse métabolique en fonction du temps
+%d'exposition à l'hypoxie]
+%{\label{fig:hibernating}\protect\parbox[t]{0.8\textwidth}
+%    {\textbf{\'Evolution de la réponse métabolique en fonction du temps
+%    d'exposition à l'hypoxie.}
+%    La première réponse de l'organisme à la diminution d'oxygène est
+%    fonctionnelle, avec
+%    l'augmentation de la ventilation et de la fréquence cardiaque (HR) pour
+%    maintenir l'apport d'oxygène aux cellules. Puis des mécanismes
+%    cellulaires de diminution de consommation d'ATP se mettent en place
+%    pour ajuster la demande à l'apport d'énergie.
+%    Enfin, une réponse à long terme implique l'activation de gènes
+%    induisant une augmentation de la capacité de transport de l'oxygène
+%    (hémoglobine + développement du lit capillaire) ainsi que
+%    l'augmentation des voies métaboliques anaérobie (glycolyse). (figure
+%    inspirée de \citet{Boutilier:2000fk})}}
+%\vspace{10pt}
+%\end{figure}
+
+
+
+
+
+
+    %\subsubsection{Altération de la Gestion Calcique}
+    %\label{ssub:calciumCH}
+    \subsection{Altération de la Gestion Calcique} % (fold)
+    \label{sub:calciumCH}
+    
+    % subsection Altération de la Gestion Calcique (end)
+
+   
+%\noindent\textbf{Effets de l'Hypoxie Aigüe}
+    \subsubsection{Effets de l'Hypoxie Aigüe} % (fold)
+    \label{ssub:hypoaigucalcium}
+
+    Au cours de l'hypoxie, la diminution du $\Delta$Gp inhibe la pompe 
+    Na$^+$/K$^+$-ATPase, ce qui conduit à une augmentation intracellulaire de 
+    sodium et à une accumulation de potassium à l'extérieur des cellules. 
+    D'autre part, l'acidose active l'échangeur NHX, induisant elle aussi
+    une accumulation intracellulaire de sodium. 
+    Cette surcharge sodique est associée à une entrée 
+    d'eau qui peut être responsable d'un oedème intracellulaire si la durée
+    d'hypoxie se prolonge.
+    De plus, ce gradient anormal de sodium 
+    conduit à l'inversion de l'échangeur NCX,
+    provoquant une entrée de calcium dans les cellules. L'augmentation
+    progressive de la concentration calcique
+    intracellulaire entraîne des dysfonctions au niveau des protéines 
+    contractiles, impliquant ainsi le développement d'une contracture hypoxique
+    à partir de quelques dizaines de minutes. 
+    La diminution du $\Delta$Gp provoque 
+    également l'ouverture des canaux potassiques ATP-dépendants (fermés quand 
+    le $\Delta$Gp est élevé), ce qui entraîne 
+    une accumulation de potassium à l'extérieur de la cellule. Celle-ci est à
+    l'origine des perturbations électrophysiologiques observées au cours de 
+    l'hypoxie aigüe \citep{Vleugels:1980bh}.
+    
+
+
+
+%\noindent\textbf{Effets de l'Hypoxie Chronique}
+    \subsubsection{Effets de l'Hypoxie Chronique} % (fold)
+    \label{ssub:hypochrocalcium}
+
+    Sur cardiomyocyte isolé de rat adaptés à l'hypoxie chronique, \citet{Pei:2000fk}
+    ont montré une diminution de l'amplitude des transients calciques après
+    induction d'une stimulation électrique. Cette modification semble être la
+    conséquence d'une altération de l'ensemble de la gestion calcique par les
+    cardiomyocytes.
+    En particulier, le contenu calcique du réticulum sarcoplasmique est diminué
+    dès 2 semaines d'exposition à l'hypoxie, sans que cela n'affecte la
+    concentration calcique dans le cytosol \citep{Pei:2003fv}.
+    Une diminution de l'activité et de l'expression 
+    des protéines SERCA et du RyR, ainsi que de l'activité
+    de l'échangeur NCX du sarcolème sont également 
+    observés \citep{Pei:2003fv}. Ces
+    modifications sont à l'origine d'une diminution du largage/repompage du
+    calcium dans les cardiomyocytes (diminution de l'amplitude des transients
+    calciques), ce qui a d'importantes conséquences sur
+    la fonction d'excitation~-~contraction avec notamment une diminution 
+    de la contractilité \citep{Pei:2003fv}.
+
+    De par le rôle majeur du calcium dans
+    l'activation des processus de la production énergétique
+    \citep{Balaban:1990fk,Cortassa:2003uq,Diolez:2007ly,Griffiths:2009kx,Balaban:2009vn},
+    cette modification de la gestion calcique en hypoxie chronique est
+    susceptible d'affecter directement
+    l'ensemble du système énergétique cardiaque.
+
+
+
+
+    \section{Conclusion} % (fold)
+    \label{sec:HypoCcl}
+    
+    Dans le coeur, l'acclimatation à l'hypoxie chronique est donc responsable
+    d'un grand nombre de modifications énergétiques et métaboliques complexes affectant
+    l'ensemble des processus impliqués dans la production, le transfert ou la
+    consommation d'énergie. 
+    Un des enjeux de la compréhension des mécanismes intimes des
+    réactions physiologiques en réponse à l'hypoxie chronique est la
+    détermination de leur retentissement sur la fonction cardiaque intégrée.
+    Les répercussions globales des modifications induites par l'hypoxie
+    chronique sur l'énergétique cardiaque ne sont pas encore bien définies et
+    leur étude nécessite l'utilisation de modèles expérimentaux et théoriques
+    intégratifs.
+
+    L'approche intégrative développée au sein du laboratoire par notre équipe
+    (équipe CMFC, \textit{Contrôle Métabolique de la Fonction Contractile}),
+    l'Analyse Modulaire du Contrôle (MoCA)
+    \citep{Diolez:2002bh,Diolez:2007ly}, peut permettre une meilleure
+    compréhension de ces adaptations cardiaques à l'hypoxie chronique. Cette
+    approche permet en effet une description quantitative de l'ensemble des
+    interactions au sein d'un système biologique complexe. L'application d'une telle
+    approche sur organe entier représente un outil puissant pour l'étude des
+    interactions au sein de l'énergétique cardiaque, normale ou pathologique,
+    et a déjà permis une meilleure compréhension du rôle complexe du calcium
+    dans la bioénergétique cardiaque \citep{Diolez:2002bh,Diolez:2007ly}.
+
+
+    % section HypoCcl (end)
+
+%%% ----------------------------------------------------------------------

@@ -1,0 +1,328 @@
+\chapter{Suivi de l'état énergétique des coeurs par RMN du phosphore 31}
+\label{chap:rmn}
+
+\begin{chapintro}
+    %\malettrine{L}{a} {\bf R}ésonance {\bf M}agnétique {\bf N}ucléaire ou RMN
+    %est une technique d'analyse de la matière découverte il y a plus de 60 ans.
+    %Bien qu'elle tire son principe de base de la physique, cette technique a su
+    %trouver des applications dans des domaines pluridisciplinaires allant de la
+    %chimie à la biologie, la médecine, la bioinformatique, la géologie \dots
+
+    \malettrine{L}{a} méthodologie spectroscopique RMN est particulièrement prisée en biologie
+    pour des fins d'exploration métabolique, que ce soit sur cellules isolées
+    ou sur organes entiers \citep{Ackerman:1980fk,Gadian:1981uq,Cohen:1987nmr}.
+    En effet, sa nature non-invasive et atraumatique présente de nombreux 
+    avantages par rapport
+    aux techniques d'analyse conventionnelles, même si sa faible sensibilité
+    limite l'utilisation de la méthode pour l'observation de molécules
+    présentes dans les cellules à des concentrations de l'ordre du $mM$.
+
+    La mesure des métabolites dans les cellules actives par des techniques RMN
+    fournit une information quantitative détaillée sur la composition chimique,
+    ce qui nous a permis de suivre l'évolution du métabolisme intermédiaire en temps
+    réel dans le coeur de souris isolé perfusé.
+    Ce chapitre décrit dans un premier temps les principes généraux de la RMN,
+    puis présente l'application de cette technique à notre étude.
+        \end{chapintro}
+
+
+%%% ---------------------------------------------------
+%%% SECTION 1 --- NOTIONS DE RMN ---
+
+\section{Notion de Résonance Magnétique Nucléaire (RMN)} % (fold)
+\label{sec:principesRMN}
+    
+    La RMN est basée sur une propriété intrinsèque de la matière, le
+    \textit{spin} : le noyau d'un atome peut être considéré, en première
+    approximation, comme une sphère chargée positivement et tournant sur elle
+    même. La rotation de ces charges induit un petit champ magnétique appelé
+    \textit{moment magnétique nucléaire} (noté $\vec{u}$). 
+    Dans un échantillon macroscopique, un grand nombre de noyaux coexistent. On
+    peut considérer qu'ils sont orientés de manière totalement statistique
+    ($\sum\vec{u} = 0$).
+
+    Lorsque l'échantillon est plongé dans un champ magnétique externe intense
+    ($\vec{B}_0$), les moments magnétiques nucléaires s'orientent dans la direction
+    de ce champ, en précessant à une fréquence propre $\nu_0$ (appelée
+    \textit{fréquence de Larmor}). 
+    Par exemple, les noyaux de phosphores (spin $\frac{1}{2}$)
+    pourront adopter deux orientations possibles, l'une sensiblement parallèle à $\vec{B}_0$
+    et l'autre sensiblement anti-parallèle. Le nombre de noyaux parallèles est
+    légèrement supérieur à celui des noyaux antiparallèles, la somme vectorielle
+    de tous les moments magnétiques nucléaires est alors non-nulle et dirigée
+    dans la direction du champ $\vec{B}_0$. Cette somme est appelée
+    l'\textit{aimantation nucléaire} et notée $\vec{M}$.
+    C'est la phase de \textbf{Polarisation} (A, figure \ref{fig:RMN}).
+
+%    \begin{figure}[h]
+%        \vspace{0.5cm}
+%        \begin{minipage}{0.39\textwidth}
+%           \caption[Phénomène de RMN]
+%           {\label{fig:RMN}\textbf{Phénomène de RMN.} \\
+%           \textbf{A) Polarisation :}
+%           des spins nucléaires soumis à un champ magnétique $\vec{B}_0$
+%           s'ordonnent en précesant à une fréquence propre $\nu_0$ autour de la
+%           direction de $\vec{B}_0$. Il y a création d'une aimantation macroscopique 
+%           ($\vec{M}$).
+%           \textbf{B) Résonance :}
+%           en appliquant une onde électromagnétique $\vec{B}_1$ perpendiculaire à
+%           $\vec{B}_0$ et de fréquence $\nu_0$ on perturbe le système. La conséquence
+%           est un changement d'orientation de $\vec{M}$.
+%           \textbf{C) Relaxation :}
+%           à l'arrêt de l'excitation, les spins retournent à leur état d'équilibre par
+%           un phénomène de précession libre. Cette précession génère un signal
+%           sinusoïdal amorti, la FID (Free Induction Decay), détecté par
+%           l'antenne}
+%        \end{minipage}
+%        \hfill
+%        \begin{minipage}{0.57\textwidth}
+%            \includegraphics[width=\textwidth]{figures/RMN/Principes_RMN.pdf} 
+%        \end{minipage}
+%        \vspace{0.3cm}
+%    \end{figure}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{figures/RMN/Principes_RMN.pdf}
+        \caption[Phénomène de RMN]{\label{fig:RMN}\protect\parbox[t]{0.8\textwidth}
+           {\textbf{Phénomène de RMN.}
+           \textbf{A) Polarisation :}
+           des spins nucléaires soumis à un champ magnétique $\vec{B}_0$
+           s'ordonnent en précessant à une fréquence propre $\nu_0$ autour de la
+           direction de $\vec{B}_0$. Il y a création d'une aimantation macroscopique 
+           ($\vec{M}$).
+           \textbf{B) Résonance :}
+           en appliquant une onde électromagnétique $\vec{B}_1$ perpendiculaire à
+           $\vec{B}_0$ et de fréquence $\nu_0$ on perturbe le système. La conséquence
+           est un changement d'orientation de $\vec{M}$.
+           \textbf{C) Relaxation :}
+           à l'arrêt de l'excitation, les spins retournent à leur état d'équilibre par
+           un phénomène de précession libre. Cette précession génère un signal
+           sinusoïdal amorti, la FID (Free Induction Decay), détecté par
+           l'antenne}}
+    \vspace{10pt}
+    \end{figure}
+
+
+    L'aimantation $\vec{M}$, qui constitue le signal détecté par RMN, ne peut
+    être mesuré que dans le plan transversal. Il est alors nécessaire de perturber
+    le système et faire basculer l'aimantation $\vec{M}$
+    par un phénomène de \textbf{Résonance}, en appliquant, sous certaines
+    conditions, une onde électromagnétique $\vec{B}_1$ (B, figure \ref{fig:RMN}).
+    En général, $\vec{B}_1$ se situe dans la gamme des radiofréquences (RF), et pour
+    qu'il y ait résonance, cette impulsion doit répondre à deux conditions :
+    \begin{itemize}
+        \item la direction de $\vec{B}_1$ doit être perpendiculaire à celle de $\vec{B}_0$
+        \item la fréquence de $\vec{B}_1$ doit correspondre à la fréquence de
+            Larmor des spins considérés.
+    \end{itemize}
+
+    Le signal est mesuré à l'issue de cette excitation RF, pendant la phase de
+    \textbf{Relaxation} : retour de l'aimantation $\vec{M}$ à son état
+    d'équilibre (aligné à $\vec{B}_0$) par un phénomène de
+    \textit{précession libre} qui génère un signal sinusoïdal amorti, dit
+    \textit{Free Induction Decay} ou \textit{FID} (C, figure \ref{fig:RMN}).
+    Ce retour à l'état d'équilibre correspond à la disparition de l'aimantation
+    transversale (A, figure~\ref{fig:T1T2}) et à la récupération de
+    l'aimantation longitudinale (B, figure~\ref{fig:T1T2}). Bien que ces deux
+    évènements soit simultanés (C, figure~\ref{fig:RMN}), ils répondent à deux
+    constantes de temps distinctes~: dans les tissus biologiques, l'aimantation
+    ne garde pas un module constant lors de son retour à l'équilibre, de sorte
+    que l'aimantation transversale disparaît plus vite que l'aimantation
+    longitudinale. La relaxation de l'aimantation nécessite donc la définition
+    de deux durées caractéristiques~: l'une pour la disparition de
+    l'aimantation transversale (relaxation dite "\textit{spin - spin}",
+    constante T$_2$), l'autre pour la récupération de l'aimantation
+    longitudinale (relaxation dite "\textit{spin - réseau}", constante
+    T$_1$) (figure~\ref{fig:T1T2}).
+    
+    
+    \begin{figure}[h]
+        \vspace{10pt}
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/RMN/T1_T2.pdf}
+    \caption[Relaxation RMN]{\label{fig:T1T2}\protect\parbox[t]{0.8\textwidth}
+        {\textbf{Relaxation RMN.}
+        \textbf{A) Relaxation Transversale (T$_2$) :} Elle correspond à la
+        désynchronisation des spins dans leur mouvement autour du champ
+        $\vec{B}_0$ due aux interactions entre noyaux voisins. Ces intéractions
+        créent des modifications locales du champ magnétique et sont
+        responsables de déphasages qui vont impliquer la décroissance de
+        l'aimantation dans le plan transverse. \textbf{B) Relaxation
+        Longitudinale (T$_1$) :} Elle correspond au retour à l'équilibre
+        thermique du système après l'excitation et décrit la repousse de
+        l'aimantation longitudinale.}}
+    \vspace{10pt}
+    \end{figure}
+    
+
+
+    Une transformée de Fourier de la FID autorise l'étude du signal dans le
+    domaine fréquentiel, et permet ainsi de distinguer les différentes
+    espèces biochimiques présentes dans l'échantillon en fonction de leur
+    fréquence de résonance propre (influence de l'environnement électronique).
+    On obtient alors un \textit{spectre} 
+    caractérisé par plusieurs raies lorentziennes (ou pics), dont
+    les aires sont proportionnelles aux concentrations des espèces biochimiques
+    considérées. 
+
+
+
+%%% ---------------------------------------------------
+%%% SECTION 2 --- SPECTRES 31P ---
+
+\section{Acquisition d'un spectre $^{31}$P de Coeur de Souris} % (fold)
+\label{sec:spectre}
+
+    Le noyau $^{31}$P a été le premier a être utilisé en spectroscopie \textit{in vivo},
+    en particulier dans l'étude de la physiopathologie du muscle squelettique. Son
+    intérêt réside dans la détection des métabolites énergétiques intermédiaires tels que
+    l'ATP, le phosphate inorganique ou la phosphocréatine (figure
+    \ref{fig:spectre31P}), métabolites particulièrement pertinents pour la
+    caractérisation de l'énergétique musculaire.
+    Cependant, il est important de noter que, de par sa
+    sensibilité faible par rapport au proton, l'obtention d'un bon rapport 
+    signal-sur-bruit en spectroscopie $^{31}$P nécessite une accumulation du signal 
+    plus importante.
+    Appliquée au modèle du coeur isolé perfusé (voir chapitre \ref{sec:coeursouris})
+    la spectroscopie RMN du $^{31}$P permet l'étude de l'énergétique cardiaque,
+    normale ou pathologique, dans un système qui se rapproche des conditions physiologiques
+    \citep{Balaban:1989kx,Barr:2000vn,Horn:2006ys,Hove:2008zr}.
+
+
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figures/spectre31P}
+    \caption[Spectre RMN $^{31}$P typique]{\label{fig:spectre31P}
+    \protect\parbox[t]{0.8\textwidth}
+    {\textbf{Spectre RMN $^{31}$P typique.}
+        En fonction de leur environnement électronique, les molécules de
+        phosphore résonnent à des
+        fréquences légèrement différentes, ce qui permet de distinguer les
+        différentes espèces phosphorylés du métabolisme énergétique cardiaque.
+        \textbf{NTP :} nucléotides triphosphates ($80~\%$ du signal provient de
+        l'ATP). \textbf{PCr :} phosphocréatine. La présence de phosphate
+        inorganique (\textbf{P$_i$}) sur le spectre RMN dépend du substrat
+        utilisé pour la perfusion cardiaque}}
+    \vspace{10pt}
+    \end{figure}
+
+
+
+
+Dans cette étude, pour étudier l'état énergétique des coeurs isolés perfusés de souris,
+les premières expériences
+ont d'abord été effectuées avec un spectromètre Bruker DPX400 équipé d'une sonde
+broadband de $10~mm$ accordée sur la fréquence de résonance du $^{31}$P à
+$161,9~MHz$. En effet, l'acquisition de spectre $^{31}$P avec cet aimant
+avait déjà été mise au point au laboratoire pour des études sur coeur isolé
+perfusé de rat \citep{Dos-Santos:2000ve,Diolez:2007ly}.
+Toutefois, en raison du volume très réduit des coeurs de
+souris ($150~\mu L$), cette instrumentation ne permettait pas d'obtenir des
+signaux de qualité satisfaisante %suffisamment importante
+pour la résolution temporelle désirée. 
+
+Pour remédier à cette limitation expérimentale, le développement d'un système
+de perfusion cardiaque entièrement dédié au coeur de souris (voir section 
+\ref{sec:montage}), ainsi que l'achat d'une antenne $10~mm$ spécifique
+phosphore de dernière génération,
+nous a permis d'accéder à un aimant de champ magnétique plus important
+($11,7~T$). Ceci a contribué à  grandement augmenter le rapport
+signal-sur-bruit (S/B) de
+nos spectres $^{31}$P tout en diminuant les temps d'acquisition
+(figure \ref{fig:newspectro}).
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/NewSpectro}
+\caption[Développement d'un système dédié à l'acquisition $^{31}$P sur coeur
+isolé perfusé de souris]{\label{fig:newspectro}
+\protect\parbox[t]{0.8\textwidth}
+{\textbf{Développement d'un système dédié à l'acquisition $^{31}$P sur coeur
+isolé perfusé de souris.}
+    La construction d'un système de perfusion adapté à un aimant
+    haut champ $11,7~T$ (voir section \ref{sec:montage}),
+    ainsi que l'utilisation d'une antenne RMN
+    spécifique phosphore nous a permis d'augmenter considérablement la qualité
+    des spectres $^{31}$P de coeur isolé perfusé de souris tout en diminuant
+    les temps d'acquisition}}
+\vspace{10pt}
+\end{figure}
+
+Les spectres sont ainsi obtenus après accumulation et sommation de $90$ signaux de
+précession libre, correspondant à un temps d'acquisition de seulement $3~min$ par
+spectre. Les paramètres d'acquisition utilisés pour l'acquisition des spectres
+$^{31}$P des coeurs de souris sont reportés dans le tableau
+\ref{tab:paramspectre}.
+
+    \begin{table}[h]
+        \vspace{10pt}
+        
+        \caption{\label{tab:paramspectre}Paramètres d'acquisition des spectres
+        $^{31}$P de coeurs isolés perfusés sur aimant DPX500}
+        
+        \centering
+        \begin{tabular}[h]{lr}
+        \hline
+        \rule[-0.25cm]{0cm}{0.7cm} % hteur cellule 0.7cm, txt décalé 0.25cm vers bas
+        Fréquence de résonance & $202,4~MHz$\\
+        \rule[-0.25cm]{0cm}{0.7cm} % hteur cellule 0.7cm, txt décalé 0.25cm vers bas
+        Impulsion RF &  $13~\mu s$\\
+        \rule[-0.25cm]{0cm}{0.7cm} % hteur cellule 0.7cm, txt décalé 0.25cm vers bas
+        Angle de bascule correspondant & $60^\circ$\\
+        \rule[-0.25cm]{0cm}{0.7cm} % hteur cellule 0.7cm, txt décalé 0.25cm vers bas
+        Temps de répétition & $2~s$\\
+        \rule[-0.25cm]{0cm}{0.7cm} % hteur cellule 0.7cm, txt décalé 0.25cm vers bas
+        Résolution & $4096~pts$\\
+        \rule[-0.25cm]{0cm}{0.7cm} % hteur cellule 0.7cm, txt décalé 0.25cm vers bas
+        Bande passante & $6460~Hz$\\
+        \hline
+        \end{tabular}
+
+    \end{table}
+
+%%% ---------------------------------------------------
+%%% SECTION 3 ---TRAITEMENT ---
+
+\section{Traitement des Données} % (fold)
+\label{sec:traitement}
+
+Après transformation de Fourier du signal RMN, l'aire de chaque
+pic est obtenue à partir de la décomposition numérique 
+du spectre en somme de Lorentziennes
+(figure~\ref{fig:ttmspectre}).
+Dans le cas d'une séquence d'impulsion classique autorisant la relaxation
+totale des noyaux étudiés, les aires sous les pics du spectre RMN sont
+strictement
+proportionnelles à la quantité des métabolites correspondants. Dans le cas
+de cette étude, où la séquence d'impulsion a été optimisée pour réduire le temps
+d'acquisition des spectres, les spins n'ont pas le temps de revenir à leur état
+d'équilibre et les signaux correspondant aux pics observés sont 
+donc partiellement saturés. Il est donc
+nécessaire de corriger les aires calculées en fonction du facteur de saturation
+de chacun des pics (dépendant du $T_1$ de chaque métabolite). Les facteurs de
+correction ont été calculés à partir
+d'une série d'expériences spécifiques (comparaison des aires de spectres
+totalement relaxés
+(TR $17,5~s$) et de spectres partiellement relaxés (TR $2~s$))
+pour l'ATP$\beta$ (1.0), la PCr (1.2) et le Pi (1.15).
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/RMN/ttmSpectre}
+\caption[Traitement numérique des spectres RMN]{\label{fig:ttmspectre}\protect\parbox[t]{0.8\textwidth}
+    {\textbf{Traitement numérique des spectres RMN.}
+    Les spectres issus de l'acquisition RMN (tracé noir) sont filtrés
+    numériquement par décomposition en
+    somme de Lorentziennes (\textcolor{red}{tracé rouge}). Ce traitement permet
+    de limiter la contribution du bruit expérimental (\textcolor{blue}{tracé
+    bleu}) dans le signal}}
+\vspace{10pt}
+\end{figure}
+
+
+% section traitement} (end)
+
+% section spectre (end)
+% section Principes Généraux de la Résonance Magnétique Nucléaire (RMN) (end)
+

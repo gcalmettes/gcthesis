@@ -1,0 +1,140 @@
+\chapter{Insensibilité des Coeurs hypoxiques à la Baisse d'Oxygène}
+\label{chap:result3}
+
+
+%%% ----------------------------------------
+%%% SECTION 1 --- PRESENTATION --- 
+
+\section{Objectifs de l'\'Etude}
+\label{sec:objectif3}
+
+    Malgré les altérations globales de l'énergétique cardiaque développées
+    pendant l'hypoxie chronique \citep{Ostadal:2007ve,Essop:2007ly}, cette
+    situation semble également mettre en jeu des mécanismes à l'origine d'une plus
+    grande résistance de la fonction cardiaque aux conditions d'ischémie aigüe
+    \citep{Ostadal:2007ve}.
+    Ainsi, les coeurs hypoxiques chroniques développent par exemple des tailles de nécroses
+    réduites après une ischémie \citep{Meerson:1973uq}, et sont caractérisés
+    par une activité contractile beaucoup plus importante après reperfusion
+    \citep{Tajima:1994kx}, en comparaison avec des coeurs contrôles. De même,
+    après hypoxie chronique, les coeurs développent moins d'arythmies 
+    lorsque la concentration en oxygène
+    disponible pour le coeur est réduite \citep{Asemu:1999vn}.
+    Les mécanismes à l'origine de cette plus grande tolérance des coeurs à une
+    limitation d'oxygène ne sont pas encore bien compris.
+    
+    Dans notre précédente étude \citep{Calmettes:2008pi}, l'application de MoCA 
+    pour l'étude des modifications intégrées induites par l'hypoxie
+    chronique sur l'énergétique cardiaque a révélé une surprenante augmentation
+    d'élasticité du module Producteur. Les mécanismes ainsi que la pertinence
+    physiologique de cette modification (qui traduit une plus grande réponse 
+    des processus impliqués dans la production d'énergie à une augmentation 
+    de la demande énergétique), restent inconnus, mais pourraient jouer un rôle
+    majeur dans 
+    la plus grande résistance des coeurs à une baisse d'oxygène après hypoxie
+    chronique.
+    
+    Dans cette étude, MoCA a été appliquée sur des coeurs contrôles et
+    hypoxiques perfusés en conditions d'oxygène réduits, afin d'analyser
+    l'avantage potentiel pour l'énergétique cardiaque, soumise à des conditions
+    d'hypoxie aigüe, d'une plus grande élasticité du module Producteur.
+    De plus, l'obtention des élasticités (et des coefficients de
+    contrôle) des coeurs en condition d'hypoxie nous a permis d'appliquer une
+    analyse de régulation des effets de la baisse d'oxygène sur l'énergétique
+    cardiaque.
+    \\
+    \clearpage
+
+    Les résultats sont présentés sous la forme d'un article publié dans la
+    revue \textit{PLOS One} :
+
+\vspace{10pt}
+\hrule
+\begin{center}
+    {\sc "Improved Energy Supply Regulation in Chronic Hypoxic Mouse Counteracts
+    Hypoxia-Induced Altered Cardiac Energetics"}
+
+\vspace{7pt}
+
+    \textbf{Guillaume Calmettes}, Véronique Deschodt-Arsac, Gilles
+    Gouspillou, Sylvain Miraux, Bernard Muller, Jean-Michel Franconi, \'Eric
+    Thiaudière et Philippe Diolez
+
+\vspace{7pt}
+
+    \textit{PLOS One. 2010 Feb 18;5(2):e9306}
+
+\end{center}
+\hrule
+
+\section{Résumé en Français}
+\label{sec:resume3}
+
+\noindent\textit{CONTEXTE : L'hypoxie est une condition associée aux
+    principales pathologies cardiaques.
+    De ce fait, la compréhension de la tolérance à l'hypoxie, développée
+    après des adaptations physiologiques comme l'hypoxie chronique, est
+    cruciale afin de mieux appréhender les effets délétères induits par l'hypoxie.
+    Dans cette étude, nous avons étudié le rôle des modifications énergétiques
+    induites par l'hypoxie chronique dans le développement d'une plus grande
+    tolérance à la baisse d'oxygène.}
+    
+\noindent\textit{
+    METHODOLOGIE / PRINCIPAUX R\'ESULATS : Des souris SWISS ont été hébergées
+    pendant 21 jours dans une chambre hypobare, simulant une altitude de
+    5500~m.
+    Les coeurs isolés perfusés de ces souris ainsi que d'une population de
+    souris témoins ont permis d'étudier les effets
+    d'une diminution de la concentration d'oxygène dans le milieu de perfusion
+    sur le travail cardiaque (PPF) et la concentration en phosphocréatine
+    ([PCr], mesurée par spectroscopie RMN du $^{31}$P). Ceci a été réalisé dans
+    le but de décrire les modifications intégrées de l'énergétique cardiaque
+    dans des conditions d'hypoxie aigüe, en appliquant l'Analyse
+    Modulaire du Contrôle (MoCA). L'hypoxie aigüe induit une baisse
+    concomitante de la PPF ($-~46~\%$) et de la [PCr] ($-~23~\%$) chez les
+    coeurs contrôles, en contraste avec l'énergétique des coeurs hypoxiques qui
+    n'est pas affectée par la diminution d'oxygène.
+    MoCA démontre que cette tolérance à l'hypoxie est la
+    conséquence directe de la plus grande élasticité par rapport à la [PCr]
+    des processus de
+    production d'ATP des coeurs hypoxiques comparés aux coeurs contrôles
+    ($-~1.88 \pm~0.38$ vs $-~0.89 \pm~0.41$, $p < 0.01$) mesurée dans des
+    conditions d'oxygénation réduite. Cette plus grand élasticité permet une
+    plus grande réponse des processus producteurs d'énergie face à une
+    augmentation de la demande en énergie. La conséquence est la conservation
+    d'une répartition normale du contrôle sur la contraction dans les coeurs
+    hypoxiques, alors que les coeurs contrôles deviennent majoritairement
+    contrôlés par les processus producteurs d'énergie.
+    }
+    
+\noindent\textit{
+    CONCLUSION / PERTINENCE DES RESULTATS : Comme suggéré par cette étude, les
+    mécanismes responsables de l'augmentation de l'élasticité et donc de la
+    plus grande capacité du métabolisme énergétique des coeurs hypoxiques à
+    faire face à une diminution d'oxygène, pourraient participer à limiter les
+    dommages causés par l'hypoxie.}
+
+
+
+
+\section{Article 3} % (fold)
+\label{sec:article3}
+
+Cet article correspond à la référence \citep{Calmettes:2010fk}.
+
+\cleardoublepage
+
+
+% section Article 1 (end)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% INSERTION PAPIER PLOS One 2010 %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\insertpaper{-2.6}{Calmettes2010.pdf}{0.9}{1}{7}
+
+
+%%% --------------------------
+
+
+

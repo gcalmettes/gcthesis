@@ -1,0 +1,100 @@
+\chapter{Mesure de la Consommation d'Oxygène}
+\label{chap:mesureoxy}
+
+\begin{chapintro}
+  \malettrine{L}{a} mesure de la consommation d'oxygène est un paramètre
+  important dans l'étude de l'énergétique cardiaque sur coeur isolé perfusé,
+  puisqu'elle permet d'apprécier l'activité mitochondriale \textit{in situ}.
+  Ce chapitre présente le protocole expérimental mis en place pour accéder à
+  cette mesure dans notre étude.
+\end{chapintro}
+
+
+\section{Montage Expérimental} % (fold)
+\label{sec:montageoxy}
+
+En parallèle des expériences RMN, la consommation d'oxygène des coeurs isolés
+perfusés a été mesurée.
+Pour ces expériences, le coeur est
+placé dans un bain thermostaté à $37^\circ C$ (figure~\ref{fig:montagemvo2}). La
+consommation myocardique en oxygène ($MVO_2$) est mesurée au moyen d'un drain,
+placé dans l'incision réalisée au niveau du tronc de l'artère pulmonaire, qui
+permet de recueillir l'effluent coronaire (figure~\ref{fig:montagemvo2}).
+Ce dernier est aspiré à $0,5~mL/min$
+de manière continue et circule dans la
+chambre de mesure d'une électrode de Clark (Modèle 781, Strathkelvin Instruments, UK)
+afin de doser son contenu en oxygène (figure~\ref{fig:montagemvo2}).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.85\textwidth]{figures/MVO2/MVO2.pdf}
+    \caption[Dispositif Expérimental de Mesure de Consommation d'Oxygène]
+    {\label{fig:montagemvo2}\protect\parbox[t]{0.75\textwidth}{
+    \textbf{Dispositif Expérimental de Mesure de
+    Consommation d'Oxygène.}}}
+\end{figure}
+
+
+\section{Traitement des Données} % (fold)
+\label{sec:Traitement des Donées}
+
+A l'arrêt de l'expérience, un étalonnage de l'électrode est systématiquement
+effectué pour pouvoir exprimer la concentration en oxygène en $\mu M$
+(figure~\ref{fig:traceO2}). Cet étalonnage est basé sur les valeurs mesurées
+à partir d'un milieu à $25^\circ C$ agité et équilibré
+avec l'air ambiant ($240~\mu M$ d'O$_2$, B, figure~\ref{fig:traceO2})
+et d'un milieu auquel on a ajouté du dithionite ($0~\mu M$ d'O$_2$,
+C, figure~\ref{fig:traceO2}).
+        
+        
+La consommation d'oxygène est alors calculé à partir de la relation
+\ref{eq:calculmvo2} suivante :
+
+\begin{equation}
+    \label{eq:calculmvo2}
+    MVO_2 = \frac{\textit{[O$_2$ perfusion] - [O$_2$
+    effluent]}}{1000}\times\frac{\textit{Q$_{cor}$}}{P}
+    \vspace{10pt}
+\end{equation}
+
+
+avec :
+\begin{itemize}
+    \item $MVO_2$ en $\mu mol  O_2\cdot min^{-1}\cdot g^{-1} poids{~}sec$
+    \item \textit{O$_2$ perfusion}, concentration en oxygène (en $\mu MO_2$)
+        du milieu de
+        perfusion alimentant le coeur isolé perfusé
+    \item \textit{O$_2$ effluent}, concentration en oxygène (en $\mu MO_2$)
+        du milieu de
+        perfusion en sortie du coeur (effluent coronaire) 
+    \item $P$, masse sèche du coeur (en $g$)
+    \item \textit{Q$_{cor}$}, débit coronaire (en $ml\cdot min^{-1}$), mesuré
+        en continu lors des expériences
+\end{itemize}
+
+\begin{figure}[h]
+\vspace{10pt}
+\centering
+\includegraphics[width=0.9\textwidth]{figures/MVO2/Traceo2}
+\caption[Traces expérimentales typiques de la mesure de consommation d'oxygène des
+coeurs perfusés]
+{\label{fig:traceO2}\protect\parbox[t]{0.8\textwidth}
+    {\textbf{Traces expérimentales typiques de la mesure de consommation d'oxgène
+    des coeurs perfusés.} L'enregistrement simultané de la consommation
+    d'oxygène (\textcolor{red}{trace rouge}) et de l'activité contractile
+    (\textcolor{blue}{trace bleue}) permet d'apprécier la réponse de l'activité
+    mitochondriale lors d'une modification de la demande énergétique
+    (ici après une injection de $3,3~µg/L$ d'adrénaline). A la fin de
+    chaque expérience, une calibration de l'électrode à oxygène est
+    systématiquement réalisée. \textbf{(A)} Mesure directe de la concentration
+    en oxygène du milieu de
+    perfusion. \textbf{(B)} Concentration en oxygène du milieu équilibré avec l'air
+    ambiant ($240~µM$ d'O$_2$). \textbf{(C)} Concentration nulle en oxgygène
+    (ajout de dithionite dans le milieu).
+    }}
+\vspace{10pt}
+\end{figure}
+
+%%% ---------------------------------------------------
+%%% SECTION 1 --- MONTAGE EXPERIMENTAL ---
+

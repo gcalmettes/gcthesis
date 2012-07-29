@@ -1,0 +1,317 @@
+\chapter{Analyse modulaire du contrôle métabolique}
+\label{chap:moca}
+
+\begin{chapintro}
+    \malettrine{D}{epuis} plusieurs années, notre équipe contribue au développement des
+    théories de l'Analyse du Contrôle Métabolique. Le modèle du coeur isolé
+    perfusé est apparu comme un système très prometteur pour ce type d'étude et
+    a permis de réaliser la première application de l'approche sur un organe
+    entier \citep{Diolez:2002bh,Diolez:2007ly}.
+    Ce chapitre présente l'application de cette approche à
+    l'étude du système énergétique cardiaque, à partir du modèle du coeur isolé
+    perfusé.
+\end{chapintro}
+
+
+%%% ---------------------------------------------------
+%%% SECTION 1 --- DEFINITION ---
+
+\section{Définition du Système Modulaire} % (fold)
+\label{sec:defsystème}
+ 
+    La bioénergétique cardiaque peut être décomposée en modules,
+    producteurs et consommateurs d'énergie, connectés \textit{via} la PCr
+    \citep{Diolez:2002bh,Diolez:2007ly} (figure~\ref{fig:mocacoeur}).
+    Le \textit{module Producteur} comprend l'ensemble des processus
+    permettant la génération d'énergie, c'est à dire non seulement le
+    fonctionnement mitochondrial et glycolytique, mais également l'apport
+    d'O$_2$ et de substrats. Le \textit{module Consommateur} comprend quant
+    à lui l'ensemble des processus consommateurs d'ATP, majoritairement
+    l'ATPase de la myosine des myofibrilles cardiaques et les pompes
+    ioniques impliquées dans les mouvements calciques. 
+    Notre système étant linéaire, à l'état stationnaire, tous les modules sont
+    traversés par le même flux énergétique (accessible via la mesure de
+    l'activité contractile, PPF) (figure~\ref{fig:mocacoeur}).
+    Un niveau d'activité contractile associé à une concentration de PCr
+    caractérise chaque état stationnaire.
+
+
+  \begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{figures/MoCaCoeur}
+    \caption[Descrition de l'\'Energétique Cardiaque en Différents Modules]
+    {\label{fig:mocacoeur}\protect\parbox[t]{0.8\textwidth}
+        {\textbf{Description de l'\' Energétique Cardiaque en Différents Modules.}
+        }}
+    \vspace{10pt}
+    \end{figure}
+
+    
+%%% ---------------------------------------------------
+%%% SECTION 2 --- ELASTICITES ---
+
+\section{Détermination Expérimentale des Elasticités} % (fold)
+\label{sec:elasticites}
+    
+    La détermination
+    expérimentale des élasticités des modules Producteur et Consommateur
+    est basée sur le suivi de l'activité des
+    modules en réponse à une modification expérimentale de
+    PCr \citep{Diolez:2007ly}.
+    Tout changement de [PCr] sera en effet à l'origine d'une modification
+    de l'activité de chacun
+    des modules. L'amplitude de cette modification, induite par le changement
+    de [PCr], dépend de l'élasticité du module par rapport à la [PCr].
+
+    Expérimentalement, il est possible de perturber la concentration de PCr, et
+    donc d'atteindre un nouvel état stationnaire, en modulant de manière
+    spécifique l'activité d'un des modules, production ou consommation
+    d'énergie.
+    L'établissement du nouvel état stationnaire
+    sera alors fonction du changement d'activité de l'autre module en réponse à la
+    modification de concentration de l'intermédiaire, ce qui permet la
+    mesure expérimentale de l'élasticité de ce module (voir sous-section~\ref{sub:elasticites}
+    de l'\nameref{part:introduction}).
+    
+    Dans nos expériences, la modulation de l'activité de chacun des modules est
+    effectuée de manière successive, ce qui nous permet d'avoir accès aux deux
+    élasticités pour chacun des coeurs. Cette stratégie expérimentale, dite du
+    \textit{One-Shot}, est basée sur l'établissement de l'état stationnaire de
+    référence comme situation intermédiaire commune aux deux modifications
+    (figure~\ref{fig:oneshot}).
+
+
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/OneShot}
+    \caption[Détermination Expérimentale des Elasticités]
+    {\label{fig:oneshot}\protect\parbox[t]{0.8\textwidth}
+        {\textbf{Détermination Expérimentale des Elasticités par Méthodologie
+        "One-Shot".}
+        La variation successive de l'activité du module consommateur (état
+        stationnaire 1 à 2) puis de l'activité du module producteur (état
+        stationnaire 2 à 3) permet de faire varier la concentration de PCr
+        autour de l'état de référence (état stationnaire 2). La confrontation
+        des états
+        stationnaires 1 (sous-activité du module de demande en énergie) et 3
+        (inhibition de la production énergétique) par rapport à l'état
+        stationnaire de référence donne accès au calcul de
+        l'élasticité de chacun des modules en réponse à cette variation de
+        [PCr]. La pente relative des tangentes à l'état stationnaire de
+        référence (droites bleues) correspond aux élasticités de chacun des modules.}}
+    \vspace{10pt}
+    \end{figure}
+
+
+
+
+    Les élasticités sont alors calculées à partir de l'équation \ref{eq:elasticite}
+
+       
+    \begin{equation}
+        \label{eq:elasticite}
+        \varepsilon^\text{module}_\text{PCr}=\frac{\Delta
+        PPF/PPF_{initial}}{\Delta [PCr]/[PCr]_{initial}}
+    \vspace{10pt}
+    \end{equation}
+
+    Un exemple de signaux expérimentaux (spectres RMN et suivi de l'activité
+    contractile) acquis pendant une expérience de détermination des
+    élasticités de chacun des modules par rapport à PCr sur coeur isolé perfusé
+    de souris est présenté en figure~\ref{fig:emanip}.
+
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figures/TypicalRecording}
+    \caption[Application expérimentale de l'Analyse du Contrôle sur coeur
+    isolé perfusé de souris]
+    {\label{fig:emanip}\protect\parbox[t]{0.8\textwidth}
+        {\textbf{Application expérimentale de l'Analyse du Contrôle sur coeur isolé perfusé
+        de souris.}
+        La mesure simultanée de l'activité contractile et de la concentration
+        des métabolites phosphorylés pendant des perturbations spécifiques de
+        l'activité de la production (transition $a\rightarrow b$,
+        gonflement du ballonnet intraventriculaire) et de la consommation en énergie
+        (transition $b\rightarrow c$, injection de $NaCN+IAA$) permet d'accéder
+        à la mesure expérimentale des deux élasticités sur chaque coeur isolé perfusé.
+        (Figure modifiée de \citep{Calmettes:2008pi}).}}
+    \vspace{10pt}
+    \end{figure}
+
+
+    \subsection{\'Elasticité du Module Producteur} % (fold)
+    \label{sub:eprod}
+    
+    L'élasticité du module Producteur est calculée à partir d'une perturbation de
+    [PCr] induite par une augmentation physiologique de la contraction
+    cardiaque via l'effet Franck Starling :
+    l'augmentation du volume du ballonnet inséré dans le
+    ventricule gauche du coeur (augmentation du volume
+    télé-diastolique) entraîne un étirement des fibres
+    musculaires cardiaques. Cet étirement a pour conséquence une augmentation de la
+    sensibilité calcique des myofilaments (et plus particulièrement une augmentation
+    de la sensibilité de
+    la troponine C au calcium) ce qui conduit à une plus forte contraction
+    \citep{Bers:2002fk,Saks:2006uq}.
+    
+    Dans nos expériences, cela se répercute par une légère diminution de [PCr]
+    à laquelle est associée une augmentation de l'activité contractile 
+    (transition $a\rightarrow b$, figure~\ref{fig:emanip}), données
+    à partir
+    desquelles pourra être calculée l'élasticité du module Producteur
+    ($\varepsilon^{Producteur}_{PCr}$)
+    d'après l'équation \ref{eq:elasticite}. 
+
+    
+%    Comme nous l'avons vu, l'adaptation à l'hypoxie chronique est responsable
+%    d'une modification importante de l'anatomie cardiaque. En particulier, de
+%    part l'interdépendance entre les ventricules droits et gauches,
+%    l'hypertrophie ventriculaire droite développée durant l'exposition
+%    chronique à l'hypoxie implique un remodelage de l'ensemble des cavité
+%    ventriculaires.
+%    En conséquent, 
+    Pour assurer une perturbation comparable de la demande en énergie chez les
+    souris contrôles et hypoxiques, le gonflement
+    du ballonnet a été ajusté en prenant en compte la différence de volume intraventriculaire
+    gauche, mesurée par IRM (voir l'article de \citet{Miraux:2009gd} présenté
+    dans la partie \nameref{part:resultats}) entre ces deux populations (volume
+    intraventriculaire gauche $20$ à $25~\%$ inférieur chez les souris hypoxiques).
+    % subsection eprod} (end)
+
+    \subsection{\'Elasticité du Module Consommateur} % (fold)
+    \label{sub:econso}
+    
+    Par analogie avec la sous-section~\ref{sub:eprod} ci-dessus, 
+    une injection combinée de cyanure ($NaCN$) à de faibles concentrations ($0,3$ à
+    $0,4~mM$) et de iodoacétate ($75~µM$) permet de diminuer la concentration
+    de PCr par une faible
+    inhibition de la production d'énergie, et ainsi d'observer la réponse
+    cinétique du module Consommateur, afin de calculer son élasticité 
+    ($\varepsilon^{Consommateur}_{PCr}$)
+    (transition $b\rightarrow c$, figure~\ref{fig:emanip}).
+    Le cyanure est un inhibiteur compétitif du
+    complexe $IV$ de la chaîne respiratoire mitochondriale : de par sa structure
+    chimique identique à celle de l'oxygène, le $CN^-$ est capable de se
+    combiner avec le fer ferrique de la cytochrome oxydase, bloquant ainsi la
+    respiration cellulaire \citep{Nelson:2006kx}. Le iodoacétate est un inhibiteur 
+    de la glycolyse au niveau de la glycéraldehyde-3-phosphate déshydrogénase,
+    $75~\mu M$ étant suffisants pour inhiber près de $95~\%$ de l'activité
+    glycolytique \citep{Chatham:1988fk}.
+
+    L'inhibition conjuguée des activités mitochondriale et glycolytique est
+    nécessaire en raison de la perfusion des coeurs en double substrats (glucose -
+    pyruvate, voir section~\ref{sec:coeursouris}).
+    
+
+    % subsection Calcul de l'\'Elasticité de la Demande en \'Energie (end)
+
+
+%%% ---------------------------------------------------
+%%% SECTION 3 --- COEF CONTROLES ---
+
+\section{Calcul des Coefficients de Contrôles} % (fold)
+\label{sec:controles}
+
+
+    Les coefficients de contrôle de chacun des modules Producteur et
+    Consommateur sur la contraction cardiaque sont directement calculés à
+    partir des valeurs d'élasticité, d'après les 
+    équations décrites par \citet{Ainscow:1999kx} et adaptées par notre équipe
+    au modèle de l'énergétique cardiaque \citep{Diolez:2007ly}
+    (équations~\ref{eq:coefprod2} et \ref{eq:coefconso2}).
+
+
+
+   \begin{equation}
+        \label{eq:coefprod2}
+        C_\text{Producteur}^\text{PPF}
+        =
+        \frac{\varepsilon^\text{Consommateur}_\text{[PCr]}}
+        {\varepsilon^\text{Consommateur}_\text{[PCr]} -
+        \varepsilon^\text{Producteur}_\text{[PCr]}}
+        \vspace{10pt}
+    \end{equation}
+
+    \begin{equation}
+        \label{eq:coefconso2}
+        C_\text{Consommateur}^\text{PPF}
+        = \frac{\varepsilon^\text{Producteur}_\text{[PCr]}}
+        {\varepsilon^\text{Producteur}_\text{[PCr]} -
+        \varepsilon^\text{Consommateur}_\text{[PCr]}}
+        \vspace{10pt}
+    \end{equation}
+
+
+%%% ---------------------------------------------------
+%%% SECTION 4 --- REGULATION ---
+
+\section{Analyse de Régulation} % (fold)
+\label{sec:regul}
+
+    Dans cette thèse, l'analyse de régulation a été utilisée pour montrer
+    comment l'adaptation de l'énergétique cardiaque à l'hypoxie chronique
+    \citep{Calmettes:2008pi} limite de manière très importante l'impact
+    physiologique d'une baisse d'oxygène sur la fonction cardiaque
+    \citep{Calmettes:2010fk}.
+
+    Les équations permettant de décrire le changement d'état stationnaire
+    des coeurs isolés perfusés en quantifiant l'ensemble des effets induits par
+    la diminution d'oxygène sur chacun des modules de notre système 
+    (voir section~\ref{sec:defsystème}) ont été directement adaptées de
+    \citet{Ainscow:1999fk} et \citet{Diolez:2007ly}.
+    Les effets de la baisse d'oxygène sur l'énergétique cardiaque ont été
+    quantifiés en termes d'\textit{effet direct}, d'\textit{effet indirect} et
+    d'\textit{effet global} sur les modules.
+
+    L'effet indirect correspond à la modification d'activité du module en
+    réponse au changement de [PCr] après la baisse de la concentration en oxygène.
+    Cet effet est donc dépendant de
+    l'élasticité du module par rapport à [PCr] (equation~\ref{eq:indeffect}).
+
+    \begin{equation}
+        \label{eq:indeffect}
+        \text{Effet Indirect} =
+        \varepsilon^\text{module}_\text{[PCr]}\times\frac{\Delta\text{[PCr]}_\textit{baisse
+        d'oxygène}}{\text{[PCr]}_{initial}}
+        \vspace{10pt}
+    \end{equation}
+    
+
+    L'effet direct sur chaque module quantifie l'effet propre de la diminution
+    d'oxygène sur chacun des modules. Son calcul implique donc l'effet total
+    observé sur l'activité de l'ensemble des modules du système induit par la 
+    baisse d'oxygène ($\frac{\Delta 
+    PPF_\textit{baisse d'oxygène}}{PPF_{initial}}$) auquel on
+    soustrait l'effet indirect (equation~\ref{eq:direffect}).
+
+    \begin{equation}
+        \label{eq:direffect}
+        \text{Effet Direct} =
+        \frac{\Delta PPF_\textit{baisse d'oxygène}}{PPF_{initial}} - 
+        \varepsilon^\text{module}_\text{[PCr]}\times\frac{\Delta\text{[PCr]}_\textit{baisse
+        d'oxygène}}{\text{[PCr]}_{initial}}
+        \vspace{10pt}
+    \end{equation}
+    
+    Enfin, la multiplication de cet effet direct de la baisse d'oxygène sur un
+    module par le coefficient de contrôle de ce module sur le flux de notre
+    système donne accès à l'effet global de la baisse d'oxygène sur le système
+    via ce module (equation~\ref{eq:globeffect}).
+
+    \begin{equation}
+        \label{eq:globeffect}
+        \text{Effet Global} =
+        C_\text{module}^\text{PPF}\times\frac{\Delta PPF_\textit{baisse d'oxygène}}
+        {PPF_{initial}} - 
+        \varepsilon^\text{module}_\text{[PCr]}\times\frac{\Delta\text{[PCr]}_\textit{baisse
+        d'oxygène}}{\text{[PCr]}_{initial}}
+        \vspace{10pt}
+    \end{equation}
+    
+
+% section regul} (end)
+% section Détermination des Coefficients de Contrôles (end)
+
+% section elasticites (end)
+% section Définition du Système Modulaire (end)
+

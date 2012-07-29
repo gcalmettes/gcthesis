@@ -1,0 +1,172 @@
+\chapter{Modèle animal}
+\label{chap:animal}
+
+\begin{chapintro}
+    %\malettrine{L}{e} recours à l'expérimentation animale en recherche pose des
+    %questions
+    %d'éthique et requiert la plus grande considération et le plus grand
+    %respect. Cependant, même si l'extrapolation des résultats issus des expériences animales 
+    %à l'homme doit se faire avec la plus grande prudence \citep{Sena2010em},
+    \malettrine{L}{'utilisation} de modèles animaux est un outil important de
+    la recherche actuelle qui permet de mieux appréhender et comprendre les
+    mécanismes moléculaires, cellulaires et physiologiques impliqués dans de nombreuses
+    pathologies.
+    
+    Ce chapitre présente le modèle murin hypoxique qui a permis
+    l'étude des adaptations de l'énergétique cardiaque à l'hypoxie chronique
+    dans cette thèse.
+\end{chapintro}
+
+    \section{Populations d'\'Etude} % (fold)
+    \label{sec:pption}
+
+    L'ensemble des expériences a été effectué sur des souris femelles de
+    type SWISS (\'Elevage Janvier, Le Genest-S$^t$-Isle, France).
+    Deux groupes de ces souris ont été comparés pour étudier les modifications
+    de l'énergétique cardiaque induites par l'hypoxie chronique :
+    
+    \begin{itemize}
+        \item un groupe de souris \textbf{contrôles} ($9$ semaines)
+        \item un groupe de souris \textbf{hypoxiques} : souris ($6$ semaines)
+            soumises à une hypoxie chronique de $3$ semaines (voir section~\ref{sub:caisson})
+    \end{itemize}
+
+    Le conditionnement du groupe hypoxique à partir de l'âge de $6$ semaines
+    permet d'éviter tout biais expérimental dû à une différence d'âge entre les
+    groupes au moment des expériences.
+
+    Si l'on se réfère à la
+    courbe de poids des souris SWISS (figure~\ref{fig:poidssouris}),
+    $9$ semaines correspondent à un état
+    de stabilité relative en terme de développement corporel, avec une évolution faible
+    à partir de 6 semaines. Cette particularité permet de limiter la
+    variabilité liée aux modifications physiologiques relatives à la
+    croissance.
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{figures/poidsSouris.pdf}
+        \caption[Courbe de poids des souris SWISS]
+        {\label{fig:poidssouris}\protect\parbox[t]{0.75\textwidth}{
+        \textbf{Courbe de poids des souris SWISS (d'après le catalogue de l'élevage
+        JANVIER, Le-Genest-S$^t$-Isle, France).} Au moment des expériences, les
+        souris femelles étaient âgées de $9$ semaines, ce qui correspond à un
+        état de stabilité en terme de développement corporel.}}
+    \end{figure}
+    
+    Ces animaux ont été élevés dans des conditions constantes de
+    température et d'humidité, en suivant des cycles jour/nuit de $12h/12h$.
+    Toutes les souris ont été nourries
+    à volonté. En conséquence, notre étude ne différencie pas l'acclimatation
+    propre à l'hypoxie chronique de celle propre à l'anorexie induite par
+    l'exposition à un environnement hypoxique
+    \citep{Daneshrad:2001uq,Daneshrad:2000fk,Barrie:1976kx}, mais s'attache aux effets
+    globaux de l'hypoxie chronique.
+    
+
+    \section{Génération du Modèle de Souris Hypobares} % (fold)
+    \label{sec:modeleCH}
+
+    L'accès au modèle de souris hypobares été rendu possible grâce à une
+    collaboration avec l'équipe du Professeur Bernard Muller (Laboratoire
+    de Physiologie Cellulaire Respiratoire, INSERM U885, E356), qui dispose
+    d'une chambre hypobare (figure~\ref{fig:caisson}).
+
+    
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.85\textwidth]{figures/Caisson.pdf}
+    \caption[Caisson Hypobare]
+    {\label{fig:caisson}\protect\parbox[t]{0.75\textwidth}{
+    \textbf{Caisson Hypobare.} Chambre hypobare (1) dont le maintien 
+    d'une pression barométrique de
+    $380~mmHg$ est assuré par un système de régulation automatique (2)}}
+\vspace{10pt}
+\end{figure}
+
+    \subsection{Caisson Hypobare} % (fold)
+    \label{sub:caisson}
+    
+    Pour le groupe hypobare,
+    les souris ont été hébergées pendant $21$ jours dans un caisson 
+    (Minerve, Esternay, France) dont la pression barométrique a été abaissée à
+    $380~mmHg$ (équivalent à $\frac{1}{2}$ atmosphère et à une altitude de
+    $5500~m$). La pression inspirée en oxygène correspondante est donc diminuée
+    de moitié par rapport au groupe contrôle, soit une valeur de $70~mmHg$.
+
+    Le caisson est divisé en plusieurs compartiments, chacun étant équipé d'un
+    capteur de pression propre et d'une entrée d'air unique avec un débit de
+    renouvellement d'air de $6~L/min$. Ainsi, la pression de $380~mmHg$ est
+    continuellement contrôlée et maintenue constante pour chacun des
+    compartiments (figure~\ref{fig:caisson}).
+    Le caisson est ouvert $3$ fois par semaine pour le nettoyage des cages et le
+    réapprovisionnement en eau et nourriture. Ces ouvertures permettent également
+    de sortir les animaux pour les expériences, une fois la période
+    d'exposition à l'hypoxie terminée.
+    L'ouverture du caisson est gérée par un système de régulation
+    automatique (Duffau, Talence, France, figure~\ref{fig:caisson})
+    qui assure une remontée en pression (ainsi
+    que sa dépressurisation à la fin du nettoyage des compartiments)
+    progressive, sur une durée de $45~min$.
+
+    \subsection{Diagnostic de l'Hypertrophie Ventriculaire Droite} % (fold)
+    \label{sub:fulton}
+
+    Deux méthodes ont été utilisées afin d'apprécier l'hypertrophie
+    ventriculaire droite secondaire à l'hypoxie chronique :
+
+    \begin{itemize}
+        \item \textbf{Indice de Fulton :} \citet{Herrmann:1922} puis plus tard
+    \citet{FULTON:1952vn} ont décrit une méthode consistant à disséquer
+    séparément le ventricule droit et le ventricule gauche et à les peser l'un
+    l'autre. L'hypertrophie du ventricule droit est alors appréciée par
+    l'augmentation significative de l'\textit{indice de Fulton}, défini par la
+    relation suivante :
+
+    \begin{equation*}
+        \textit{Indice de Fulton}=\frac{\textit{Masse Ventricule
+        Droit}}{\textit{Masse (Ventricule Gauche + Septum)}}
+    \end{equation*}
+    \vspace{5pt}
+        \item \textbf{Imagerie par Résonance Magnétique :} les modifications
+            des masses ventriculaires ont également été appréciées par la
+            mesure des volumes myocardiques \textit{in vivo} à l'aide d'un
+            séquence spécifique d'Imagerie par Résonance
+            Magnétique \citep{Miraux:2009gd}
+            (collaboration interne au laboratoire - Eric Thiaudière et Sylvain Miraux)
+            (figure~\ref{fig:mrivolumes}).
+    \end{itemize}
+
+
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/MRIvolumes}
+    \caption[Mesure des modifications anatomiques cardiaques]
+    {\label{fig:mrivolumes}\protect\parbox[t]{0.8\textwidth}
+        {\textbf{Mesure des modifications anatomiques cardiaques.}
+        Le traitement des images 3 dimensions a permis la détermination des
+        volumes des masses myocardiques ainsi que des volumes
+        intraventriculaires in vivo sur la souris.}}
+    \vspace{10pt}
+    \end{figure}
+
+{~}
+    
+{~}
+    
+{~}
+ 
+{~}
+    
+{~}
+
+\vspace{6cm}
+
+{~}
+    
+{~}
+    
+{~}
+    
+{~}
+    

@@ -1,0 +1,297 @@
+\chapter{Coeur de souris isolé-perfusé}
+\label{chap:coeur}
+
+\begin{chapintro}
+  \malettrine{L}{a} perfusion des coeurs de mammifères 
+  fut mise au point sous l'influence de Henry
+  Newell Martin (1848 - 1893) et surtout Oscar Langendorff (1853 - 1908) qui décrivit en
+  détail la technique et donna son nom à cette préparation expérimentale
+  \citep{Langendorff:1895rm}.
+  
+  Le modèle du coeur isolé perfusé s'est aujourd'hui imposé comme un outil de choix
+  pour étudier la
+  fonction cardiaque et mieux comprendre les mécanismes qui la régissent.
+  Ce chapitre présente le développement de notre système spécifique de coeur isolé perfusé
+  de souris utilisé dans cette thèse.
+
+\end{chapintro}
+
+%%% ---------------------------------------------------
+%%% SECTION 1 --- MONTAGE EXPERIMENTAL ---
+
+\section{Construction du Montage Expérimental} % (fold)
+\label{sec:montage}
+
+
+    Le modèle du coeur isolé perfusé est une technique qui fait partie du
+    savoir faire du laboratoire depuis de nombreuses années. En particulier, un
+    montage expérimental dédié aux coeurs de rat/cobaye, couplé aux techniques
+    de spectroscopie RMN, a déjà permis des études approfondies de
+    l'énergétique cardiaque
+    \citep{Dos-Santos:2000ve,Diolez:2002bh,Diolez:2007ly,Korzeniewski:2008jt,
+    Korzeniewski:2009cs}.
+
+    L'utilisation de ce même montage pour les études sur souris est rendue plus
+    difficile en raison des particularités du coeur murin comparé au coeur
+    de rat/cobaye :
+    
+    \begin{itemize}
+        \item coeur beaucoup plus sensible aux variations de température
+            (nécessité d'un système de thermorégulation spécifique)
+        \item taille de coeur très petite ($8~mm$ en grand axe) augmentant les
+            difficultés des acquisitions RMN (facteur de remplissage d'antenne
+            réduit)
+    \end{itemize}
+
+    Pour répondre à ces contraintes expérimentales, un nouveau système de
+    perfusion spécifique à la perfusion des coeurs de souris a été développé
+    (voir figure~\ref{fig:shemamontage}).
+
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{figures/SystemePerf}
+    \caption[Schéma du montage expérimental]{\label{fig:shemamontage}
+    \protect\parbox[t]{0.8\textwidth}
+        {\textbf{Schéma du montage expérimental.}
+        Un système d'asservissement de pompe (1) permet de perfuser le coeur à pression 
+        (flèches rouges) ou à débit
+        constant (flèches bleues). Ces informations de perfusion, ainsi que
+        l'ensemble des paramètres cardiaques issus
+        du ballonnet inséré dans le ventricule gauche du coeur
+        (voir section \ref{sec:coeursouris}) sont
+        continuellement enregistrées par un ordinateur dédié (2).
+        Une gaine de perfusion souple (3) permet
+        l'étude du coeur dans un aimant RMN (voir chapitre \ref{chap:rmn}).
+        Cette gaine assure la thermostatisation du milieu de perfusion, et
+        est dotée de lignes de perfusion externes pour l'injection de drogues
+        (voir sous-section \ref{sub:drogues}).}}
+    \vspace{10pt}
+    \end{figure}
+    
+
+    
+
+    Contrairement à un système classique de
+    perfusion Langendorff (pression constante de perfusion assurée par
+    une colonne), ce montage est basé sur un système d'asservissement de pompe (EMKA
+    Technologies$^{\mbox{\scriptsize{\circledR}}}$).
+    Cet appareillage traite le signal issu
+    d'un capteur de pression branché en dérivation sur la canule de perfusion
+    du coeur (figure~\ref{fig:shemamontage}) et régule le débit de la pompe en fonction de la
+    pression de perfusion effective mesurée. Cette
+    caractéristique offre l'opportunité de perfuser le coeur suivant une pression
+    ou un débit de consigne défini par l'opérateur.
+    
+    La principale difficulté a été la construction d'une gaine de perfusion
+    thermostatée
+    adaptée aux dimensions de l'aimant DPX500 du laboratoire (diamètre du trou d'insertion
+    $2,6~cm$). Toutefois, comme nous le verrons par la suite, l'accès à cet
+    aimant a permis une augmentation très significative du signal RMN des
+    coeurs de souris (voir section \ref{sec:spectre}).
+    En plus des caractéristiques de la gaine présentées en
+    figure~\ref{fig:shemamontage}, une photo du système complet est présentée
+    dans la figure~\ref{fig:photomontage}.
+
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/photomontage}
+    \caption[Montage de perfusion de coeur de
+    souris]{\label{fig:photomontage}\protect\parbox[t]{0.8\textwidth}
+        {\textbf{Montage de perfusion de coeur de souris.}
+        La construction d'un système de perfusion complet pour les coeurs de
+        souris a permis d'accéder à l'aimant $11,7 T$ du laboratoire}}
+    \vspace{10pt}
+    \end{figure}
+    
+
+
+
+%%% ---------------------------------------------------
+%%% SECTION 2 --- PERFUSION ---
+
+\section{Perfusion du Coeur de Souris} % (fold)
+\label{sec:coeursouris}
+
+    Les coeurs sont prélevés après euthanasie des souris par dislocation
+    cervicale. Une incision péritonéale et diaphragmatique permet d'exciser le
+    coeur battant. Le coeur est alors plongé dans une solution isotonique
+    héparinée (Krebs-Henseleit modifié) à une température de $2^\circ C$
+    afin de stopper les contractions cardiaques. Cette solution, identique au
+    milieu de perfusion, est composée de (en $mM$)
+    \textit{NaCl $108$ ; KCl $5,9$ ; MgSO$_4$ $1,2$ ; EDTA $0,5$ ; NaHCO$_3$
+    $25$ ; CaCl$_2$ $2,5$ ; Na-Pyruvate $5$ ;
+    Glucose $10$ et Mannitol $1,1$ ; pH $7,4$}. L'ajout d'héparine dans ce milieu 
+    ($100~U.I.$
+    dans $40~mL$) permet de limiter la formation de caillots sanguins.
+    Le montage du coeur sur une canule de perfusion est ensuite
+    réalisé sous loupe binoculaire :
+    la cavité ventriculaire gauche est dégagée par
+    excision de l'oreillette et l'artère pulmonaire est incisée. Ces deux
+    étapes permettront respectivement l'introduction d'un ballonnet en latex
+    dans le ventricule 
+    (pour la mesure des paramètres cardiaques, voir ci-dessous)
+    et l'amélioration du drainage coronaire une fois le
+    coeur perfusé. Le ventricule gauche est aussi percé au niveau de l'apex 
+    à l'aide d'une aiguille
+    afin d'améliorer le drainage veineux thébésien.
+
+    La canule de perfusion sur laquelle est ligaturé le coeur est ensuite
+    branchée sur le système de perfusion qui délivre le milieu de perfusion
+    thermo-régulé à $37^\circ C$ à pression constante de $90~mmHg$.
+    Ces conditions de perfusion
+    correspondent aux conditions recommandées pour le modèle du coeur isolé
+    perfusé de souris \citep{Sutherland:2003fk}.
+    Le myocarde est nourri par les artères coronaires irriguées à partir de la
+    perfusion rétrograde de l'aorte par le milieu décrit ci-dessus. La
+    perfusion en double substrats (Glucose-Pyruvate) 
+    s'est révélée nécessaire chez la souris pour 
+    assurer la stabilisation des paramètres mécaniques (pression développée
+    et fréquence cardiaque). L'oxygénation du perfusât est assurée en bullant
+    le milieu avec un mélange gazeux $95\%$ O$_2$ - $5\%$ CO$_2$.
+    
+    Un ballonnet en latex connecté, via un cathéter rempli d'eau, à
+    un capteur de pression (DPT-400,
+    Deltran$^{\mbox{\scriptsize{\circledR}}}$) est introduit dans le ventricule
+    gauche du coeur battant.
+    Le volume du ballonnet est contrôlé à l'aide d'une voie latérale
+    composée d'un cathéter relié à une seringue d'injection d'eau.
+    En conditions de référence, la pression intraventriculaire en fin de
+    diastole est ajustée à $6~mmHg$ (figure~\ref{fig:lvdp}).
+    
+
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.65\textwidth]{figures/LVDP.pdf}
+        \caption[Tracé expérimental typique de la pression ventriculaire gauche]
+        {\label{fig:lvdp}\protect\parbox[t]{0.75\textwidth}{\textbf{Tracé
+        expérimental typique de la pression ventriculaire gauche développée.}
+        L'enregistrement continu de la pression exercée par le myocarde sur le
+        ballonnet inséré dans le ventricule gauche permet d'obtenir la pression
+        dévelopée ainsi que la fréquence cardiaque du coeur.}}
+    \vspace{10pt}
+    \end{figure}
+
+    Les coeurs ne sont pas stimulés et se contractent spontanément. La
+    performance mécanique est appréciée par la PPF (Produit Pression $\times$
+    Fréquence) qui est directement proportionnelle au travail cardiaque
+    \citep{Sutherland:2003fk}. Elle est caractérisée par le produit de la
+    différence de pression (DPVG, en $mmHg$, soustraction de la valeur de pression
+    diastolique à celle de la pression systolique) et de la fréquence cardiaque
+    (FC, en battement par minute, $bpm$). 
+    Un exemple de tracé typique à partir duquel sont calculés les
+    paramètres cardiaques est présenté en figure~\ref{fig:lvdp}.
+    
+    Le coeur perfusé est ensuite placé dans un tube de silicium de 10
+    $mm$ de diamètre correspondant à une sonde RMN dual permettant
+    l'enregistrement de signaux $^1$H et $^{31}$P (voir section \ref{sec:spectre}).
+    Il baigne dans la solution de
+    perfusion à $37^\circ C$. Un circuit d'aspiration en continu permet de drainer
+    l'effluent coronaire et de maintenir constant le volume du liquide dans le
+    tube RMN.
+
+%%% ---------------------------------------------------
+%%% SECTION 3 --- PROTOCOLES ---
+
+\section{Protocoles de Perfusion} % (fold)
+\label{sec:protocperf}
+
+    \subsection{Hypoxie Aigue} % (fold)
+    \label{sub:hypoxie}
+
+    Dans nos expériences standards,
+    l'oxygénation du milieu de perfusion avec le mélange gazeux $95\%$ O$_2$ - $5\%$ CO$_2$
+    (voir section \ref{sec:coeursouris} ci-dessus) assure une pression partielle en
+    oxygène d'environ $600~mmHg$ dans le perfusât \citep{Poizat:1994fk},
+    conditions de référence pour le modèle du coeur isolé
+    perfusé \citep{Poizat:1994fk,Kammermeier:1994fk,Mik:2009uq}.
+
+    Dans ce travail,
+    plusieurs groupes expérimentaux ont aussi été étudiés en condition d'hypoxie
+    aigue \citep{Calmettes:2010fk}. Pour ces expériences, la pression partielle en
+    oxygène du milieu de perfusion était abaissée à $100$ - $120~mmHg$ par
+    équilibration du milieu de perfusion avec l'air ambiant \citep{Poizat:1994fk}
+    (pas d'oxygénation supplémentaire par bullage). Dans ce cas, l'ajout de 
+    \textit{MOPS ($10 mM$)} dans le perfusât s'est révélé nécessaire pour tamponner le
+    milieu et équilibrer le pH à $7,4$.
+
+    \subsection{Injection de Drogues} % (fold)
+    \label{sub:drogues}
+
+
+    Deux 
+    voies latérales équipées chacune d'une ligne de perfusion, d'une seringue
+    et d'un pousse-seringue automatique, permettent l'injection de drogues
+    directement au niveau du coeur
+    (figure \ref{fig:shemamontage} et \ref{fig:photomontage}).
+    Les concentrations des drogues dans la
+    seringue de perfusion sont calculées pour correspondre à des vitesses
+    d'injection de l'ordre de $1/60^\text{ème}$ à $1/120^\text{ème}$ 
+    du débit coronaire cardiaque ce qui permet notamment d'éviter tout phénomène
+    d'augmentation
+    de pression de perfusion lors de l'injection des drogues.
+    
+    Le tableau \ref{tab:droguesCoeur} ci-dessous présente 
+    les concentrations finales de l'ensemble des drogues 
+    utilisées dans ce travail afin de perturber l'énergétique des coeurs isolés
+    perfusés.
+
+    \begin{table}[!t]
+        \vspace{10pt}
+        
+        \centering
+        \caption{\label{tab:droguesCoeur} Drogues utilisées pour moduler
+        l'énergétique des coeurs}
+
+        \begin{tabular}{p{0.25\textwidth}p{0.12\textwidth}p{0.63\textwidth}}
+            \hline
+        \rule[-0.25cm]{0cm}{0.7cm} % hteur cellule 0.7cm, txt décalé 0.25cm vers bas
+        \textit{NaCN}               & $0,3~mM$      & Inhibition modérée de l'activité
+        mitochondriale (inhibition compétitive du complexe IV)\\
+        \rule[-0.25cm]{0cm}{0.7cm} % hteur cellule 0.7cm, txt décalé 0.25cm vers bas
+        \textit{Iodoacétate}        & $75~\mu M$    & Inhibition totale de l'activité
+        glycolytique au niveau de la glycéraldehyde-3-phosphate déshydrogénase\\
+        \textit{Adrenaline}         & $3,3~\mu g/L$ & Stimulation inotropique adrénergique\\
+        \rule[-0.25cm]{0cm}{0.7cm} % hteur cellule 0.7cm, txt décalé 0.25cm vers bas
+        \textit{Calcium}            & $1,6~mM$      & Stimulation inotropique
+        calcique\\
+        \rule[-0.25cm]{0cm}{0.7cm} % hteur cellule 0.7cm, txt décalé 0.25cm vers bas
+        \textit{Rouge de Ruthenium} & $2,5~\mu g/L$ & Inhibition totale de l'uniport calcique
+        mitochondrial\\
+            \hline
+    \end{tabular}
+    
+    \vspace{10pt}
+    \end{table}
+
+    {~}
+    
+    {~}
+    
+    {~}
+    
+    {~}
+    
+    {~}
+    
+    {~}
+    
+    {~}
+
+    {~}
+    
+    {~}
+    
+    {~}
+    
+    {~}
+    
+    {~}
+% section  (end)
+% subsection drogues (end)
+
+% subsection hypoxie (end)
+% section protocperf (end)
+% section coeursouris (end)
+
+% section montage} (end)

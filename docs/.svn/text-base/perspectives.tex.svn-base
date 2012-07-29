@@ -1,0 +1,85 @@
+\chapter{Perspectives}
+\label{chap:perspectiv}
+
+\section{Poursuites directes de ce travail de thèse} % (fold)
+\label{sec:perspecdir}
+
+    Les perspectives directes de se travail consistent à mieux comprendre les
+    modifications d'élasticité induites par l'hypoxie (aigüe ou chronique).
+
+    Tout d'abord, l'hypothèse d'un meilleur couplage miCK-ANT-VDAC développé
+    pendant l'adaptation à l'hypoxie chronique (et pouvant alors expliquer la plus grande
+    sensibilité mitochondriale aux modifications d'intermédiaires
+    énergétiques) doit être étudiée. Ainsi, la
+    comparaison des K$_m$ apparents à l'ADP déterminés sur mitochondries isolées
+    de coeurs de souris contrôle et hypoxiques pourraient par exemple nous
+    renseigner sur la possible implication de l'ANT \citep{Passarella:1988fk}
+    dans le processus adaptatif
+    mis en évidence dans nos travaux. Ces expériences sont actuellement en
+    cours au laboratoire, grâce au développement d'une méthodologie spécifique
+    permettant la mesure simultanée des vitesses d'oxydation et de
+    phosphorylation couplée à la détermination des concentrations d'ADP et
+    d'ATP pendant des états
+    stationnaires de phosphorylation sur mitochondries isolées
+    (Gilles Gouspillou - Philippe Diolez,
+    \textit{travaux en cours de publication}).
+
+    Un autre
+    moyen possible pour essayer de déterminer le mécanisme à l'origine de la
+    modification d'élasticité après hypoxie chronique serait, en conformité
+    avec la philosophie "Top-Down"
+    \citep{Brown:1990kx,Brand:1996uq,Brand:1998uq}, d'aller étudier plus en
+    détail le module pour lequel l'élasticité est modifiée. Ainsi, dans notre
+    travail, cela consisterait à considérer notre module producteur comme le
+    système d'étude, et à le décomposer à son tour en
+    différents modules. Le système mitochondrial pourrait alors ainsi être
+    étudié plus en détail comme le montrent les travaux antérieurs de l'équipe
+    avec l'application des concepts de l'Analyse du Contrôle Métabolique sur
+    ce système pour étudier les effets de la température \citep{Dufour:1996ly},
+    des céramides \citep{Leducq:2002fk} ou
+    encore, plus récemment, du vieillissement \citep{Gouspillou:2010fk}.
+
+    De plus, étant donné le rôle crucial du calcium dans la contraction
+    cardiaque, une étude plus poussée sur 
+    le lien entre les modifications de l'expression et de l'activité
+    des protéines impliquées dans le couplage excitation-contraction mises en
+    évidence après hypoxie chronique \citep{Pei:2003fv} et la modification
+    d'élasticité mesurée dans nos expériences, serait particulièrement
+    intéressante. La mise au point des techniques de spectrofluorométrie
+    permettant le suivi de la concentration calcique sur coeur isolé perfusé
+    de souris par des sondes spécifiques \citep{Du:2001kx,Du:2001vn,MacGowan:2001uq}
+    offre une telle perspective.
+
+\section{Perspectives Générales} % (fold)
+\label{sec:perspecgen}
+
+    L'apport principal de cette thèse a été la validation de l'approche MoCA
+    sur un modèle de coeur en situation pathologique. Le développement des
+    applications de MoCA aux pathologies et en particulier l'insuffisance cardiaque
+    devrait conduire à la définition de nouvelles stratégies d'interventions
+    thérapeutiques. 
+    L'intérêt des approches reposant sur les Théories du
+    Contrôle Métabolique pour la détermination de cibles thérapeutiques n'est
+    en effet plus à démontrer \citep{Cascante:2002uq}.    
+    Ainsi, la conséquence logique de notre analyse serait la
+    description qualitative et quantitative des modifications à apporter au
+    système pour retrouver une activité et/ou des intermédiaires énergétiques
+    "normaux", ce qui revient à définir une démarche thérapeutique. Ces
+    informations sont accessibles à la fois par la détermination des
+    élasticités, mais également par l'étude du système avec l'analyse de
+    régulation. De plus, dans l'application de notre approche MoCA,
+    l'utilisation des techniques RMN non traumatiques s'intègre
+    dans les problématiques de ce challenge, puisqu'elle permet même
+    d'envisager des études \textit{in vivo}.
+
+    Enfin, étant donné le développement dans cette thèse d'un système spécifique
+    dédié au coeur de souris, MoCA peut désormais être appliquée à tous les modèles
+    transgéniques, ce qui offre de nombreuses perspectives pour la recherche
+    fondamentale et clinique.
+
+    
+
+
+
+
+

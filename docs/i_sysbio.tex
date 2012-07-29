@@ -1,0 +1,882 @@
+\chapter{\'Etude Intégrée de l'\'Energétique Cardiaque}
+\label{chap:sysbio}
+
+\begin{chapintro}
+  \malettrine{L}{a} Biologie des Systèmes est une démarche nouvelle qui a pour
+  objectif d'étudier le fonctionnement d'un organisme vivant en assimilant les
+  réseaux d'interactions biologiques à des systèmes modélisables. Ce courant
+  combine des approches expérimentales et théoriques afin de comprendre comment
+  les différentes parties d'un organisme fonctionnent et interagissent entre
+  elles. Cependant il ne s'agit pas de considérer tour à tour les éléments puis
+  leurs interactions mais au contraire de s'intéresser à la résultante
+  de l'interaction des éléments. En effet, dans les systèmes complexes, le
+  phénomène d'\textit{émergence} évoque la naissance de nouvelles propriétés
+  à partir de l'organisation des différents éléments de ce système 
+  (\textit{ex :} fonction d'un organe, comme la contraction cardiaque qui nait
+  de l'interaction des différents éléments de l'énergétique cardiaque).
+  C'est un tout non dissociable aux caractéristiques de ses parties.
+
+  \'A la vue des nombreuses modifications touchant l'ensemble des processus de
+  production et de consommation d'énergie dans le coeur 
+  lors de l'adaptation à l'hypoxie
+  chronique, l'application d'une approche intégrative devrait
+  permettre une meilleure compréhension des mécanismes
+  physiologiques mis en jeu ainsi que de leur retentissement global sur
+  l'énergétique cardiaque.
+\end{chapintro}
+%
+%%% --------------------------
+%%% SECTION 1 --- CONTEXTE ---
+
+\section{Vers une Biologie des Systèmes} % (fold)
+\label{sec:historique}
+
+    La nécessité d'élaborer et de mettre en oeuvre des méthodes permettant une
+    compréhension approfondie et une modélisation prédictive cohérente,
+    fiable et précise des systèmes
+    biologiques est devenue une évidence tant les enjeux économiques qui y sont
+    liés sont importants. Cela s'applique tout aussi bien au niveau industriel (pharmacologie,
+    agro-alimentaire et environnement, \dots) qu'au niveau public (santé,
+    recherche, \dots).
+
+    C'est dans ce contexte qu'est née la \textbf{Biologie des Systèmes}
+    ("Systems Biology") ou \textbf{Biologie Intégrative}.
+    %Dans ce contexte, la \textbf{Biologie des Systèmes} 
+    Elle peut être définie comme
+    \textit{"la science qui vise à comprendre comment une fonction biologique,
+    absente des macromolécules isolées, survient quand ces dernières sont
+    des composants d'un système"} \citep{Westerhoff:2009oq}. Ces propriétés
+    qui émergent en résultat de l'interaction des composants d'un système, sont
+    dépendantes du niveau d'organisation de ce système. Le phénomène d'émergence
+    est lié à l'intégration, et explique pourquoi \textit{(i)} on 
+    ne peut pas forcément prédire le comportement de l'ensemble par la seule 
+    analyse de ses parties ("réductionnisme"),
+    et pourquoi \textit{(ii)} l'ensemble adopte un comportement
+    caractérisable sur lequel la connaissance détaillée de ses parties ne
+    renseigne pas complètement \citep{Weiss:2006fk}. Toutefois, ces nouvelles
+    propriétés n'apparaissent qu'à partir d'un certain seuil de complexité, et
+    ne deviennent observables que lorsqu'elles vont dans le sens d'une 
+    organisation nouvelle et globale. Ainsi, le tout n'est pas uniquement de 
+    reconstruire des réseaux biologiques, mais de comprendre leurs propriétés,
+    notamment dynamiques \citep{Weiss:2006fk}. Cette insistance sur
+    l'aspect dynamique des systèmes biologiques est souvent considérée comme la
+    marque distinctive de la Biologie des Systèmes et de son apport majeur. Ceci
+    est mis en valeur par \citet{Kitano:2002kl} dans ce qui est considéré par 
+    certains comme le
+    manifeste de ce courant de pensée : \textit{"La compréhension
+    systémique, l'approche défendue en Biologie des Systèmes, exige un
+    déplacement dans notre idée de ce qu'il faut chercher en biologie. Si une
+    compréhension en termes de gènes et de protéines continue d'être
+    nécessaire, l'important est de comprendre la structure et la dynamique d'un
+    système. Parce qu'un système n'est pas un simple assemblage de gènes et de
+    protéines, ses propriétés ne peuvent être complètement comprises simplement
+    en dessinant les diagrammes et leurs interconnexions"}.
+
+    Le coeur est un des premiers organes pour lequel se sont déployés des
+    efforts de modélisation et simulation avec le développement des premiers
+    modèles des potentiels d'action dans les années 1960
+    \citep{HUTTER:1960tg,HALL:1963hc}.
+    Aujourd'hui, l'engouement pour la compréhension globale de cet organe
+    est toujours aussi grand, et des projets visant à la construction d'un
+    véritable \textit{Coeur Virtuel} sont en cours. 
+    L'un des projects les plus important est notamment développé 
+    dans le cadre du \textit{Physiome Project} 
+    (\href{http://www.physiome.org.nz/projects/cardiovascular/}{www.physiome.org.nz/projects/cardiovascular/}) 
+    \citep{Hunter:2002ij} sous l'impulsion de Peter Hunter
+    (Université d'Auckland) et Denis Noble (Université d'Oxford).
+    Le succès de tels challenges scientifiques dépend étroitement de la
+    connaissance et de la compréhension des
+    mécanismes physiologiques à tous les niveaux, ce qui inclut
+    notamment le métabolisme énergétique
+    \citep{Noble:2002bs,Noble:2006dz,Bassingthwaighte:2009fv}.
+
+    Le réseau métabolique cellulaire, avec ses innombrables
+    ramifications, ses rétroactions, sa régulation, ses compartiments et les
+    échanges entre eux, est actuellement très loin de pouvoir donner lieu à une
+    modélisation explicite. Quand bien même celle-ci serait possible, un vaste
+    champ d'investigation resterait ouvert. En raison du phénomène
+    d'émergence, il n'est ni
+    nécessaire, ni suffisant, de connaître \textit{tous} les éléments d'un
+    système pour en étudier et comprendre certaines propriétés. C'est sur cette
+    base épistémologique que s'est construite la \textit{Théorie du Contrôle
+    Métabolique}, qui, depuis plus de $30$ ans maintenant, apporte des concepts
+    extrêmement utiles dans le contexte de la Biologie Intégrative.
+    Fondée indépendamment en 1973-74 par une
+    équipe allemande \citep{Kacser:1973fk} et une équipe écossaise
+    \citep{Heinrich:1974uq}, elle a depuis fait l'objet de nombreux travaux, en
+    particulier pour l'étude des fonctions mitochondriales telles que la
+    $\beta$-oxydation \citep{Quant:1993kx,Quant:1993vn,Quant:1994ys} ou la
+    phosphorylation oxidative
+    \citep{Hafner:1990zr,Kesseler:1992ly,Diolez:1993ve,Brand:1998uq,Leducq:2002fk,
+    Gouspillou:2010fk}.
+    Aujourd'hui, les concepts de l'Analyse du Contrôle Métabolique
+    sont de plus en plus utilisés en vue de l'étude de pathologies, et leur
+    application semble particulièrement adaptée pour la détermination
+    de cibles thérapeutiques et le développement de nouvelles drogues
+    \citep{Cascante:2002uq,Hornberg:2007fk,Cascante:2008fk}.
+
+%%% ---------------------------------------------------
+%%% SECTION 3 --- MoCA ---
+\section{Analyse Modulaire du Contrôle Métabolique}
+\label{sec:energetiquecard}
+
+    \subsection{Notion de Voie Métabolique, de Flux et de Contrôle} % (fold)
+    \label{sub:fluxmetab}
+
+    Une \textbf{voie métabolique} est une séquence de réactions biochimiques catalysées
+    par des enzymes, au cours de laquelle une même molécule (\textit{substrat
+    initial}) est modifiée jusqu'à l'obtention d'un \textit{produit final}.
+    C'est donc un système thermodynamique
+    ouvert que traverse un flux de molécules : les molécules de
+    substrats sont transformées en molécules de produit par une série de
+    réactions produisant des molécules intermédiaires
+    (\ce{\textit{Substrat} ->[Enzyme] \textit{Intermédiaire} ->[Enzyme] \textit{Produit}}),
+    ce qui génère un \textbf{flux métabolique au
+    travers de la voie}. Lorsque le flux est constant, toutes les enzymes sont
+    traversées par ce même flux et donc catalysent les réactions à la même
+    vitesse.
+    Le système est ainsi à l'\textit{état stationnaire}, caractérisé par des
+    concentrations d'intermédiaires constantes puisque les vitesses de réaction
+    de toutes les enzymes sont égales (les vitesses de production
+    et de consommation de l'intermédiaire sont égales).
+
+    Puisqu'une voie métabolique est une suite de réactions enzymatiques,
+    historiquement, les premières études biochimiques de ces voies ont
+    consisté à envisager chacune des réactions individuelles, et donc à déterminer
+    les caractéristiques \textit{in vitro} de chacune des enzymes
+    (\textit{"Approche Réductionniste"}). Ceci
+    aboutissait à la construction d'un modèle intuitif de la voie considérée,
+    avec le plus souvent la détermination d'une \textit{étape limitante} 
+    (figure~\ref{fig:voie}). 
+    
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{figures/voie}
+    \caption[\'Etude du contôle d'une voie métabolique par détermination de
+    l'étape limitante]{\label{fig:voie}\protect\parbox[t]{0.8\textwidth}
+        {\textbf{\'Etude du contôle d'une voie métabolique par détermination de
+    l'étape limitante.}
+    Dans le concept de l'étape limitante, le flux de la voie métabolique
+    est fixé par le niveau d'activité de l'étape limitante.}}
+    \vspace{10pt}
+    \end{figure}
+
+    Dans un tel schéma, le
+    flux d'une voie métabolique est alors fixé par les
+    propriétés de l'enzyme correspondant à cette étape limitante. En d'autres
+    termes, on peut dire que 
+    le flux de la voie métabolique est alors entièrement "contrôlé" par la vitesse
+    de réaction de l'étape limitante (figure~\ref{fig:voie}).
+    Une des conséquences de ce modèle est que toute augmentation de l'activité de 
+    l'enzyme contrôlant la voie doit se répercuter par une augmentation
+    de même proportion de la production du produit final de cette voie.
+    
+    L'ingénierie biologique s'est intéressée à ce principe, dans le but de
+    pouvoir augmenter les productions de certains composés organiques.
+    Cependant, les différentes tentatives de contrôle de la production de matériel
+    biologique ont pour la plupart donné des résultats décevants voire
+    étonnants puisque dans certains cas l'effet contraire à ce qui était
+    désiré fut observé.
+    Un des exemples marquants a été la tentative d'augmentation de la production d'amidon
+    par des pommes de terre via la surproduction d'enzymes de la voie de
+    synthèse de l'amidon, qui au final provoqua la diminution de la taille des
+    pommes de terres \citep{Leggewie:2003kx}.
+
+    Ces données expérimentales suggèrent ainsi que, dans une voie métabolique, 
+    le modèle considérant l'existence d'une étape catalysée par
+    une enzyme dont les propriétés détermineraient le comportement
+    cinétique de l'ensemble du système n'est pas entièrement satisfaisant. 
+    Dans ce contexte, la théorie du Contrôle Métabolique, représente un nouveau 
+    cadre de référence.
+    Son apport principal a été de considérer que le contrôle peut être partagé 
+    par l'ensemble des enzymes d'une voie métabolique, et non pas dévolu à une
+    seule étape.
+    % subsection Notion de Flux Métabolique et de Contrôle de ce Flux (end)
+
+
+
+
+    \subsection{Décomposition d'un Système en Modules} % (fold)
+    \label{sub:modules}    
+
+    %Pour pouvoir être appliquée à un système donné, la théorie du Contôle
+    %Métabolique requiert la description de ce système en une succession de
+    %modules connectés par des intermédiaires. 
+    La théorie du Contrôle Métabolique peut être appliquée à tout système à
+    partir du moment où ce dernier \textit{(i)} peut être défini par différents
+    modules communicants (\textit{ex :} système à $2$ modules connectés par un
+    intermédiaire commun) et \textit{(ii)} est traversé par un flux identifiable. 
+    La définition du système en modules indépendants
+    sous-entend que chaque module est une entité unique isolée et que les
+    modules ne peuvent donc communiquer entre eux que par les modifications
+    d'intermédiaire (puisqu'aucun constituant d'un module ne fait également
+    partie d'un autre module). Dans le cas d'une voie métabolique, les modules
+    peuvent par exemple correspondre à des enzymes isolées, ou à des groupes
+    d'enzymes (chaque groupe étant alors considéré comme étant un seul module).
+    Chaque enzyme ne peut faire partie que d'un seul module, l'intermédiaire
+    étant ainsi le substrat/produit de cette enzyme (ou groupes d'enzymes).
+    
+
+    L'application de l'Analyse du Contrôle Métabolique donne
+    accès à la façon dont les changements d'activité des enzymes (ou groupe
+    d'enzymes) se traduisent par un changement de flux et d'intermédiaires
+    à travers cette voie. Plus la modification de l'activité d'une enzyme (ou
+    d'un groupe d'enzyme dans un module) aura
+    un impact important sur le flux métabolique du système, plus cette enzyme
+    aura ce que l'on appelle du \textit{contrôle sur le flux}.
+    Il en va de même dans un système décomposé en modules, où chaque module
+    sera caractérisé par un coefficient de contrôle sur le flux du système
+    \citep{Brown:1990kx,Brand:1996uq}, 
+    ce qui correspond à la quantification de la variation relative du
+    flux induite par une variation relative de l'activité d'un module.
+    Cette vision du système en différents modules nous permet alors de
+    parler d'\textit{Analyse Modulaire du Contrôle}.
+
+    Dans le cas le plus simple, la voie métabolique étudiée est décomposée en
+    deux modules liés par un intermédiaire commun (figure~\ref{fig:etatstat}):
+    \begin{itemize}
+        \item un module qui produit cet intermédiaire (\textit{module Producteur})
+        \item un module qui consomme cet intermédiaire (\textit{module
+            Consommateur})
+    \end{itemize}
+
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.65\textwidth]{figures/EtatStat}
+    \caption[Maintien de l'état stationnaire par les cinétiques des modules]
+    {\label{fig:etatstat}\protect\parbox[t]{0.8\textwidth}
+        {\textbf{Maintien de l'état stationnaire par les cinétiques des modules.}
+        Un système linéaire composé de deux modules, Producteur et
+        Consommateur d'un intermédiaire (M) commun, est à l'état stationnaire
+        lorsque l'activité des deux modules est égale. Cet état stationnaire
+        est maintenu par les propriétés cinétiques des modules. Ainsi,
+        si $[M]$ tend à varier et sortir de sa valeur d'équilibre
+        (augmentation ou diminution), les modifications d'activité du
+        Producteur et Consommateur en réponse à cette perturbation
+        auront pour conséquence un retour de $M$ à sa concentration initiale.}}
+    \vspace{10pt}
+    \end{figure}
+
+    Comme nous l'avons vu précédemment,
+    en état stationnaire, le flux qui traverse le système correspond
+    au flux qui traverse chacun des modules. Chaque module ayant la même
+    activité, la concentration de l'intermédiaire ([M]) est constante.
+    Cet état stationnaire peut être illustré par le point de rencontre des cinétiques de
+    chacun des modules en fonction de la concentration d'intermédiaire ([M]),
+    seul point pour lequel les activités des $2$ modules sont égales et
+    l'intermédiaire constant (figure~\ref{fig:etatstat}). L'état stationnaire
+    dépend donc directement des cinétiques des $2$ modules.
+    A partir de la figure~\ref{fig:etatstat}, on comprend ainsi
+    que toute légère variation de [M]
+    provoquera une modification d'activité de sa production et de sa
+    consommation qui tendront toutes les deux à ramener [M] à sa valeur initiale
+    (figure~\ref{fig:etatstat}).
+    Ainsi, en état stationnaire, le système est caractérisé par
+    deux variables (figure~\ref{fig:etatstat}) :
+    \begin{itemize}
+        \item le flux métabolique traversant l'ensemble du système
+        \item la concentration de l'intermédiaire ([M])
+    \end{itemize}
+    
+    L'objectif de l'Analyse Modulaire du Contrôle est de décrire
+    l'établissement et le maintien de cet état stationnaire en intégrant
+    les propriétés cinétiques de chacun des modules 
+    dans la description du comportement global du système (flux).
+   
+
+
+
+
+    \subsection{Détermination Expérimentale des Elasticités} % (fold)
+    \label{sub:elasticites}    
+    % subsection Des Cinétiques des Modules aux Elasticités (end)
+
+    Les propriétés cinétiques des modules peuvent être caractérisées et
+    quantifiées en considérant le changement d'activité de chacun des modules en
+    réponse à une modification de l'intermédiaire : cette réponse cinétique des
+    modules est appelée \textit{coefficient d'élasticité},
+    noté $\varepsilon^{\text{module}}_\text{intermédiaire}$
+    \citep{Fell:1992fk,Brand:1996uq,Brand:1998uq}.
+    Ce coefficient d'élasticité permet donc de quantifier expérimentalement
+    la réponse cinétique de chacun des modules à un changement d'intermédiaire.
+
+    La détermination expérimentale de ces élasticités repose sur la mesure,
+    lors d'un changement d'état stationnaire, des
+    modifications concomitantes  de la concentration en intermédiaire et de 
+    l'activité du module considéré
+    \citep{Brand:1996uq,Brand:1998uq} (figure~\ref{fig:determinationelast}).
+
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.65\textwidth]{figures/elasticites}
+    \caption[Détermination des coefficients d'élasticités]
+    {\label{fig:determinationelast}\protect\parbox[t]{0.8\textwidth}
+    {\textbf{Détermination des coefficients d'élasticités.}
+    Des modifications expérimentales spécifiques de l'activité du module
+    producteur ou consommateur en absence de toute altération de l'activité
+    de l'autre module
+    (cinétiques grises) permet de décrire un second point de la cinétique du
+    module dont on veut déterminer l'élasticité (points verts).
+    L'élasticité correspond graphiquement à la pente relative de la tangente au
+    milieu de l'arc délimité par le point de l'état stationnaire initial (point
+    jaune) et le point du nouvel état stationnaire (points verts).}}
+    \vspace{10pt}
+    \end{figure}
+
+    Dans ce but, une des stratégies possibles consiste à perturber la concentration de
+    l'intermédiaire en activant ou en inhibant de manière spécifique 
+    l'activité métabolique d'un des deux modules.
+    Cette perturbation de la cinétique d'un module permet de changer l'état
+    stationnaire. En effet, en modifiant la cinétique d'un des modules on va
+    croiser la cinétique de l'autre module en un autre point et atteindre ainsi 
+    un nouvel état stationnaire (figure~\ref{fig:determinationelast}).
+    Ce nouvel état stationnaire est caractérisé par une nouvelle valeur
+    d'intermédiaire [M] et une nouvelle valeur de flux
+    (figure~\ref{fig:determinationelast}).
+    Puisque ce nouveau point d'état stationnaire décrit un autre point de la
+    cinétique originale du module auquel on a pas touché, on peut accéder à
+    l'élasticité (réponse cinétique) de ce module. L'élasticité de ce module
+    correspond alors à la pente relative de la tangente à la cinétique de ce
+    module au milieu des deux points décrivant le passage entre les deux états
+    stationnaires (figure~\ref{fig:determinationelast}).
+    Plus cette pente sera importante, plus le module aura une "élasticité"
+    importante, c'est à dire une réponse importante d'activité 
+    par rapport à un changement d'intermédiaire.
+    
+    Cette valeur d'élasticité peut ainsi être calculée par le rapport de la
+    modification relative du flux et de la modification relative de 
+    l'intermédiaire (équation~\ref{eq:elastgeneral}).
+
+    \begin{equation}
+        \label{eq:elastgeneral}
+        \varepsilon^\text{module}_\text{intermédiaire}=
+        \frac{\Delta\text{Flux}/\text{Flux}_\text{initial}}
+        {\Delta\text{Intermédiaire}/\text{Intermédiaire}_\text{initial}}
+        \vspace{10pt}
+    \end{equation}
+
+    A partir de cette équation, on comprend qu'une modification infinitésimale
+    de la concentration d'intermédiaire nous permettra d'accéder au calcul de l'élasticité
+    au point de l'état stationnaire initial.
+    L'objectif expérimental (qui est également une des contraintes et limites 
+    expérimentales les plus importantes) est donc de provoquer des modifications de [M]
+    les plus petites
+    possibles afin de pouvoir assimiler la valeur d'élasticité calculée à
+    celle correspondant à l'état stationnaire de référence initial.
+    Expérimentalement, des changements infinitésimaux sont souvent impossibles
+    à obtenir du fait des approximations inhérentes à la mesure (erreur
+    expérimentale). La valeur d'élasticité calculée sera alors considérée comme une
+    approximation de l'élasticité à l'état stationnaire initial. Cependant,
+    dans la plupart des cas, il est possible de confirmer cette valeur
+    d'élasticité (et donc de la valider) en déterminant l'élasticité du module
+    pour une modification expérimentale inverse de l'intermédiaire (c'est à dire en inhibant
+    au lieu d'activer - ou en activant au lieu d'inhiber - l'autre module).
+    L'obtention d'une même valeur d'élasticité permettra de considérer cette
+    valeur comme étant celle correspondant à l'état stationnaire initial.
+
+
+    \subsection{Calcul des Coefficients de Contrôles sur le Flux} % (fold)
+    \label{sub:coefcontroles}
+
+    Contrairement aux élasticités qui sont des caractéristiques propres à chacun des modules,
+    les coefficients de contrôle des modules sur le flux énergétique
+    sont des propriétés de l'ensemble de la voie métabolique considérée.
+    De manière générale,
+    un coefficient de contrôle représente une mesure de l'impact d'une
+    modification de l'activité d'un des modules sur le flux à travers le système.
+    Ainsi, si le changement relatif en activité du module est ($\Delta
+    module/module$), il en résulte un changement de flux relatif ($\Delta
+    Flux/Flux$). 
+    On peut donc calculer ce contrôle à partir du rapport d'une variation relative du
+    flux sur une variation relative de l'activité d'une enzyme : le coefficient de
+    contrôle du module  exercé sur le flux (C$^{Flux}_{module}$) est alors défini par
+    l'équation \ref{eq:contr} :
+
+    \begin{equation}
+        \label{eq:contr}
+        \text{C}^{Flux}_{module}= \frac{\Delta Flux/Flux}{\Delta module/module}
+        \vspace{10pt}
+    \end{equation}
+
+    Ainsi, la somme des coefficients de contrôle de tous les modules d'un voie
+    sur le flux (équation~\ref{eq:contr}) peut être décrite par 
+    l'équation~\ref{eq:contr2} :
+
+    \begin{equation}
+        \label{eq:contr2}
+        \sum_{i=1}^n\text{C}^{Flux}_{module_i}=
+        \sum_{i=1}^n\frac{\Delta Flux/Flux}{\Delta module_i/module_i}
+        \vspace{10pt}
+    \end{equation}
+
+    On conçoit intuitivement que
+    si la voie métabolique est à l'état stationnaire, et que l'on augmente
+    l'activité de tous les modules par un même facteur, la
+    concentration des intermédiaires de la voie ne sera pas modifiée 
+    (les activités de production et de consommation par les modules changent de
+    la même manière). On observera donc
+    un changement du flux total égal au changement de
+    l'activité de chaque module ($\Delta Flux/Flux = \Delta module_i/module_i$). 
+    De plus, ce changement de flux peut
+    être considéré comme la somme des changements de flux
+    individuels à travers chacun des modules. En
+    intégrant cette propriété dans l'équation~\ref{eq:contr2} on obtient
+    l'équation~\ref{eq:sommation}, connue sous le nom de \textbf{Théorème de
+    Sommation} \citep{Kacser:1973fk,Heinrich:1974uq} :
+
+    \begin{equation}
+        \label{eq:sommation}
+        \sum_{i=1}^n C_{module_i}^{Flux} = 1
+        \vspace{10pt}
+    \end{equation}
+
+    
+    Pour les systèmes linéaires, ce théorème
+    implique que les coefficients de contrôle sur le flux d'une voie sont
+    distribués entre les modules de telle manière qu'il sont toujours plus
+    petits que $1$ ($0\leq\text{C}^{Flux}_{module_i}\leq1$), et que seul un
+    module pourrait avoir un coefficient de contrôle de $1$ (dans ce cas là, ce
+    module serait une véritable étape limitante, tout changement de son activité
+    étant directement traduit par le même changement en flux).
+
+    De plus, il existe également un autre lien théorique entre les coefficients de
+    contrôle des modules sur le flux et leurs coefficients d'élasticité par
+    rapport à l'intermédiaire, illustré par le
+    \textbf{Théorème de connectivité} \citep{Kacser:1973fk,Heinrich:1974uq}.
+    Ce théorème traduit le fait qu'à l'état stationnaire, la somme des effets
+    d'une modification de la concentration de l'intermédiaire sur le flux (au
+    travers de son effet sur chacun des modules) est nulle 
+    (équation~\ref{eq:connectivite}).
+    La connectivité exprime donc le fait qu'un effet de l'intermédiaire sur le flux sera 
+    la combinaison des effets de
+    l'intermédiaire sur chacun des modules (ces effets étant dépendants de l'élasticité
+    de chacun des modules par rapport à l'intermédiaire,
+    $\varepsilon_{intermediaire}^{module_i}$), et de l'effet de cette
+    modification d'activité des modules (en réponse à l'intermédiaire)
+    sur le flux via le coefficient de contrôle de ces modules sur le flux
+    ($C_{module_i}^{Flux}$).
+    Cela traduit donc que chaque effet de l'intermédiaire sur le flux 
+    est le produit d'une élasticité et
+    d'un coefficient de contrôle au travers des modules (équation~\ref{eq:connectivite}).
+
+    \begin{equation}
+        \label{eq:connectivite}
+        \sum_{i=1}^n C_{module_i}^{Flux}\cdot\varepsilon_{intermediaire}^{module_i}=0
+        \vspace{10pt}
+    \end{equation}
+
+    
+
+
+    Ces deux théorèmes sous-tendent la théorie du contrôle
+    développée par \citet{Kacser:1973fk} et \citet{Heinrich:1974uq}, et ont par la
+    suite été reformulés en vue de faciliter les applications expérimentales,
+    en particulier pour calculer les coefficients de contrôle à partir des
+    coefficients d'élasticités \citep{Brown:1990kx}. Ceci revient en fait à
+    considérer les équations des deux théorèmes comme un seul système
+    d'équation à deux inconnues.
+
+    Ainsi, en considérant par exemple le système linéaire simple décrit dans les
+    figures~\ref{fig:etatstat} et~\ref{fig:determinationelast} (deux modules,
+    Producteur et Consommateur,
+    interconnectés par un intermédiaire $M$), et en se basant sur les théorèmes
+    \ref{eq:sommation} et \ref{eq:connectivite} ci-dessus, les coefficients de contrôle
+    de chacun des modules sur le flux du système peuvent être calculés à partir
+    des élasticités suivant les équations \ref{eq:coefprod} et
+    \ref{eq:coefconso} suivantes \citep{Brown:1990kx} :
+
+    \begin{equation}
+        \label{eq:coefprod}
+        C_\text{Producteur}^\text{Flux}
+        =
+        \frac{\varepsilon^\text{Consommateur}_\text{[M]}}
+        {\varepsilon^\text{Consommateur}_\text{[M]} -
+        \varepsilon^\text{Producteur}_\text{[M]}}
+        \vspace{10pt}
+    \end{equation}
+
+    \begin{equation}
+        \label{eq:coefconso}
+        C_\text{Consommateur}^\text{Flux}
+        = \frac{\varepsilon^\text{Producteur}_\text{[M]}}
+        {\varepsilon^\text{Producteur}_\text{[M]} -
+        \varepsilon^\text{Consommateur}_\text{[M]}}
+        \vspace{10pt}
+    \end{equation}
+
+\subsection{Analyse de Régulation} % (fold)
+\label{ssub:regulintro}
+
+    Comme nous venons de le voir, 
+    l'\textit{analyse du contrôle} explique comment les propriétés des variables
+    d'un système (les élasticités des  modules) sont responsables du maintien
+    de l'état stationnaire en absence de variation des conditions extérieures.
+    Cependant, un changement de conditions extérieures, ou l'action d'un
+    effecteur externe est à même d'affecter le système et de modifier son état
+    stationnaire. Dans ces conditions, 
+    la \textit{régulation} de l'activité d'un système par un effecteur externe
+    est définie comme le passage du système
+    d'un état stationnaire à un autre sous l'influence d'un effecteur
+    \citep{Brand:1997uq}.
+    Ainsi, les études de régulation s'attachent à la description des bases
+    mécanistiques par lesquelles s'établit
+    un nouvel état stationnaire lorsqu'une voie métabolique est perturbée par
+    son environnement \citep{Brand:1997uq}.
+
+    \citet{Ainscow:1999fk} ont démontré de manière théorique que la
+    quantification des régulations internes et externes d'un système suite à
+    l'action d'un effecteur (externe) était directement accessible à partir des
+    variables issues de l'analyse des élasticités (élasticités et coefficients de
+    contrôle sur le flux calculés à partir de ces élasticités).
+    Leur première application expérimentale a permis de décrire les réponses de
+    cellules animales à une stimulation hormonale \citep{Ainscow:1999kx}.
+    Le même type d'analyse a été appliqué par notre groupe sur coeur isolé
+    perfusé, permettant de démontrer \textit{in situ} l'activation parallèle
+    des processus de production et de consommation d'énergie par le calcium
+    \citep{Diolez:2007ly}.
+
+    Pour expliquer le changement d'état stationnaire d'un système provoqué par
+    un effecteur externe, \citet{Ainscow:1999fk} décrivent la réponse du
+    système à l'effecteur comme la combinaison de plusieurs effets distincts.
+    Ainsi, si l'état stationnaire d'un système est modifié
+    cela signifie qu'au moins un des modules de ce
+    systèmes est sensible à l'effecteur. Cette perturbation de l'activité du
+    ou des modules \textit{cibles} sous l'action de l'effecteur externe 
+    (\textbf{effet direct} de l'effecteur) est à
+    l'origine d'une variation de l'intermédiaire (dans notre système simple)
+    qui va secondairement
+    entraîner une réponse des autres modules du système (\textbf{effet indirect}
+    de l'effecteur) via leur élasticité par rapport à l'intermédiaire. L'\textbf{effet
+    global} de l'effecteur sur le flux du système au travers des modules dépend
+    alors du coefficient de contrôle des modules sur le flux, puisqu'il
+    traduit l'effet de la modification d'activité du module (induite par
+    l'effet direct de l'effecteur) sur le flux.
+    La description de ces différents effets permet d'accéder à l'ensemble de la
+    régulation intégrée du système induite par l'action de l'effecteur.
+
+    
+    %L'effet indirect correspond à la modification d'activité du module en
+    %réponse au changement de l'intermédiaire induite par l'effecteur externe.
+    %Cet effet est donc dépendant de
+    %l'élasticité du module par rapport à l'intermédiaire (equation~\ref{eq:ieff}).
+
+    %\begin{equation}
+    %    \label{eq:ieff}
+    %    \text{Effet Indirect} =
+    %    \varepsilon^\text{module}_\text{intermédiaire}\times
+    %    \frac{\Delta\text{intermédiaire}_\textit{effecteur}}{\text{intermédiaire}_{initial}}
+    %    \vspace{10pt}
+    %\end{equation}
+    %
+
+    %L'effet direct sur chaque module quantifie l'effet propre de l'effecteur
+    %sur chacun des modules du système. Son calcul implique donc l'effet total
+    %observé sur l'activité de l'ensemble des modules du système induit par
+    %l'effecteur ($\frac{\Delta 
+    %Flux_\textit{effecteur}}{Flux_{initial}}$) auquel on
+    %soustrait l'effet indirect (equation~\ref{eq:dieff}).
+
+    %\begin{equation}
+    %    \label{eq:dieff}
+    %    \text{Effet Direct} =
+    %    \frac{\Delta Flux_\textit{effecteur}}{Flux_{initial}} - 
+    %    \varepsilon^\text{module}_\text{intermédiaire}\times
+    %    \frac{\Delta\text{intermédiaire}_\textit{effecteur}}{\text{intermédiaire}_{initial}}
+    %    \vspace{10pt}
+    %\end{equation}
+    %
+    %Enfin, la multiplication de cet effet direct de l'effecteur sur un
+    %module par le coefficient de contrôle de ce module sur le flux de notre
+    %système donne accès à l'effet global de l'effecteur sur le système
+    %via ce module (equation~\ref{eq:globeff}).
+
+    %\begin{equation}
+    %    \label{eq:globeff}
+    %    \text{Effet Global} =
+    %    C_\text{module}^\text{Flux}\times\frac{\Delta Flux_\textit{effecteur}}
+    %    {Flux_{initial}} - 
+    %    \varepsilon^\text{module}_\text{intermédiaire}\times
+    %    \frac{\Delta\text{intermédiaire}_\textit{effecteur}}{\text{intermédiaire}_{initial}}
+    %    \vspace{10pt}
+    %\end{equation}
+
+
+    \section{Application à l'\'Energétique cardiaque} % (fold)
+    \label{sec:mocaCoeur}
+
+
+    Depuis plusieurs années, notre équipe,
+    contribue au développement de l'Analyse Modulaire du Contrôle (MoCA,
+    \citep{Diolez:2007ly}).
+    Le coeur isolé perfusé est apparu comme un système très
+    prometteur pour ce type d'étude et a permis de réaliser la première
+    application de l'approche sur un organe entier \citep{Diolez:2002bh}. En
+    effet, lorsqu'on s'intéresse à un système intégré, il devient difficile de
+    considérer de manière indépendante les très nombreuses réactions
+    enzymatiques qui y sont inter-connectées : l'échelon moléculaire étant trop
+    complexe sur un tel modèle, il est plus judicieux d'étudier le flux
+    résultant de toute la voie métabolique, sachant que chacune des enzymes
+    impliquées dans cette voie joue un rôle dans l'obtention du flux global.
+
+    \subsection{Description de l'\'Energétique Cardiaque en Modules} % (fold)
+    \label{sub:modularisationcoeur}
+    
+    % subsubsection modularisationcoeur} (end)
+
+    L'étude des systèmes biologiques complexes passe par la simplification de
+    ses systèmes, en intégrant les grands groupes de fonctions/réactions dans
+    des modules bien distincts \citep{Brand:2002ve}. Comme on vient de le voir,
+    l'application des concepts de l'Analyse du Contrôle permet alors ensuite 
+    d'accéder au propriétés intégrées des différents composants (modules) du 
+    système \citep{Brand:2002ve}.
+
+    La bioénergétique cardiaque peut être considérée comme une voie de transfert
+    d'énergie générée à partir de l'oxydation des différents substrats par les
+    enzymes glycolytiques et mitochondriales, et utilisée pour l'activité mécanique
+    (contraction) cardiaque.
+    Il est possible de réduire la
+    complexité de ce système à deux modules (figure~\ref{fig:modulescoeur}) 
+    \citep{Ingwall:2004ve,Weiss:2006fk,Diolez:2007ly} :
+    \begin{itemize}
+        \item un module de production d'énergie, ou \textit{module Producteur},
+            comprenant l'ensemble des processus permettant la génération
+            d'énergie, c'est à dire non seulement le fonctionnement
+            mitochondrial et glycolytique, mais également l'apport
+            d'O$_2$ et de substrats (voir sous-section~\ref{ssub:prodconso})
+        \item un module utilisant cette énergie, ou \textit{module
+            Consommateur}, défini comme l'ensemble des processus consommateurs
+            d'ATP. Dans le coeur en contraction, ce sont majoritairement les
+            ATPases de la myosine des myofibrilles
+            cardiaques et les pompes ioniques impliquées dans les mouvements
+            calciques (voir sous-section~\ref{ssub:prodconso}).
+    \end{itemize}
+    
+
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{figures/ModulesCoeur}
+    \caption[Définition de l'Energétique Cardiaque en Différents Modules]
+    {\label{fig:modulescoeur}\protect\parbox[t]{0.8\textwidth}
+        {\textbf{Définition de l'Energétique Cardiaque en Différents Modules.}
+        Le système bioénergétique cardiaque est défini en deux modules,
+        Producteur et Consommateur du $\Delta$Gp, dont les variations sont
+        directement représentées par les variations de PCr.}}
+    \vspace{10pt}
+    \end{figure}
+
+
+    Du fait de la présence du système des CK cytosoliques 
+    (voir sous-section~\ref{ssub:prodconso}) ces deux modules sont directement
+    connectés par le $\Delta$Gp, dont les variations se répercutent sur le niveau 
+    de PCr. L'utilisation des
+    techniques non traumatiques de la spectroscopie de Résonance Magnétique Nucléaire
+    (RMN) du phosphore $^{31}$P permet le suivi des modifications de PCr, qui
+    peut alors être considéré comme l'intermédiaire mesurable entre les deux
+    modules, Producteur et Consommateur du $\Delta$Gp.
+    Enfin, ce système énergétique ayant pour finalité la contraction cardiaque,
+    le niveau de travail myocardique reflète directement le flux énergétique
+    qui traverse le système. Ceci est renforcé par
+    la relation linéaire qui existe entre la consommation d'oxygène
+    myocardique (MVO$_2$) et le niveau de contraction cardiaque
+    (figure~\ref{fig:mvo2ppf}) qui confirme l'égalité des flux de production et
+    de consommation.
+
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.45\textwidth]{figures/MVO2PPF}
+    \caption[Relation linéaire entre consommation d'oxygène et activité
+        contractile dans le coeur]{\label{fig:mvo2ppf}\protect\parbox[t]{0.8\textwidth}
+        {\textbf{Relation linéaire entre consommation d'oxygène et activité
+        contractile dans le coeur.}
+    MVO$_2$, consommation myocardique d'oxygène ; PPF, Produit Pression par
+    Fréquence (représentatif de l'activité contractile)
+        }}
+    \vspace{10pt}
+    \end{figure}
+    
+
+    
+    \subsection{Légitimité et Limites du Modèle} % (fold)
+    \label{sub:legitimite}
+
+
+    
+    \subsubsection{La phosphocréatine, intermédiaire représentatif du
+    $\Delta$Gp} % (fold)
+    \label{ssub:phosphocreatine}
+
+    L'application de MoCA sur le sytème énergétique cardiaque se base notamment sur le
+    fait que la phosphocréatine peut être considérée comme intermédiaire entre
+    production et consommation d'énergie, dans le sens où
+    les variations de sa concentration sont représentatives des
+    variations du $\Delta$Gp. Cette supposition raisonnable repose sur
+    la théorie de l'équilibre de la réaction de la créatine kinase.
+    Ce postulat est de plus en plus admis de nos jours, et est 
+    couramment utilisé dans les études les plus récentes
+    \citep{Meyer:1984uq,McFarland:1994zr,Jeneson:1996uq,Jeneson:2000kx,Kushmerick:2002ys,Beard:2006fk,Korzeniewski:2007vn,Wu:2008ve}, notamment
+    pour estimer la concentration en ADP (non détectable directement par RMN de
+    par sa concentration trop faible), la valeur du $\Delta$Gp
+    et pour étudier les mécanismes de régulation des
+    flux d'énergie dans les cardiomyocytes en état physiologique normal et
+    pathologique \citep{Jeneson:2000kx,Wu:2008ve}. L'application de techniques RMN
+    particulières (techniques de transfert
+    de saturation) sur muscle a permis la quantification des  flux de la réaction
+    de la créatine kinase
+    (\ce{PCr- + MgADP- + H+ <=>[Vf][Vr] Cr + MgATP-}) dans le sens d'hydrolyse
+    et de synthèse d'ATP
+    \citep{McFarland:1994zr}. Le résultat essentiel est que sur une gamme
+    d'hydrolyse d'ATP allant jusqu'à un facteur $10$, les auteurs ont mesuré
+    des flux similaires dans les deux directions, autrement dit que la réaction
+    était à l'équilibre. De plus, la vitesse de réaction de la CK était
+    toujours plus importante que le flux d'hydrolyse d'ATP, et donc assez importante pour que
+    la réaction "tamponne" le $\Delta$Gp \citep{McFarland:1994zr}. 
+    De ce fait, toute variation de la [PCr] peut être considérée comme représentative 
+    d'une modification du $\Delta$Gp. Ceci a été confirmé dans les travaux de
+    notre équipe, dans lesquels la détermination des élasticités de chacun des
+    modules à partir du $\Delta$Gp ou de la [PCr] ont donné des résultats
+    similaires (Cécile Simon, DEA).
+
+    Cependant, les travaux de modélisation de l'énergétique cardiaque de \citet{Saks:1996ys}
+    et \citet{Vendelin:2000zr} ont suggéré que la concentration d'ADP durant la
+    contraction cardiaque pouvait augmenter de manière beaucoup plus importante
+    que ce qui est prédit en se basant sur une réaction de la CK à l'équilibre.
+    Cependant, ces modèles sont développés en admettant deux postulats qui tendent à
+    amplifier le phénomène :
+    \begin{itemize}
+        \item l'activité de la CK dans les cardiomyocytes a été
+            définie comme relativement faible 
+            ($6~mmol\cdot sec^{-1}\cdot(kg tissue)^{-1}$) comparé aux valeurs de
+            l'ordre de $25-40~mmol\cdot sec^{-1}\cdot(kg tissue)^{-1}$
+            mesurées pour l'isoforme cytosolique in vivo
+            \citep{Nascimben:1996ij,Spindler:1999ly}, et les auteurs ont émis
+            l'hypothèse d'une diffusion limitée des nucléotides dans le
+            compartiment cytosolique.
+        \item les auteurs considèrent la membrane externe mitochondriale comme
+            une barrière de diffusion sélective pour les métabolites
+            adényliques. Ainsi, un facteur censé refléter la moindre perméabilité
+            de la membrane mitochondriale à l'ADP (nommé le facteur "x"
+            \citep{Appaix:2003qf}, facteur dont l'existence n'a pas encore pu
+            être démontrée) a été introduit dans les équations du
+            modèle.
+    \end{itemize}
+    
+    Ainsi, l'hypothèse d'une réaction de la CK loin de l'équilibre semble être
+    une propriété spécifique du modèle de ces auteurs et demande à être
+    démontrée expérimentalement.
+    De ce fait, même si ces propriétés ne sont pas nécessairement invalides pour les
+    myocytes, ces hypothèses particulières ne se
+    basent pas sur des justifications expérimentales et requièrent d'autres
+    investigations.
+
+    Ainsi, dans notre modèle, la définition de la PCr comme intermédiaire
+    énergétique entre production et consommation d'énergie apparaît
+    raisonnablement justifié.
+    De plus, la détermination des élasticités dans notre approche reposant sur
+    la mesure de variations relatives d'intermédiaire et de flux, la
+    détermination expérimentale d'une valeur erronée de PCr ne
+    remettrait pas en cause l'application de l'analyse.
+    % subsection La phosphocréatine, un intermédiaire représentatif du $ (end)
+
+
+    \subsubsection{L'\'Energétique Cardiaque, un Système en \'Etat Stationnaire
+    Dynamique} % (fold)
+    \label{ssub:oscillations}
+
+    L'Analyse Modulaire du Contrôle permet l'étude des sytèmes
+    dans des états stationnaires, caractérisés par des niveaux de flux et
+    d'intermédiaire constants.
+    Or le coeur est un organe en perpétuel fonctionnement.
+    Ainsi, pour assurer la distribution sanguine dans tout l'organisme, le
+    muscle cardiaque
+    se contracte de façon cyclique selon une succession de
+    cycles cardiaques durant lesquels les
+    cardiomyocytes sont tour à tour en état de contraction et de relaxation.
+
+    La relation directe entre les changements de pression développée et le
+    niveau d'intermédiaires énergétiques phosphorylés
+    a bien été définie \citep{Neubauer:1998vn}. 
+    En effet, en utilisant les propriétés non-invasives de la RMN, 
+    de nombreuses études ont montré, sur coeur isolé perfusé, 
+    des variations synchrones des concentrations d'intermédiaires énergétiques
+    (principalement PCr, ATP et Pi)
+    et de la pression développée au cours du cycle cardiaque (figure~\ref{fig:osci}),
+    quelque soit le substrat utilisé 
+    \citep{Fossel:1980ly,Kusuoka:1985qf,Tanaka:1992ve,Illing:1998uq,Neubauer:1998vn,Spindler:2001kx}.
+    Ces oscillations des intermédiaires énergétiques au cours du cycle
+    cardiaque ont également été mises en évidence par \citet{Wikman-Coffelt:1983bh}
+    au moyen de mesures biochimiques, en utilisant un système de freeze-clamp
+    asservi à un stimulateur, appareillage permettant de congeler les coeurs 
+    en seulement $5~ms$.
+
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/fossel1980}
+    \caption[Oscillations des métabolites phosphorylés pendant le cycle
+    cardiaque]{\label{fig:osci}\protect\parbox[t]{0.8\textwidth}
+    {\textbf{\'Evolution des concentrations des métabolites phosphorylés pendant le cycle
+    cardiaque.}
+    Données acquises par RMN sur des coeurs isolés perfusés de rat (système
+    coeur travaillant) avec $11~mM$ de glucose comme substrat.
+    (figure issue de \citep{Fossel:1980ly})}}
+    \vspace{10pt}
+    \end{figure}
+
+
+
+    Cependant, l'observation de ces oscillations \textit{in vivo}
+    n'est pas unanime. Ainsi, seuls \citet{Toyo-oka:1986nx} ont observé des
+    modifications synchronisées du contenu en PCr et en ATP sur rat vivant,
+    avec un contenu
+    minimal au $2/3$ de la systole et un contenu maximal dans le dernier
+    $1/3$ de la systole (avec la contenu en Pi oscillant de manière
+    antiphasique). Par contre, sur des coeurs plus gros, aucune oscillation des
+    métabolites n'a pu être observée, 
+    que ce soit sur chien, avec les expériences de \citet{Balaban:1989dq}
+    avec un temps de résolution de $50~ms$, ou sur des
+    volontaires humains sur lesquels \citet{Grist:1989cr} n'ont pas observé de
+    différence entre des spectres acquis en fin de systole ($150~ms$ après
+    l'onde R sur l'électrocardiogramme) et à la moitié de la diastole
+    ($400~ms$ après l'onde R).
+
+    Les oscillations de concentration en intermédiaires énergétiques durant le
+    cycle cardiaque ne remettent pas en cause l'application de l'Analyse
+    Modulaire du Contrôle sur le système énergétique cardiaque.
+    En effet, même si ces oscillations existent, les
+    modifications de métabolites sont synchronisées avec les oscillations de la
+    pression développée. Or, le flux du système (PPF) est en fait la
+    moyenne de ces modifications de pression développée (prise en compte de la
+    différence de pression développée). Ainsi, à tout niveau moyen de
+    contraction - et donc à tout niveau de PPF - correspond un niveau 
+    moyen d'intermédiaires énergétiques. L'acquisition de spectres RMN 
+    $^{31}$P donne accès à ce niveau moyen d'intermédiaire correspondant à
+    l'état stationnaire de PPF.
+
+    De plus, l'ensemble des calculs utilisés pour déterminer les élasticités
+    (et donc les coefficients de contrôles) sollicitent des variations
+    relatives de [PCr] et de PPF. Ainsi, même si ces paramètres oscillent,
+    le calcul des variations relatives lors des changements d'états
+    stationnaires limite fortement (voire annule) l'importance que pourraient avoir ces
+    oscillations dans notre modèle.
+
+    Ainsi, on peut considérer que l'application de l'Analyse Modulaire du
+    Contrôle pour l'étude du système énergétique cardiaque correspond (de
+    manière relativement satisfaisante) à 
+    l'étude d'états stationnaires (\textit{moyens}), que ce soit en ce qui concerne 
+    le flux (PPF) ou l'intermédiaire (PCr).
+
+
+
+%%% ----------------------------------------------------------------------
+%%% CONCLUSION CHAPITRE UN
+\section*{Conclusion du chapitre}
+\addcontentsline{toc}{section}{Conclusion}
+
+    Appliquée au modèle du coeur hypoxique, l'analyse MoCA devrait permettre de
+    mieux comprendre les adaptations cardiaques associées à l'hypoxie chronique
+    en appréhendant le système de manière globale et ainsi de quantifier les
+    répercussions fonctionnelles de l'ensemble des processus adaptatifs sur le
+    contrôle et la régulation des flux énergétiques.
+
+    
+
+

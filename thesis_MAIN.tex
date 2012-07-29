@@ -1,0 +1,249 @@
+\documentclass[sommairechap,stylegcalmettes]{_Config/these_gg}
+
+% Introduction, Methods, Results, Conclusion, Bibliographie et Annexes sont des
+% Parties. Par défaut, la numérotation des chapitres latex est continue. Je
+% veux qu'elle se réinitialise pour chaque Partie.
+% Réinitialise la numérotation des chapitres pour chaque partie
+\makeatletter
+    \@addtoreset{chapter}{part}
+\makeatother
+
+% Modification de l'apparition des Parties dans la tables des matières
+% Pas de numéros, et pas d'espace par rapport aux autres indentations (par
+% défaut il y a 1em après le numéro d'une partie)
+\renewcommand{\thepart}{\hspace{-1em}}
+%\usepackage{tocloft}
+\usepackage{multirow}
+\usepackage{slashbox} % barre oblique dans un tableau
+\usepackage{_Config/wrapfig} % figure inséré dans le texte
+\usepackage[version=3]{mhchem} % gestion des équations chimiques
+%\usepackage{ulem}
+%\usepackage{wasysym}
+\usepackage{_Config/smiley}
+
+% Table des matière et numérotation, profondeur
+% Profondeur de \subsubsection = 3
+\setcounter{tocdepth}{3}     % Dans la table des matieres
+\setcounter{secnumdepth}{3}  % Avec un numero
+
+
+% légère augmentation de l'interligne 1 => 1.1
+\renewcommand{\baselinestretch}{1.2}
+%\renewcommand{\baselinestretch}{2}
+
+\begin{document}
+ 
+% ==================================================================
+% OPTIONS D'AFFICHAGE
+% non-définitif (soumis aux rapporteurs) ou  définitif
+\definitiftrue
+% \definitiffalse
+ 
+% ==================================================================
+% RENSEIGNEMENTS SUR LA THÈSE
+ 
+\year{2010}
+\thesisnumber{1711}
+% TitreFR = Titre de la thèse
+\titleFR{{\Large Analyse Intégrative de l'Adaptation de l'\'Energétique Cardiaque
+à l'Hypoxie Chronique}}
+%%%%
+%%%%
+% Abstract
+%%%%
+\titleAFR{{\small Analyse Intégrative de l'Adaptation de l'\'Energétique
+Cardiaque à l'Hypoxie Chronique}}
+\titleEN{{\small System's Biology Analysis of Chronic Hypoxia-Induced Heart
+Energetics Adaptation}}
+\abstractFR{{\footnotesize La compréhension des mécanismes physiologiques mis en jeu en
+réponse à l'hypoxie aigüe et chronique ainsi que leur retentissement global sur
+l'énergétique cardiaque nécessite l'application d'approches globales.
+L'approche intégrative développée par notre équipe, l'Analyse Modulaire du
+Contrôle (MoCA) permet une description quantitative de l'ensemble des interactions
+au sein d'un système biologique complexe décomposé en différents modules liés par
+des intermédiaires communs, ce qui en fait un outil puissant pour l'étude des 
+interactions au sein de l'énergétique cardiaque, normale ou pathologique.
+Dans cette thèse, MoCA a été appliquée
+sur des coeurs isolés de souris contrôles et de souris soumises à
+une hypoxie chronique de $21$ jours, perfusés en conditions d'oxygénation
+normale ou avec un milieu dont la concentration en oxygène dans le milieu
+a été réduite. 
+Après exposition à l'hypoxie chronique, les coeurs sont caractérisés par une
+réponse (élasticité) plus importante des processus d'apport en énergie 
+face à une variation des intermédiaires
+énergétiques (PCr, ATP, Pi), et ceci malgré une diminution de la masse
+mitochondriale. De plus, contrairement aux coeurs sains, aucune modification
+de l'activité contractile et de la concentration
+d'intermédiaires énergétiques n'a été mesurée sur les coeurs hypoxiques après diminution de
+la concentration en oxygène dans le milieu de perfusion.
+Ces résultats suggèrent une adaptation fonctionnelle de l'ensemble de la
+bioénergétique cardiaque après exposition à l'hypoxie chronique, l'augmentation
+de l'élasticité des processus d'apport en énergie permettant de compenser en
+partie les altérations énergétiques induites par un déficit en oxygène.}}
+%Nos principaux résultats concernent la mise en évidence d'une
+%plus grande élasticité des processus de production d'énergie (module
+%producteur) aux variations d'intermédiaires énergétiques, traduisant une
+%augmentation de la sensibilité des processus de production d'énergie 
+%aux variations d'intermédiaires énergétiques (PCr, ATP, Pi)
+%lors de l'adaptation à l'hypoxie chronique.
+
+\abstractEN{{\footnotesize An important issue in the comprehension of the link between
+molecular events developed in pathologies such as chronic hypoxia adaptation, is
+the development of new experimental strategies aimed at the study of the
+integrated organ physiology. Our Modular Control Analysis (MoCA),
+gives quantitative information on the internal
+control and regulation of integrated heart energetics on the basis of a
+supply-demand system and is therefore of particular interest to better
+understand the overall effect as well as the
+relative importance of the various modifications developed during pathologies.
+In this thesis, MoCA was applied on isolated hearts of control and chronic hypoxic mice
+perfused with high or low oxygen in the medium. Despite a severe mitochondrial
+alteration after chronic hypoxia exposure, a surprizing higher response of
+energy supply (elasticity) to energetic intermediates changes (PCr, ATP, Pi)
+was detected in chronic hypoxic hearts. Moreover, chronic hypoxic hearts
+energetics was unchanged by oxygen reduction while a strong
+concomitant decrease in heart contractile activity and in PCr concentration,
+was measured in control hearts. As suggested by these
+results, this increase in energy-supply elasticity could be considered as an
+adaptive mechanism developed after chronic hypoxia counteracting
+hypoxia-induced altered cardiac energetics.}}
+\keywordsFR{{\scriptsize Analyse Modulaire du Contrôle, \'Energétique Cardiaque, Hypoxie
+Chronique, Adaptation}}
+\keywordsEN{{\scriptsize System's Biology, Cardiac Energetics, Chronic
+Hypoxia, Adaptation}}
+ 
+\author{\textsc{\Large Guillaume Calmettes}}
+\address{adresse email}
+\universite{Université Victor Segalen Bordeaux 2}
+\laboratoire{de l'UMR5536 CNRS-Université Bordeaux 2\vspace{-0.2cm}}
+\specialite{Biologie Cellulaire et Physiopathologie}
+\datesoutenance{09 Juin 2010}
+\datesoumission{la date de soumission aux rapporteurs}
+\jury{\vspace{-0.5cm}\hspace{-2cm}\begin{tabular}{llll}
+    Mr. le Docteur & \textsc{Francis Haraux} & CNRS - CEA Saclay & (Président)\\
+    Mme. le Docteur & \textsc{Monique Bernard} & Université d'Aix-Marseille 2 &
+    (Rapporteur)\\
+    Mr. le Professeur & \textsc{Thierry Busso} & Université de Saint-Etienne &
+    (Rapporteur)\\
+    Mr. le Professeur & \textsc{Graham Kemp} &  Université de Liverpool & (Examinateur)\\
+    Mr. le Professeur & \textsc{Bernard Muller} & INSERM - Université Bordeaux
+    2 & (Examinateur)\\
+    Mr. le Professeur & \textsc{Jean-Michel Franconi} &  Université Bordeaux 2 & (Examinateur)\\
+    Mme. le Docteur & \textsc{Véronique Deschodt-Arsac} &  Université Bordeaux 2 & 
+    (Examinateur)\\
+    Mr. le Docteur & \textsc{Philippe Diolez} & CNRS - Université Bordeaux 2 & (Directeur)\\
+  \end{tabular}    
+}
+ 
+% ==================================================================
+% DÉDICACE
+\dedicate{À ma famille.}
+ 
+% ==================================================================
+% DEBUT DE LA PRÉFACE
+\beforepreface
+ 
+% remerciements
+\include{docs/remerciements}
+ 
+% table des matières générale
+\tableofcontents
+\clearpage
+ 
+% affiche la liste des figures
+\listoffigures
+\clearpage
+ %affiche la liste des tableaux
+\listoftables
+\clearpage
+ 
+% ==================================================================
+\afterpreface
+
+% ==================================================================
+% Secret Weapon for correction: Line Numbering !!!
+    % \linenumbers %active the line numbering
+    % \setlength\linenumbersep{2 cm} %The distance on the left margin
+    % \renewcommand\linenumberfont {\normalfont\footnotesize\ttfamily\textcolor{magenta}} 
+%define de line number font.
+
+
+% ==================================================================
+% AVANT-PROPOS
+\include{docs/preface}
+\adjustmtc
+
+% ==================================================================
+% NOTATIONS
+\include{docs/notations}
+
+% ==================================================================
+% INTRODUCTION
+\part{INTRODUCTION}
+\label{part:introduction}
+
+
+\include{docs/i_hypoxiechronique}
+\include{docs/i_sysbio}
+\include{docs/i_objectifs}
+
+% ==================================================================
+% METHODS
+\part{MAT\'ERIELS ET M\'ETHODES}
+
+\include{docs/m_modelanimal}
+\include{docs/m_coeur}
+\include{docs/m_rmn}
+\include{docs/m_consoO2}
+\include{docs/m_moca}
+\include{docs/m_enzymo}
+
+% ==================================================================
+% RESULTS
+\part{R\'ESULTATS}
+\label{part:resultats}
+
+\include{docs/r_article1}
+\include{docs/r_article2}
+\include{docs/r_article3}
+%\include{docs/r_article4}
+
+% ==================================================================
+% CONCLUSION
+\part{DISCUSSION - PERSPECTIVES}
+
+\include{docs/discussion}
+\include{docs/perspectives}
+%\include{docs/conclusion}
+
+% ==================================================================
+% BIBLIOGRAPHIE
+\part{BIBLIOGRAPHIE}
+\bibliographystyle{_Config/gg-letters} % Catégories Alphabétiques
+\bibliography{biblioCalmettesPhD}
+
+
+% ==================================================================
+% ANNEXES
+%\appendix
+%\include{docs/annexe1}
+%\include{docs/annexe2}
+
+ 
+% ==================================================================
+% COLOPHON
+\colophon{Ce document a été préparé à l'aide de l'éditeur de texte 
+\href{http://code.google.com/p/macvim/}{MacVim}
+couplé à l'environnement dédié vim-latex
+(\href{http://vim-latex.sourceforge.net/}{http://vim-latex.sourceforge.net/})
+pour piloter le logiciel de composition typographique \LaTeXe.}
+ 
+% ==================================================================
+% COUVERTURE : RESUME ET MOTS-CLÉS
+\abstractpage
+ 
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
