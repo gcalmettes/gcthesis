@@ -1,4 +1,4 @@
 gcthesis
 ========
 
-personal PhD thesis
+personal PhD thesis (Biological Sciences - French)
